@@ -1,0 +1,488 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F1294 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic.h
+[v __delay `JF1294 ~T0 @X0 0 e ]
+[p i __delay ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 481: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"509
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 509: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"530
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 530: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"550
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 550: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 600: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"628
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 628: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"649
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 649: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"732
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 732: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"789
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 789: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"848
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 848: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"920
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 920: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"965
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 965: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"972
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 972: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"992
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 992: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1012
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1012: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1092
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1092: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1158
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1158: __asm("ADCON2 equ 09Fh");
+[; <" ADCON2 equ 09Fh ;# ">
+"1200
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1200: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1245
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1245: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"1278
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1278: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"1337
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1337: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"1342
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1342: __asm("APFCON0 equ 011Dh");
+[; <" APFCON0 equ 011Dh ;# ">
+"1431
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1431: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"1484
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1484: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"1491
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1491: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"1511
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1511: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"1531
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1531: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"1538
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1538: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"1558
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1558: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"1578
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1578: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"1634
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1634: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"1654
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1654: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"1712
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1712: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"1717
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1717: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"1750
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1750: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"1755
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1755: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"1788
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1788: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"1793
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1793: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"1826
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1826: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"1831
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1831: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"1948
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1948: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"1953
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1953: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"1957
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1957: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"2152
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2152: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"2157
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2157: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"2274
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2274: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"2279
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2279: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"2396
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2396: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"2454
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2454: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"2512
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2512: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"2570
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2570: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"2602
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2602: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"2622
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2622: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"2642
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2642: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"2662
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2662: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"2682
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2682: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"2702
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2702: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"2722
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2722: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"2742
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2742: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"2762
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2762: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"2782
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2782: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"2802
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2802: __asm("AADCON0 equ 0711h");
+[; <" AADCON0 equ 0711h ;# ">
+"2867
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2867: __asm("AADCON1 equ 0712h");
+[; <" AADCON1 equ 0712h ;# ">
+"2933
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2933: __asm("AADCON2 equ 0713h");
+[; <" AADCON2 equ 0713h ;# ">
+"2975
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 2975: __asm("AADCON3 equ 0714h");
+[; <" AADCON3 equ 0714h ;# ">
+"3027
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3027: __asm("AADSTAT equ 0715h");
+[; <" AADSTAT equ 0715h ;# ">
+"3067
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3067: __asm("AADPRE equ 0716h");
+[; <" AADPRE equ 0716h ;# ">
+"3131
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3131: __asm("AADACQ equ 0717h");
+[; <" AADACQ equ 0717h ;# ">
+"3195
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3195: __asm("AADGRD equ 0718h");
+[; <" AADGRD equ 0718h ;# ">
+"3228
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3228: __asm("AADCAP equ 0719h");
+[; <" AADCAP equ 0719h ;# ">
+"3268
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3268: __asm("AADRES0 equ 071Ah");
+[; <" AADRES0 equ 071Ah ;# ">
+"3273
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3273: __asm("AD1RES0 equ 071Ah");
+[; <" AD1RES0 equ 071Ah ;# ">
+"3277
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3277: __asm("ADRES0 equ 071Ah");
+[; <" ADRES0 equ 071Ah ;# ">
+"3284
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3284: __asm("AADRES0L equ 071Ah");
+[; <" AADRES0L equ 071Ah ;# ">
+"3304
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3304: __asm("AADRES0H equ 071Bh");
+[; <" AADRES0H equ 071Bh ;# ">
+"3324
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3324: __asm("AADRES1 equ 071Ch");
+[; <" AADRES1 equ 071Ch ;# ">
+"3329
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3329: __asm("AD1RES1 equ 071Ch");
+[; <" AD1RES1 equ 071Ch ;# ">
+"3333
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3333: __asm("ADRES1 equ 071Ch");
+[; <" ADRES1 equ 071Ch ;# ">
+"3340
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3340: __asm("AADRES1L equ 071Ch");
+[; <" AADRES1L equ 071Ch ;# ">
+"3360
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3360: __asm("AADRES1H equ 071Dh");
+[; <" AADRES1H equ 071Dh ;# ">
+"50 mcc_generated_files/mtouch/mtouch_sensor_scan.c
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 50: void MTOUCH_CVD_ScanA_0(void)
+[v _MTOUCH_CVD_ScanA_0 `(v ~T0 @X0 1 ef ]
+"51
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 51: {
+{
+[e :U _MTOUCH_CVD_ScanA_0 ]
+[f ]
+"53
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 53:     __asm("BANKSEL        " "LATA");
+[; <" BANKSEL        LATA ;# ">
+"54
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 54:     __asm("bsf            " "LATA" " & 0x7F," "5");
+[; <" bsf            LATA & 0x7F,5 ;# ">
+"57
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 57:     __asm("BANKSEL        ADCON0");
+[; <" BANKSEL        ADCON0 ;# ">
+"58
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 58:     __asm("movlw          " "( 0x4<<2 | 0x1 )");
+[; <" movlw          ( 0x4<<2 | 0x1 ) ;# ">
+"59
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 59:     __asm("movwf          ADCON0 & 0x7F");
+[; <" movwf          ADCON0 & 0x7F ;# ">
+"62
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 62:     _delay(16u);
+[e ( __delay (1 -> -> 16 `ui `ul ]
+"65
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 65:     __asm("movlw          113");
+[; <" movlw          113 ;# ">
+"66
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 66:     __asm("movwf          ADCON0 & 0x7F");
+[; <" movwf          ADCON0 & 0x7F ;# ">
+"67
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 67:     __asm("BANKSEL        " "LATA");
+[; <" BANKSEL        LATA ;# ">
+"68
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 68:     __asm("bcf            " "LATA" " & 0x7F," "5");
+[; <" bcf            LATA & 0x7F,5 ;# ">
+"69
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 69:     __asm("BANKSEL        ADCON0");
+[; <" BANKSEL        ADCON0 ;# ">
+"72
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 72:     __asm("movlw LOW      " "TRISA");
+[; <" movlw LOW      TRISA ;# ">
+"73
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 73:     __asm("movwf          FSR0L & 0x7F");
+[; <" movwf          FSR0L & 0x7F ;# ">
+"74
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 74:     __asm("movlw HIGH     " "TRISA");
+[; <" movlw HIGH     TRISA ;# ">
+"75
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 75:     __asm("movwf          FSR0H & 0x7F");
+[; <" movwf          FSR0H & 0x7F ;# ">
+"78
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 78:     __asm("movlw LOW      " "LATA");
+[; <" movlw LOW      LATA ;# ">
+"79
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 79:     __asm("movwf          FSR1L & 0x7F");
+[; <" movwf          FSR1L & 0x7F ;# ">
+"80
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 80:     __asm("movlw HIGH     " "LATA");
+[; <" movlw HIGH     LATA ;# ">
+"81
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 81:     __asm("movwf          FSR1H & 0x7F");
+[; <" movwf          FSR1H & 0x7F ;# ">
+"84
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 84:     __asm("movlw          " "( 0x4<<2 | 0x1 )");
+[; <" movlw          ( 0x4<<2 | 0x1 ) ;# ">
+"85
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 85:     __asm("bsf            INDF0 & 0x7F, " "5");
+[; <" bsf            INDF0 & 0x7F, 5 ;# ">
+"86
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 86:     _delay(0u);
+[e ( __delay (1 -> -> 0 `ui `ul ]
+"87
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 87:     __asm("movwf          ADCON0 & 0x7F");
+[; <" movwf          ADCON0 & 0x7F ;# ">
+"92
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 92:     _delay(8u);
+[e ( __delay (1 -> -> 8 `ui `ul ]
+"95
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 95:     __asm("BANKSEL        ADCON0");
+[; <" BANKSEL        ADCON0 ;# ">
+"96
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 96:     __asm("bsf            ADCON0 & 0x7F, 1");
+[; <" bsf            ADCON0 & 0x7F, 1 ;# ">
+"99
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 99:     _delay(3u);
+[e ( __delay (1 -> -> 3 `ui `ul ]
+"102
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 102:     __asm("BANKSEL        " "LATA");
+[; <" BANKSEL        LATA ;# ">
+"103
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 103:     __asm("bsf            " "LATA" " & 0x7F, " "5");
+[; <" bsf            LATA & 0x7F, 5 ;# ">
+"104
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 104:     __asm("bcf            INDF0 & 0x7F, " "5");
+[; <" bcf            INDF0 & 0x7F, 5 ;# ">
+"106
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 106: }
+[e :UE 202 ]
+}
+"119
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 119: void MTOUCH_CVD_ScanB_0(void)
+[v _MTOUCH_CVD_ScanB_0 `(v ~T0 @X0 1 ef ]
+"120
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 120: {
+{
+[e :U _MTOUCH_CVD_ScanB_0 ]
+[f ]
+"122
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 122:     __asm("BANKSEL        " "LATA");
+[; <" BANKSEL        LATA ;# ">
+"123
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 123:     __asm("bcf            " "LATA" " & 0x7F," "5");
+[; <" bcf            LATA & 0x7F,5 ;# ">
+"126
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 126:     __asm("BANKSEL        ADCON0");
+[; <" BANKSEL        ADCON0 ;# ">
+"127
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 127:     __asm("movlw          " "( 0x4<<2 | 0x1 )");
+[; <" movlw          ( 0x4<<2 | 0x1 ) ;# ">
+"128
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 128:     __asm("movwf          ADCON0 & 0x7F");
+[; <" movwf          ADCON0 & 0x7F ;# ">
+"131
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 131:     _delay(16u);
+[e ( __delay (1 -> -> 16 `ui `ul ]
+"134
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 134:     __asm("movlw          113");
+[; <" movlw          113 ;# ">
+"135
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 135:     __asm("movwf          ADCON0 & 0x7F");
+[; <" movwf          ADCON0 & 0x7F ;# ">
+"136
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 136:     __asm("BANKSEL        " "LATA");
+[; <" BANKSEL        LATA ;# ">
+"137
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 137:     __asm("bsf            " "LATA" " & 0x7F," "5");
+[; <" bsf            LATA & 0x7F,5 ;# ">
+"138
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 138:     __asm("BANKSEL        ADCON0");
+[; <" BANKSEL        ADCON0 ;# ">
+"141
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 141:     __asm("movlw LOW      " "TRISA");
+[; <" movlw LOW      TRISA ;# ">
+"142
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 142:     __asm("movwf          FSR0L & 0x7F");
+[; <" movwf          FSR0L & 0x7F ;# ">
+"143
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 143:     __asm("movlw HIGH     " "TRISA");
+[; <" movlw HIGH     TRISA ;# ">
+"144
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 144:     __asm("movwf          FSR0H & 0x7F");
+[; <" movwf          FSR0H & 0x7F ;# ">
+"147
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 147:     __asm("movlw LOW      " "LATA");
+[; <" movlw LOW      LATA ;# ">
+"148
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 148:     __asm("movwf          FSR1L & 0x7F");
+[; <" movwf          FSR1L & 0x7F ;# ">
+"149
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 149:     __asm("movlw HIGH     " "LATA");
+[; <" movlw HIGH     LATA ;# ">
+"150
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 150:     __asm("movwf          FSR1H & 0x7F");
+[; <" movwf          FSR1H & 0x7F ;# ">
+"153
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 153:     __asm("movlw          " "( 0x4<<2 | 0x1 )");
+[; <" movlw          ( 0x4<<2 | 0x1 ) ;# ">
+"154
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 154:     __asm("bsf            INDF0 & 0x7F, " "5");
+[; <" bsf            INDF0 & 0x7F, 5 ;# ">
+"155
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 155:     _delay(0u);
+[e ( __delay (1 -> -> 0 `ui `ul ]
+"156
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 156:     __asm("movwf          ADCON0 & 0x7F");
+[; <" movwf          ADCON0 & 0x7F ;# ">
+"162
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 162:     _delay(8u);
+[e ( __delay (1 -> -> 8 `ui `ul ]
+"165
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 165:     __asm("BANKSEL        ADCON0");
+[; <" BANKSEL        ADCON0 ;# ">
+"166
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 166:     __asm("bsf            ADCON0 & 0x7F, 1");
+[; <" bsf            ADCON0 & 0x7F, 1 ;# ">
+"169
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 169:     _delay(3u);
+[e ( __delay (1 -> -> 3 `ui `ul ]
+"172
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 172:     __asm("BANKSEL        " "LATA");
+[; <" BANKSEL        LATA ;# ">
+"173
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 173:     __asm("bcf            " "LATA" " & 0x7F, " "5");
+[; <" bcf            LATA & 0x7F, 5 ;# ">
+"174
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 174:     __asm("bcf            INDF0 & 0x7F, " "5");
+[; <" bcf            INDF0 & 0x7F, 5 ;# ">
+"176
+[; ;mcc_generated_files/mtouch/mtouch_sensor_scan.c: 176: }
+[e :UE 203 ]
+}
