@@ -49,8 +49,7 @@
  * Local Variable
  * ======================================================================= */
 
-static bool mtouch_time_toScan = false;
-
+static bool mtouch_time_toScan = false; 
 /*
  * =======================================================================
  *  Local Functions

@@ -3,18 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_api_example.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_proximity.h</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/MyConfig.mc3</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_sensor.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mcc.c</file>
+            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/tmr0.c</file>
             <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/main.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_random.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/Makefile</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_sensor_scan.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_proximity.c</file>
-            <file>file:/D:/work/Project/MPLABXProjects/PIC12LF1552_Debug_Touch.X/mcc_generated_files/mtouch/mtouch_sensor.h</file>
         </group>
     </open-files>
 </project-private>

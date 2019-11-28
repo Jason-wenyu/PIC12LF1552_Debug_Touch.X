@@ -41,6 +41,17 @@
     #include "mtouch.h"
 
 /*
+* =======================================================================
+* User's Maroc Definition
+* =======================================================================
+*/
+#define PROXI_NOTACTIVATED          0
+#define PROXI_ACTIVATED             1
+
+#define ACTIVED_JUDGING_MASK        0x01
+#define DEACTIVED_JUDGING_MASK      0X02
+
+/*
  * =======================================================================
  * Application / Configuration Settings
  * =======================================================================
@@ -114,6 +125,14 @@
     bool                        MTOUCH_Proximity_isInitialized  (enum mtouch_proximity_names prox);
     uint8_t                     MTOUCH_Proximity_State_Get      (enum mtouch_proximity_names prox);
     mtouch_proxmask_t           MTOUCH_Proximity_Proximitymask_Get(void);
+
+/*
+ * =======================================================================
+ * User's varialbles Definition
+ * =======================================================================
+*/
+extern uint8_t Proximity_JudgingMask;
+extern volatile uint8_t Debounce_TimerCnt;
 
 /*
  * =======================================================================

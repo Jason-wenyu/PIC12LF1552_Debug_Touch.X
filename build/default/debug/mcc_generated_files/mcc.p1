@@ -2,12 +2,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 "107 mcc_generated_files/pin_manager.h
 [; ;mcc_generated_files/pin_manager.h: 107: void PIN_MANAGER_Initialize (void);
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 0 ef ]
-"83 mcc_generated_files/mcc.h
-[; ;mcc_generated_files/mcc.h: 83: void OSCILLATOR_Initialize(void);
+"85 mcc_generated_files/mcc.h
+[; ;mcc_generated_files/mcc.h: 85: void OSCILLATOR_Initialize(void);
 [v _OSCILLATOR_Initialize `(v ~T0 @X0 0 ef ]
-"95
-[; ;mcc_generated_files/mcc.h: 95: void WDT_Initialize(void);
+"97
+[; ;mcc_generated_files/mcc.h: 97: void WDT_Initialize(void);
 [v _WDT_Initialize `(v ~T0 @X0 0 ef ]
+"98 mcc_generated_files/tmr0.h
+[; ;mcc_generated_files/tmr0.h: 98: void TMR0_Initialize(void);
+[v _TMR0_Initialize `(v ~T0 @X0 0 ef ]
 "53 mcc_generated_files/mtouch/mtouch.h
 [; ;mcc_generated_files/mtouch/mtouch.h: 53:     void MTOUCH_Initialize (void);
 [v _MTOUCH_Initialize `(v ~T0 @X0 0 ef ]
@@ -320,45 +323,48 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/mcc.c: 55:     WDT_Initialize();
 [e ( _WDT_Initialize ..  ]
 "56
-[; ;mcc_generated_files/mcc.c: 56:     MTOUCH_Initialize();
-[e ( _MTOUCH_Initialize ..  ]
+[; ;mcc_generated_files/mcc.c: 56:     TMR0_Initialize();
+[e ( _TMR0_Initialize ..  ]
 "57
-[; ;mcc_generated_files/mcc.c: 57: }
+[; ;mcc_generated_files/mcc.c: 57:     MTOUCH_Initialize();
+[e ( _MTOUCH_Initialize ..  ]
+"58
+[; ;mcc_generated_files/mcc.c: 58: }
 [e :UE 202 ]
 }
-"59
-[; ;mcc_generated_files/mcc.c: 59: void OSCILLATOR_Initialize(void)
-[v _OSCILLATOR_Initialize `(v ~T0 @X0 1 ef ]
 "60
-[; ;mcc_generated_files/mcc.c: 60: {
+[; ;mcc_generated_files/mcc.c: 60: void OSCILLATOR_Initialize(void)
+[v _OSCILLATOR_Initialize `(v ~T0 @X0 1 ef ]
+"61
+[; ;mcc_generated_files/mcc.c: 61: {
 {
 [e :U _OSCILLATOR_Initialize ]
 [f ]
-"62
-[; ;mcc_generated_files/mcc.c: 62:     OSCCON = 0x78;
+"63
+[; ;mcc_generated_files/mcc.c: 63:     OSCCON = 0x78;
 [e = _OSCCON -> -> 120 `i `uc ]
-"64
-[; ;mcc_generated_files/mcc.c: 64:     OSCSTAT = 0x00;
+"65
+[; ;mcc_generated_files/mcc.c: 65:     OSCSTAT = 0x00;
 [e = _OSCSTAT -> -> 0 `i `uc ]
-"66
-[; ;mcc_generated_files/mcc.c: 66:     BORCON = 0x00;
-[e = _BORCON -> -> 0 `i `uc ]
 "67
-[; ;mcc_generated_files/mcc.c: 67: }
+[; ;mcc_generated_files/mcc.c: 67:     BORCON = 0x00;
+[e = _BORCON -> -> 0 `i `uc ]
+"68
+[; ;mcc_generated_files/mcc.c: 68: }
 [e :UE 203 ]
 }
-"69
-[; ;mcc_generated_files/mcc.c: 69: void WDT_Initialize(void)
-[v _WDT_Initialize `(v ~T0 @X0 1 ef ]
 "70
-[; ;mcc_generated_files/mcc.c: 70: {
+[; ;mcc_generated_files/mcc.c: 70: void WDT_Initialize(void)
+[v _WDT_Initialize `(v ~T0 @X0 1 ef ]
+"71
+[; ;mcc_generated_files/mcc.c: 71: {
 {
 [e :U _WDT_Initialize ]
 [f ]
-"72
-[; ;mcc_generated_files/mcc.c: 72:     WDTCON = 0x16;
-[e = _WDTCON -> -> 22 `i `uc ]
 "73
-[; ;mcc_generated_files/mcc.c: 73: }
+[; ;mcc_generated_files/mcc.c: 73:     WDTCON = 0x16;
+[e = _WDTCON -> -> 22 `i `uc ]
+"74
+[; ;mcc_generated_files/mcc.c: 74: }
 [e :UE 204 ]
 }

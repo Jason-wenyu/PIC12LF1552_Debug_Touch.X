@@ -1,26 +1,33 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
-"70 ./mcc_generated_files/mcc.h
-[; ;./mcc_generated_files/mcc.h: 70: void SYSTEM_Initialize(void);
+"72 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 72: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"67 main.c
-[; ;main.c: 67:     MTOUCH_Proximity_SetActivatedCallback(User_Proximity_Actived_Callback);
-[c E1401 0 .. ]
-[n E1401 mtouch_proximity_names Proximity_WearingDetect  ]
-[v F1412 `(v ~T0 @X0 0 tf1`E1401 ]
-"97 ./mcc_generated_files/mtouch/mtouch_proximity.h
-[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 97:     void MTOUCH_Proximity_SetActivatedCallback (void (*callback)(enum mtouch_proximity_names prox));
-[v _MTOUCH_Proximity_SetActivatedCallback `(v ~T0 @X0 0 ef1`*F1412 ]
-"124
-[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 124:     void User_Proximity_Actived_Callback(enum mtouch_proximity_names name);
-[v _User_Proximity_Actived_Callback `(v ~T0 @X0 0 ef1`E1401 ]
-[v F1418 `(v ~T0 @X0 0 tf1`E1401 ]
-"98
-[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 98:     void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names prox));
-[v _MTOUCH_Proximity_SetNotActivatedCallback `(v ~T0 @X0 0 ef1`*F1418 ]
-"125
-[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 125:     void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name);
-[v _User_Proximity_Deactived_Callback `(v ~T0 @X0 0 ef1`E1401 ]
+"69 main.c
+[; ;main.c: 69:     MTOUCH_Proximity_SetActivatedCallback(User_Proximity_Actived_Callback);
+[c E1417 0 .. ]
+[n E1417 mtouch_proximity_names Proximity_WearingDetect  ]
+[v F1428 `(v ~T0 @X0 0 tf1`E1417 ]
+"108 ./mcc_generated_files/mtouch/mtouch_proximity.h
+[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 108:     void MTOUCH_Proximity_SetActivatedCallback (void (*callback)(enum mtouch_proximity_names prox));
+[v _MTOUCH_Proximity_SetActivatedCallback `(v ~T0 @X0 0 ef1`*F1428 ]
+"143
+[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 143:     void User_Proximity_Actived_Callback(enum mtouch_proximity_names name);
+[v _User_Proximity_Actived_Callback `(v ~T0 @X0 0 ef1`E1417 ]
+[v F1434 `(v ~T0 @X0 0 tf1`E1417 ]
+"109
+[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 109:     void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names prox));
+[v _MTOUCH_Proximity_SetNotActivatedCallback `(v ~T0 @X0 0 ef1`*F1434 ]
+"144
+[; ;./mcc_generated_files/mtouch/mtouch_proximity.h: 144:     void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name);
+[v _User_Proximity_Deactived_Callback `(v ~T0 @X0 0 ef1`E1417 ]
+[v F1357 `(v ~T0 @X0 0 tf ]
+"238 ./mcc_generated_files/tmr0.h
+[; ;./mcc_generated_files/tmr0.h: 238:  void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _TMR0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F1357 ]
+"280
+[; ;./mcc_generated_files/tmr0.h: 280: void User_TMR0_InterruptHandler(void);
+[v _User_TMR0_InterruptHandler `(v ~T0 @X0 0 ef ]
 "54 ./mcc_generated_files/mtouch/mtouch.h
 [; ;./mcc_generated_files/mtouch/mtouch.h: 54:     _Bool MTOUCH_Service_Mainloop (void);
 [v _MTOUCH_Service_Mainloop `(a ~T0 @X0 0 ef ]
@@ -304,39 +311,49 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3360: __asm("AADRES1H equ 071Dh");
 [; <" AADRES1H equ 071Dh ;# ">
 [v $root$_main `(v ~T0 @X0 0 e ]
-"48 main.c
-[; ;main.c: 48: void main(void)
+"50 main.c
+[; ;main.c: 50: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"49
-[; ;main.c: 49: {
+"51
+[; ;main.c: 51: {
 {
 [e :U _main ]
 [f ]
-"51
-[; ;main.c: 51:     SYSTEM_Initialize();
+"53
+[; ;main.c: 53:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"67
-[; ;main.c: 67:     MTOUCH_Proximity_SetActivatedCallback(User_Proximity_Actived_Callback);
-[e ( _MTOUCH_Proximity_SetActivatedCallback (1 &U _User_Proximity_Actived_Callback ]
-"68
-[; ;main.c: 68:     MTOUCH_Proximity_SetNotActivatedCallback(User_Proximity_Deactived_Callback);
-[e ( _MTOUCH_Proximity_SetNotActivatedCallback (1 &U _User_Proximity_Deactived_Callback ]
 "69
-[; ;main.c: 69:     while (1)
-[e :U 204 ]
+[; ;main.c: 69:     MTOUCH_Proximity_SetActivatedCallback(User_Proximity_Actived_Callback);
+[e ( _MTOUCH_Proximity_SetActivatedCallback (1 &U _User_Proximity_Actived_Callback ]
 "70
-[; ;main.c: 70:     {
-{
-"72
-[; ;main.c: 72:         MTOUCH_Service_Mainloop();
-[e ( _MTOUCH_Service_Mainloop ..  ]
+[; ;main.c: 70:     MTOUCH_Proximity_SetNotActivatedCallback(User_Proximity_Deactived_Callback);
+[e ( _MTOUCH_Proximity_SetNotActivatedCallback (1 &U _User_Proximity_Deactived_Callback ]
+"71
+[; ;main.c: 71:     TMR0_SetInterruptHandler(User_TMR0_InterruptHandler);
+[e ( _TMR0_SetInterruptHandler (1 &U _User_TMR0_InterruptHandler ]
+"73
+[; ;main.c: 73:     while (1)
+[e :U 204 ]
 "74
-[; ;main.c: 74:     }
+[; ;main.c: 74:     {
+{
+"76
+[; ;main.c: 76:         if(MTOUCH_Service_Mainloop())
+[e $ ! != -> ( _MTOUCH_Service_Mainloop ..  `i -> 0 `i 206  ]
+"77
+[; ;main.c: 77:         {
+{
+"92
+[; ;main.c: 92:         }
+}
+[e :U 206 ]
+"105
+[; ;main.c: 105:     }
 }
 [e :U 203 ]
 [e $U 204  ]
 [e :U 205 ]
-"75
-[; ;main.c: 75: }
+"106
+[; ;main.c: 106: }
 [e :UE 202 ]
 }

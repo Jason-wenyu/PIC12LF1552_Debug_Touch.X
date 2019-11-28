@@ -12,77 +12,85 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-cinit CODE 0 7EE 7EE 12 2
-text1 CODE 0 5D 5D 5 2
-text2 CODE 0 4A 4A 4 2
-text3 CODE 0 119 119 10 2
-text4 CODE 0 90 90 7 2
-text5 CODE 0 58 58 5 2
-text6 CODE 0 AC AC B 2
-text7 CODE 0 B7 B7 C 2
-text8 CODE 0 EA EA F 2
-text9 CODE 0 D0 D0 D 2
-text10 CODE 0 323 323 2A 2
-text11 CODE 0 109 109 10 2
-text12 CODE 0 42 42 2 2
-text13 CODE 0 40 40 2 2
-text14 CODE 0 47 47 3 2
-text15 CODE 0 267 267 23 2
-text16 CODE 0 14B 14B 11 2
-text17 CODE 0 89 89 7 2
-text18 CODE 0 13A 13A 11 2
-text19 CODE 0 3F8 3F8 40 2
-text20 CODE 0 82 82 7 2
-text21 CODE 0 1E2 1E2 17 2
-text22 CODE 0 3D 3D 1 2
-text23 CODE 0 34D 34D 32 2
-text24 CODE 0 1CB 1CB 17 2
-text25 CODE 0 7B 7B 7 2
-text26 CODE 0 74 74 7 2
-text27 CODE 0 C3 C3 D 2
-text28 CODE 0 438 438 44 2
-text29 CODE 0 192 192 12 2
-text30 CODE 0 47C 47C 49 2
-text31 CODE 0 2AF 2AF 25 2
-text32 CODE 0 28A 28A 25 2
-text33 CODE 0 53 53 5 2
-text34 CODE 0 F9 F9 10 2
-text35 CODE 0 97 97 A 2
-text36 CODE 0 44 44 3 2
-text37 CODE 0 3BA 3BA 3E 2
-text38 CODE 0 52B 52B 77 2
-text39 CODE 0 37F 37F 3B 2
-text40 CODE 0 625 625 C4 2
-text41 CODE 0 180 180 12 2
-text42 CODE 0 3C 3C 1 2
-text43 CODE 0 16E 16E 12 2
-text44 CODE 0 5A2 5A2 83 2
-text45 CODE 0 2FB 2FB 28 2
-text46 CODE 0 2D4 2D4 27 2
-text47 CODE 0 A1 A1 B 2
-text48 CODE 0 4C5 4C5 66 2
-text49 CODE 0 1B6 1B6 15 2
-text50 CODE 0 6E9 6E9 105 2
-text51 CODE 0 22A 22A 1D 2
-text52 CODE 0 1F9 1F9 18 2
-text53 CODE 0 247 247 20 2
-text54 CODE 0 15C 15C 12 2
-text55 CODE 0 129 129 11 2
-text56 CODE 0 3E 3E 2 2
-text57 CODE 0 4E 4E 5 2
-text58 CODE 0 62 62 6 2
-maintext CODE 0 DD DD D 2
+cinit CODE 0 D D 13 2
+text1 CODE 0 682 682 5 2
+text2 CODE 0 696 696 4 2
+text3 CODE 0 5C1 5C1 F 2
+text4 CODE 0 687 687 5 2
+text5 CODE 0 5A1 5A1 10 2
+text6 CODE 0 662 662 7 2
+text7 CODE 0 69A 69A 4 2
+text8 CODE 0 65A 65A 8 2
+text9 CODE 0 634 634 A 2
+text10 CODE 0 5FA 5FA D 2
+text11 CODE 0 613 613 B 2
+text12 CODE 0 468 468 20 2
+text13 CODE 0 5D0 5D0 E 2
+text14 CODE 0 6AA 6AA 1 2
+text15 CODE 0 6AB 6AB 1 2
+text16 CODE 0 6A4 6A4 2 2
+text17 CODE 0 488 488 20 2
+text18 CODE 0 50C 50C 14 2
+text20 CODE 0 648 648 9 2
+text21 CODE 0 2DE 2DE 3C 2
+text23 CODE 0 57E 57E 12 2
+text24 CODE 0 6AC 6AC 1 2
+text25 CODE 0 31A 31A 3B 2
+text26 CODE 0 4F5 4F5 17 2
+text29 CODE 0 61E 61E B 2
+text30 CODE 0 355 355 3A 2
+text31 CODE 0 6AD 6AD 1 2
+text32 CODE 0 24B 24B 4C 2
+text33 CODE 0 41E 41E 25 2
+text34 CODE 0 443 443 25 2
+text35 CODE 0 68C 68C 5 2
+text36 CODE 0 63E 63E A 2
+text37 CODE 0 669 669 7 2
+text38 CODE 0 6A6 6A6 2 2
+text39 CODE 0 38F 38F 38 2
+text40 CODE 0 188 188 66 2
+text41 CODE 0 3C7 3C7 30 2
+text42 CODE 0 E2 E2 A6 2
+text43 CODE 0 5B1 5B1 10 2
+text44 CODE 0 6AE 6AE 1 2
+text45 CODE 0 590 590 11 2
+text46 CODE 0 69E 69E 3 2
+text47 CODE 0 6A1 6A1 3 2
+text48 CODE 0 297 297 47 2
+text49 CODE 0 3F7 3F7 27 2
+text50 CODE 0 6A8 6A8 2 2
+text51 CODE 0 4A8 4A8 1C 2
+text52 CODE 0 651 651 9 2
+text53 CODE 0 1EE 1EE 5D 2
+text54 CODE 0 547 547 13 2
+text55 CODE 0 20 20 C2 2
+text56 CODE 0 4C4 4C4 19 2
+text57 CODE 0 520 520 14 2
+text58 CODE 0 4DD 4DD 18 2
+text59 CODE 0 5DE 5DE E 2
+text60 CODE 0 607 607 C 2
+text61 CODE 0 6AF 6AF 1 2
+text62 CODE 0 691 691 5 2
+text63 CODE 0 67C 67C 6 2
+text65 CODE 0 5EC 5EC E 2
+text66 CODE 0 6B0 6B0 1 2
+text67 CODE 0 629 629 B 2
+nvBANK0 BANK0 1 5F 5F 3 1
+maintext CODE 0 56C 56C 12 2
 cstackCOMMON COMMON 1 70 70 E 1
-cstackBANK0 BANK0 1 54 54 14 1
-inittext CODE 0 6E 6E 6 2
-stringtext1 STRCODE 0 1A4 1A4 12 2
+cstackBANK0 BANK0 1 4E 4E 11 1
+inittext CODE 0 670 670 6 2
+stringtext1 STRCODE 0 55A 55A 12 2
+intentry CODE 0 4 4 8 2
 bssBANK0 BANK0 1 20 20 1B 1
-idataBANK0 CODE 0 211 211 19 2
-dataBANK0 BANK0 1 3B 3B 19 1
-clrtext CODE 0 68 68 6 2
-$C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
+idataBANK0 CODE 0 534 534 13 2
+swtext1 CONST 0 3 3 1 2
+swtext2 CONST 0 1 1 2 2
+dataBANK0 BANK0 1 3B 3B 13 1
+clrtext CODE 0 676 676 6 2
+$C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
 reset_vec CODE 0 0 0 1 2
-end_init CODE 0 1 1 1 2
+end_init CODE 0 C C 1 2
 config CONFIG 0 8007 8007 2 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -90,14 +98,14 @@ config CONFIG 0 8007 8007 2 2
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 68-6F 1
+RAM 62-6F 1
 RAM A0-EF 1
 RAM 120-16F 1
-BANK0 68-6F 1
+BANK0 62-6F 1
 BANK1 A0-EF 1
 BANK2 120-16F 1
-CONST 2-3B 2
-ENTRY 2-3B 2
+CONST 6B1-7FF 2
+ENTRY 6B1-7FF 2
 IDLOC 8000-8003 2
 SFR10 500-56F 1
 SFR11 580-5EF 1
@@ -121,8 +129,8 @@ SFR28 E00-E6F 1
 SFR29 E80-EEF 1
 SFR30 F00-F6F 1
 SFR31 F80-FEF 1
-STACK 2048-20EF 1
-CODE 2-3B 2
+STACK 2042-20EF 1
+CODE 6B1-7FF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-11F 1
@@ -134,8 +142,8 @@ SFR7 380-3EF 1
 SFR8 400-46F 1
 SFR9 480-4EF 1
 BIGRAM 2000-20EF 1
-STRCODE 2-3B 2
-STRING 2-3B 2
+STRCODE 6B1-7FF 2
+STRING 6B1-7FF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -150,466 +158,517 @@ STRING 2-3B 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-7EE cinit CODE >1829:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7EE cinit CODE >1832:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7EE cinit CODE >1922:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7EF cinit CODE >1923:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F0 cinit CODE >1924:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F1 cinit CODE >1925:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F2 cinit CODE >1926:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F3 cinit CODE >1927:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F4 cinit CODE >1928:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F5 cinit CODE >1929:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F6 cinit CODE >1930:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F7 cinit CODE >1931:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F8 cinit CODE >1948:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7F9 cinit CODE >1949:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FA cinit CODE >1950:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FB cinit CODE >1951:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FC cinit CODE >1952:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FD cinit CODE >1953:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FE cinit CODE >1959:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FE cinit CODE >1961:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-7FF cinit CODE >1962:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-62 text58 CODE >473:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-62 text58 CODE >475:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-67 text58 CODE >476:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-4E text57 CODE >477:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-4E text57 CODE >479:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-52 text57 CODE >480:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3E text56 CODE >526:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-3E text56 CODE >529:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-3F text56 CODE >530:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-129 text55 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-12A text55 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-12B text55 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-12D text55 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-131 text55 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-133 text55 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-135 text55 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-138 text55 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-139 text55 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
-15C text54 CODE >553:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-15D text54 CODE >555:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-160 text54 CODE >556:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-16C text54 CODE >558:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-16D text54 CODE >559:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-247 text53 CODE >461:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-248 text53 CODE >463:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-266 text53 CODE >464:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-1F9 text52 CODE >452:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-1FA text52 CODE >454:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-1FD text52 CODE >455:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-208 text52 CODE >457:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-210 text52 CODE >459:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-22A text51 CODE >396:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-22B text51 CODE >398:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-22E text51 CODE >399:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-23E text51 CODE >401:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-246 text51 CODE >402:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6E9 text50 CODE >353:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6EA text50 CODE >356:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-706 text50 CODE >358:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-725 text50 CODE >361:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-734 text50 CODE >363:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-73C text50 CODE >365:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-748 text50 CODE >367:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-750 text50 CODE >370:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-752 text50 CODE >372:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-75A text50 CODE >373:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-75B text50 CODE >374:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-773 text50 CODE >377:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-77F text50 CODE >378:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-78B text50 CODE >382:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-7A4 text50 CODE >383:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-7D6 text50 CODE >384:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-7E2 text50 CODE >386:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-7ED text50 CODE >388:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-1B6 text49 CODE >417:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1B7 text49 CODE >419:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1BA text49 CODE >421:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1C8 text49 CODE >424:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1CA text49 CODE >425:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4C5 text48 CODE >417:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-4C6 text48 CODE >419:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-4CD text48 CODE >421:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-4F0 text48 CODE >422:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-50B text48 CODE >423:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-50C text48 CODE >426:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-52A text48 CODE >428:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A1 text47 CODE >404:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A2 text47 CODE >406:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A4 text47 CODE >408:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A5 text47 CODE >409:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A7 text47 CODE >410:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A8 text47 CODE >411:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-A9 text47 CODE >414:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-AB text47 CODE >416:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2D4 text46 CODE >142:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2D5 text46 CODE >144:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2DD text46 CODE >146:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2E2 text46 CODE >147:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2EC text46 CODE >148:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2F3 text46 CODE >149:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2FA text46 CODE >151:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2FB text45 CODE >430:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-2FC text45 CODE >432:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-313 text45 CODE >433:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-322 text45 CODE >434:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5A2 text44 CODE >436:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5A3 text44 CODE >438:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5A5 text44 CODE >440:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5A6 text44 CODE >441:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5C9 text44 CODE >442:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5E4 text44 CODE >443:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5E5 text44 CODE >444:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5E6 text44 CODE >447:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-609 text44 CODE >448:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-624 text44 CODE >450:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-16E text43 CODE >509:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-16E text43 CODE >511:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-16F text43 CODE >514:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-172 text43 CODE >518:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-17F text43 CODE >519:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3C text42 CODE >472:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-180 text41 CODE >520:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-180 text41 CODE >522:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-181 text41 CODE >525:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-184 text41 CODE >529:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-191 text41 CODE >530:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-625 text40 CODE >214:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-625 text40 CODE >217:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-647 text40 CODE >218:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-672 text40 CODE >220:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-67B text40 CODE >221:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-68A text40 CODE >223:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-691 text40 CODE >224:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-697 text40 CODE >228:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6A7 text40 CODE >230:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6AF text40 CODE >231:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6B6 text40 CODE >232:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6C2 text40 CODE >233:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6C3 text40 CODE >237:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6CA text40 CODE >238:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6CA text40 CODE >242:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6D4 text40 CODE >243:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6DF text40 CODE >245:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6E6 text40 CODE >246:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-6E8 text40 CODE >248:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-37F text39 CODE >195:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-37F text39 CODE >198:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-38E text39 CODE >200:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-390 text39 CODE >201:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-391 text39 CODE >202:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-393 text39 CODE >206:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-39D text39 CODE >207:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3AC text39 CODE >209:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3B2 text39 CODE >210:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3B9 text39 CODE >213:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-52B text38 CODE >250:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-52B text38 CODE >253:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-53A text38 CODE >255:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-53F text38 CODE >256:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-54C text38 CODE >257:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-54D text38 CODE >260:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-57F text38 CODE >262:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-586 text38 CODE >263:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-58D text38 CODE >264:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-595 text38 CODE >265:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-5A1 text38 CODE >267:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3BA text37 CODE >179:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3BB text37 CODE >181:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3C3 text37 CODE >183:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3D4 text37 CODE >185:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3D6 text37 CODE >186:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3D8 text37 CODE >188:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3E0 text37 CODE >190:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3E5 text37 CODE >192:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-3F7 text37 CODE >194:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-44 text36 CODE >169:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-44 text36 CODE >171:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-46 text36 CODE >172:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-97 text35 CODE >360:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-97 text35 CODE >362:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-9E text35 CODE >363:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-F9 text34 CODE >66:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-F9 text34 CODE >70:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-FB text34 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-FD text34 CODE >81:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-101 text34 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-106 text34 CODE >85:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-108 text34 CODE >86:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
-53 text33 CODE >171:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-53 text33 CODE >174:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-55 text33 CODE >175:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-57 text33 CODE >176:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-28A text32 CODE >50:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-28A text32 CODE >53:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-28B text32 CODE >54:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-28C text32 CODE >57:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-28D text32 CODE >58:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-28E text32 CODE >59:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-28F text32 CODE >62:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-293 text32 CODE >65:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-294 text32 CODE >66:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-295 text32 CODE >67:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-296 text32 CODE >68:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-297 text32 CODE >69:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-298 text32 CODE >72:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-299 text32 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-29A text32 CODE >74:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-29B text32 CODE >75:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-29C text32 CODE >78:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-29D text32 CODE >79:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-29E text32 CODE >80:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-29F text32 CODE >81:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A0 text32 CODE >84:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A1 text32 CODE >85:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A2 text32 CODE >87:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A3 text32 CODE >92:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A7 text32 CODE >95:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A8 text32 CODE >96:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2A9 text32 CODE >99:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2AB text32 CODE >102:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2AC text32 CODE >103:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2AD text32 CODE >104:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2AE text32 CODE >106:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2AF text31 CODE >119:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2AF text31 CODE >122:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B0 text31 CODE >123:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B1 text31 CODE >126:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B2 text31 CODE >127:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B3 text31 CODE >128:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B4 text31 CODE >131:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B8 text31 CODE >134:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2B9 text31 CODE >135:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2BA text31 CODE >136:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2BB text31 CODE >137:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2BC text31 CODE >138:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2BD text31 CODE >141:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2BE text31 CODE >142:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2BF text31 CODE >143:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C0 text31 CODE >144:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C1 text31 CODE >147:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C2 text31 CODE >148:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C3 text31 CODE >149:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C4 text31 CODE >150:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C5 text31 CODE >153:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C6 text31 CODE >154:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C7 text31 CODE >156:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2C8 text31 CODE >162:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2CC text31 CODE >165:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2CD text31 CODE >166:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2CE text31 CODE >169:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2D0 text31 CODE >172:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2D1 text31 CODE >173:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2D2 text31 CODE >174:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-2D3 text31 CODE >176:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
-47C text30 CODE >376:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-47C text30 CODE >379:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-481 text30 CODE >381:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-484 text30 CODE >384:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-488 text30 CODE >389:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-48A text30 CODE >390:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-48C text30 CODE >392:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-49D text30 CODE >394:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4AC text30 CODE >396:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4AE text30 CODE >398:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4B8 text30 CODE >400:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4BC text30 CODE >402:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4BE text30 CODE >403:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4BF text30 CODE >406:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4C3 text30 CODE >407:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-4C4 text30 CODE >409:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-192 text29 CODE >459:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-193 text29 CODE >461:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-19B text29 CODE >462:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1A3 text29 CODE >463:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-438 text28 CODE >312:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-439 text28 CODE >315:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-43A text28 CODE >321:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-43F text28 CODE >322:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-443 text28 CODE >323:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-444 text28 CODE >325:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-448 text28 CODE >327:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-44A text28 CODE >329:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-451 text28 CODE >330:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-456 text28 CODE >331:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-458 text28 CODE >332:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-459 text28 CODE >333:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-45D text28 CODE >334:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-45F text28 CODE >336:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-460 text28 CODE >341:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-461 text28 CODE >342:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-462 text28 CODE >343:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-467 text28 CODE >344:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-468 text28 CODE >345:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-46B text28 CODE >346:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-46E text28 CODE >349:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-471 text28 CODE >350:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-473 text28 CODE >352:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-476 text28 CODE >354:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-47A text28 CODE >355:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-47A text28 CODE >357:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-47B text28 CODE >358:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-C3 text27 CODE >492:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-C4 text27 CODE >494:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-C7 text27 CODE >495:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-CE text27 CODE >497:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-CF text27 CODE >498:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-74 text26 CODE >507:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-75 text26 CODE >509:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-7A text26 CODE >510:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-7B text25 CODE >512:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-7C text25 CODE >514:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-81 text25 CODE >515:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1CB text24 CODE >1:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
-1CB text24 CODE >3:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
-34D text23 CODE >277:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-34E text23 CODE >280:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-352 text23 CODE >282:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-357 text23 CODE >283:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-359 text23 CODE >287:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-35B text23 CODE >288:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-35E text23 CODE >290:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-360 text23 CODE >285:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-365 text23 CODE >294:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-377 text23 CODE >296:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-37A text23 CODE >297:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-37B text23 CODE >300:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-3D text22 CODE >447:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1E2 text21 CODE >427:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1E3 text21 CODE >429:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1E5 text21 CODE >431:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1E6 text21 CODE >432:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1EE text21 CODE >433:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1EF text21 CODE >434:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1F0 text21 CODE >437:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-1F8 text21 CODE >439:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-82 text20 CODE >566:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-83 text20 CODE >568:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-88 text20 CODE >569:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-3F8 text19 CODE >230:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-3F9 text19 CODE >232:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-404 text19 CODE >233:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-409 text19 CODE >236:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-40A text19 CODE >240:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-40F text19 CODE >248:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-411 text19 CODE >250:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-413 text19 CODE >251:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-419 text19 CODE >261:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-436 text19 CODE >263:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-437 text19 CODE >264:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-13A text18 CODE >185:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-13A text18 CODE >188:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-13B text18 CODE >190:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-140 text18 CODE >191:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-142 text18 CODE >192:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-149 text18 CODE >193:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-14A text18 CODE >194:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-89 text17 CODE >561:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-8A text17 CODE >563:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-8F text17 CODE >564:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-14B text16 CODE >544:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-14B text16 CODE >547:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-155 text16 CODE >549:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-157 text16 CODE >550:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-267 text15 CODE >279:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-268 text15 CODE >282:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-270 text15 CODE >284:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-279 text15 CODE >285:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-281 text15 CODE >287:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-289 text15 CODE >290:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-47 text14 CODE >275:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-47 text14 CODE >277:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-49 text14 CODE >278:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-40 text13 CODE >124:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-40 text13 CODE >126:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-41 text13 CODE >127:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-42 text12 CODE >134:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-42 text12 CODE >138:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-43 text12 CODE >139:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-109 text11 CODE >95:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-109 text11 CODE >99:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-10C text11 CODE >103:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-110 text11 CODE >107:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-111 text11 CODE >108:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-116 text11 CODE >109:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-117 text11 CODE >110:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-118 text11 CODE >117:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-323 text10 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-324 text10 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-328 text10 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-32C text10 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-335 text10 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-341 text10 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-34C text10 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
-D0 text9 CODE >162:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-D0 text9 CODE >164:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-DA text9 CODE >166:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-DC text9 CODE >167:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
-EA text8 CODE >478:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-EB text8 CODE >480:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-EE text8 CODE >481:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-F8 text8 CODE >482:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-B7 text7 CODE >142:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-B8 text7 CODE >144:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-BA text7 CODE >145:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-C2 text7 CODE >148:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-AC text6 CODE >156:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-AC text6 CODE >159:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-AD text6 CODE >161:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-AF text6 CODE >162:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
-58 text5 CODE >80:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-58 text5 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-59 text5 CODE >83:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-5A text5 CODE >84:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-5B text5 CODE >85:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-5C text5 CODE >87:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
-90 text4 CODE >59:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-90 text4 CODE >62:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-93 text4 CODE >64:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-94 text4 CODE >66:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-96 text4 CODE >67:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-119 text3 CODE >55:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-119 text3 CODE >60:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-11B text3 CODE >65:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-11E text3 CODE >70:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-121 text3 CODE >75:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-123 text3 CODE >76:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-125 text3 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-128 text3 CODE >89:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
-4A text2 CODE >69:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-4A text2 CODE >72:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-4D text2 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-5D text1 CODE >50:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-5D text1 CODE >53:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-5E text1 CODE >54:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-5F text1 CODE >55:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-60 text1 CODE >56:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-61 text1 CODE >57:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
-DD maintext CODE >48:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-DD maintext CODE >51:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-DE maintext CODE >67:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-E3 maintext CODE >68:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-E8 maintext CODE >69:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-E8 maintext CODE >72:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-68 clrtext CODE >1937:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-68 clrtext CODE >1938:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-69 clrtext CODE >1939:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-69 clrtext CODE >1940:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6A clrtext CODE >1941:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6B clrtext CODE >1942:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6C clrtext CODE >1943:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6D clrtext CODE >1944:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6E inittext CODE >1911:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6E inittext CODE >1912:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6F inittext CODE >1913:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-6F inittext CODE >1914:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-70 inittext CODE >1915:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-71 inittext CODE >1916:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-72 inittext CODE >1917:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
-73 inittext CODE >1918:C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.s
+D cinit CODE >2209:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+D cinit CODE >2212:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+D cinit CODE >2284:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+E cinit CODE >2285:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+F cinit CODE >2286:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+10 cinit CODE >2287:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+11 cinit CODE >2288:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+12 cinit CODE >2289:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+13 cinit CODE >2290:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+14 cinit CODE >2291:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+15 cinit CODE >2292:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+16 cinit CODE >2293:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+17 cinit CODE >2310:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+18 cinit CODE >2311:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+19 cinit CODE >2312:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1A cinit CODE >2313:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1B cinit CODE >2314:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1C cinit CODE >2315:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1D cinit CODE >2321:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1D cinit CODE >2323:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1E cinit CODE >2324:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+1F cinit CODE >2325:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+4 intentry CODE >52:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/interrupt_manager.c
+9 intentry CODE >57:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/interrupt_manager.c
+A intentry CODE >63:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/interrupt_manager.c
+629 text67 CODE >154:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+629 text67 CODE >156:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+62A text67 CODE >157:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+62E text67 CODE >159:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+631 text67 CODE >160:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+633 text67 CODE >163:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6B0 text66 CODE >134:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6B0 text66 CODE >137:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5EC text65 CODE >113:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5EC text65 CODE >117:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5ED text65 CODE >119:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5F0 text65 CODE >121:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5F4 text65 CODE >123:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5F9 text65 CODE >127:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+67C text63 CODE >480:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+67C text63 CODE >482:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+681 text63 CODE >483:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+691 text62 CODE >484:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+691 text62 CODE >486:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+695 text62 CODE >487:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6AF text61 CODE >526:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+6AF text61 CODE >529:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+607 text60 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+608 text60 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+609 text60 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+609 text60 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+60A text60 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+60B text60 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+60C text60 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+60D text60 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+60E text60 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+611 text60 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+612 text60 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+5DE text59 CODE >553:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+5DF text59 CODE >555:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+5E2 text59 CODE >556:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+4DD text58 CODE >468:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4DE text58 CODE >470:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4F4 text58 CODE >471:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+520 text57 CODE >459:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+521 text57 CODE >461:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+524 text57 CODE >462:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+52F text57 CODE >463:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+52F text57 CODE >464:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+533 text57 CODE >466:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4C4 text56 CODE >403:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4C5 text56 CODE >405:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4C8 text56 CODE >406:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4D8 text56 CODE >407:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4D8 text56 CODE >408:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4DC text56 CODE >409:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+20 text55 CODE >360:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+21 text55 CODE >363:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+34 text55 CODE >365:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+43 text55 CODE >368:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+52 text55 CODE >370:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+57 text55 CODE >372:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+63 text55 CODE >374:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+69 text55 CODE >377:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6B text55 CODE >379:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6F text55 CODE >380:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+70 text55 CODE >381:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+86 text55 CODE >384:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+87 text55 CODE >381:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+8A text55 CODE >384:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+90 text55 CODE >385:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+94 text55 CODE >389:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+A4 text55 CODE >390:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+CF text55 CODE >391:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+D0 text55 CODE >390:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+D3 text55 CODE >391:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+D7 text55 CODE >393:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+DB text55 CODE >395:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+547 text54 CODE >417:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+548 text54 CODE >419:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+54B text54 CODE >421:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+557 text54 CODE >424:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+559 text54 CODE >425:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+1EE text53 CODE >424:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1EF text53 CODE >426:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1F5 text53 CODE >428:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+213 text53 CODE >429:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+22A text53 CODE >430:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+22B text53 CODE >433:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+245 text53 CODE >435:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+651 text52 CODE >411:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+652 text52 CODE >413:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+654 text52 CODE >415:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+655 text52 CODE >416:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+656 text52 CODE >417:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+657 text52 CODE >418:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+658 text52 CODE >421:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4A8 text51 CODE >149:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4A9 text51 CODE >151:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4AF text51 CODE >153:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4B3 text51 CODE >154:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4BB text51 CODE >155:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4BD text51 CODE >156:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4C3 text51 CODE >158:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6A8 text50 CODE >148:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6A8 text50 CODE >151:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6A9 text50 CODE >152:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+3F7 text49 CODE >437:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3F8 text49 CODE >439:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+40F text49 CODE >440:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+41D text49 CODE >441:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+297 text48 CODE >443:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+298 text48 CODE >445:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+29A text48 CODE >447:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+29B text48 CODE >448:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+29C text48 CODE >450:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+29D text48 CODE >451:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+29E text48 CODE >454:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+2A0 text48 CODE >457:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6A1 text47 CODE >139:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6A1 text47 CODE >142:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6A2 text47 CODE >145:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6A3 text47 CODE >146:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+69E text46 CODE >107:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+69E text46 CODE >110:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+6A0 text46 CODE >111:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+590 text45 CODE >516:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+590 text45 CODE >529:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+598 text45 CODE >522:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+599 text45 CODE >523:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+59A text45 CODE >524:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+59B text45 CODE >529:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5A0 text45 CODE >530:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6AE text44 CODE >479:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5B1 text43 CODE >531:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5B1 text43 CODE >545:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5B9 text43 CODE >537:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5BA text43 CODE >540:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5BB text43 CODE >545:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5C0 text43 CODE >546:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+E2 text42 CODE >221:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+E2 text42 CODE >224:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+F6 text42 CODE >225:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+11F text42 CODE >227:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+120 text42 CODE >225:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+122 text42 CODE >227:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+125 text42 CODE >228:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+131 text42 CODE >230:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+132 text42 CODE >228:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+135 text42 CODE >231:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+13A text42 CODE >235:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+146 text42 CODE >237:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+147 text42 CODE >235:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+149 text42 CODE >237:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+14D text42 CODE >238:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+14F text42 CODE >239:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+158 text42 CODE >240:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+159 text42 CODE >244:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+15B text42 CODE >245:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+15B text42 CODE >249:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+15F text42 CODE >250:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+16A text42 CODE >252:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+16D text42 CODE >253:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3C7 text41 CODE >202:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3C7 text41 CODE >205:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3CC text41 CODE >207:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3CD text41 CODE >205:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3CF text41 CODE >207:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3D0 text41 CODE >208:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3D1 text41 CODE >209:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3D2 text41 CODE >213:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3DC text41 CODE >214:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3E3 text41 CODE >216:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3E8 text41 CODE >217:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3EA text41 CODE >220:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+188 text40 CODE >257:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+188 text40 CODE >260:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+195 text40 CODE >262:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+196 text40 CODE >260:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+198 text40 CODE >262:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+19B text40 CODE >263:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1A1 text40 CODE >264:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1A2 text40 CODE >267:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1D2 text40 CODE >269:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1D8 text40 CODE >270:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1DA text40 CODE >271:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1E1 text40 CODE >272:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+1E6 text40 CODE >274:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+38F text39 CODE >186:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+390 text39 CODE >188:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+396 text39 CODE >190:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3A1 text39 CODE >192:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3A3 text39 CODE >193:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3A6 text39 CODE >195:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3AE text39 CODE >197:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3B2 text39 CODE >199:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+3C1 text39 CODE >201:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6A6 text38 CODE >176:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6A6 text38 CODE >178:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+669 text37 CODE >360:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+669 text37 CODE >362:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+66E text37 CODE >363:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+63E text36 CODE >66:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+63E text36 CODE >70:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+640 text36 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+641 text36 CODE >74:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+642 text36 CODE >75:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+642 text36 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+643 text36 CODE >81:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+644 text36 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+645 text36 CODE >85:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+647 text36 CODE >86:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
+68C text35 CODE >171:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+68C text35 CODE >174:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+68E text35 CODE >175:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+690 text35 CODE >176:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+443 text34 CODE >50:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+443 text34 CODE >53:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+444 text34 CODE >54:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+445 text34 CODE >57:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+446 text34 CODE >58:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+447 text34 CODE >59:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+448 text34 CODE >62:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+44C text34 CODE >65:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+44D text34 CODE >66:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+44E text34 CODE >67:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+44F text34 CODE >68:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+450 text34 CODE >69:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+451 text34 CODE >72:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+452 text34 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+453 text34 CODE >74:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+454 text34 CODE >75:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+455 text34 CODE >78:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+456 text34 CODE >79:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+457 text34 CODE >80:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+458 text34 CODE >81:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+459 text34 CODE >84:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+45A text34 CODE >85:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+45B text34 CODE >87:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+45C text34 CODE >92:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+460 text34 CODE >95:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+461 text34 CODE >96:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+462 text34 CODE >99:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+464 text34 CODE >102:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+465 text34 CODE >103:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+466 text34 CODE >104:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+467 text34 CODE >106:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+41E text33 CODE >119:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+41E text33 CODE >122:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+41F text33 CODE >123:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+420 text33 CODE >126:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+421 text33 CODE >127:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+422 text33 CODE >128:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+423 text33 CODE >131:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+427 text33 CODE >134:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+428 text33 CODE >135:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+429 text33 CODE >136:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+42A text33 CODE >137:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+42B text33 CODE >138:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+42C text33 CODE >141:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+42D text33 CODE >142:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+42E text33 CODE >143:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+42F text33 CODE >144:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+430 text33 CODE >147:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+431 text33 CODE >148:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+432 text33 CODE >149:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+433 text33 CODE >150:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+434 text33 CODE >153:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+435 text33 CODE >154:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+436 text33 CODE >156:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+437 text33 CODE >162:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+43B text33 CODE >165:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+43C text33 CODE >166:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+43D text33 CODE >169:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+43F text33 CODE >172:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+440 text33 CODE >173:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+441 text33 CODE >174:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+442 text33 CODE >176:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
+3 swtext1 CONST >392:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+24B text32 CODE >376:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+24B text32 CODE >379:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+250 text32 CODE >381:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+253 text32 CODE >384:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+257 text32 CODE >389:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+259 text32 CODE >390:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+25B text32 CODE >392:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+273 text32 CODE >394:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+280 text32 CODE >396:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+282 text32 CODE >398:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+28B text32 CODE >400:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+28F text32 CODE >401:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+28F text32 CODE >402:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+290 text32 CODE >403:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+291 text32 CODE >406:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+295 text32 CODE >407:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+296 text32 CODE >409:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+6AD text31 CODE >459:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+6AD text31 CODE >463:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+355 text30 CODE >312:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+356 text30 CODE >315:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+357 text30 CODE >321:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+35A text30 CODE >322:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+35C text30 CODE >323:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+35D text30 CODE >325:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+361 text30 CODE >327:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+363 text30 CODE >329:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+369 text30 CODE >330:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+36D text30 CODE >331:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+36F text30 CODE >332:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+370 text30 CODE >333:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+372 text30 CODE >334:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+374 text30 CODE >336:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+375 text30 CODE >341:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+376 text30 CODE >342:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+377 text30 CODE >343:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+37C text30 CODE >344:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+37D text30 CODE >345:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+380 text30 CODE >346:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+383 text30 CODE >349:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+386 text30 CODE >350:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+388 text30 CODE >352:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+38B text30 CODE >354:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+38D text30 CODE >355:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+38D text30 CODE >357:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+38E text30 CODE >358:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+61E text29 CODE >492:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+61F text29 CODE >494:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+622 text29 CODE >495:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+0 text28 CODE >507:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+0 text27 CODE >512:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+4F5 text26 CODE >1:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+4F5 text26 CODE >3:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+31A text25 CODE >277:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+31B text25 CODE >280:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+31D text25 CODE >282:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+321 text25 CODE >283:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+322 text25 CODE >282:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+323 text25 CODE >287:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+324 text25 CODE >288:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+325 text25 CODE >290:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+326 text25 CODE >285:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+32B text25 CODE >294:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+343 text25 CODE >296:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+345 text25 CODE >507:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+346 text25 CODE >509:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+34B text25 CODE >297:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+34C text25 CODE >300:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+34E text25 CODE >512:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+34F text25 CODE >514:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+354 text25 CODE >300:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+6AC text24 CODE >447:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+57E text23 CODE >427:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+57F text23 CODE >429:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+581 text23 CODE >431:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+582 text23 CODE >432:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+583 text23 CODE >433:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+584 text23 CODE >434:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+585 text23 CODE >437:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+587 text23 CODE >439:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+0 text22 CODE >566:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2DE text21 CODE >230:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2DF text21 CODE >232:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2E6 text21 CODE >233:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2E8 text21 CODE >236:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2E9 text21 CODE >240:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2EE text21 CODE >248:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2F0 text21 CODE >250:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2F1 text21 CODE >566:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2F2 text21 CODE >568:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2F7 text21 CODE >251:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+2FB text21 CODE >261:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+318 text21 CODE >263:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+319 text21 CODE >264:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+648 text20 CODE >185:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+648 text20 CODE >188:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+649 text20 CODE >190:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+64D text20 CODE >191:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+64E text20 CODE >192:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+64F text20 CODE >193:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+650 text20 CODE >192:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+0 text19 CODE >561:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+50C text18 CODE >544:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+50C text18 CODE >547:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+513 text18 CODE >549:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+514 text18 CODE >561:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+516 text18 CODE >550:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+488 text17 CODE >286:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+489 text17 CODE >289:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+490 text17 CODE >291:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+498 text17 CODE >292:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4A0 text17 CODE >294:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+4A7 text17 CODE >297:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6A4 text16 CODE >282:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6A4 text16 CODE >284:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+6AB text15 CODE >123:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+6AB text15 CODE >125:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+6AA text14 CODE >133:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+6AA text14 CODE >137:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5D0 text13 CODE >94:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5D0 text13 CODE >98:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5D3 text13 CODE >102:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5D6 text13 CODE >103:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5D7 text13 CODE >106:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5D8 text13 CODE >107:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5DB text13 CODE >108:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5DC text13 CODE >109:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+5DD text13 CODE >110:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+468 text12 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+469 text12 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+46D text12 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+46F text12 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+478 text12 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+481 text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+487 text12 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
+613 text11 CODE >169:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+613 text11 CODE >171:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+61C text11 CODE >173:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+5FA text10 CODE >478:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+5FB text10 CODE >480:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+5FE text10 CODE >481:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+606 text10 CODE >482:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+634 text9 CODE >142:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+635 text9 CODE >144:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+636 text9 CODE >145:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+63B text9 CODE >561:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+63C text9 CODE >563:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+63D text9 CODE >148:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+65A text8 CODE >156:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+65A text8 CODE >159:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+65B text8 CODE >161:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+65D text8 CODE >162:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
+69A text7 CODE >79:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+69A text7 CODE >81:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+69B text7 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+69C text7 CODE >83:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+69D text7 CODE >84:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+662 text6 CODE >60:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+662 text6 CODE >63:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+665 text6 CODE >65:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+666 text6 CODE >67:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+668 text6 CODE >68:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+5A1 text5 CODE >55:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5A1 text5 CODE >60:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5A3 text5 CODE >65:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5A6 text5 CODE >70:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5A9 text5 CODE >75:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5AB text5 CODE >76:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5AD text5 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+5B0 text5 CODE >89:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
+687 text4 CODE >130:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+687 text4 CODE >131:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+68B text4 CODE >132:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5C1 text3 CODE >68:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5C1 text3 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5C5 text3 CODE >76:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5C8 text3 CODE >79:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5C9 text3 CODE >82:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5CA text3 CODE >86:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+5CB text3 CODE >89:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+696 text2 CODE >70:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+696 text2 CODE >73:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+699 text2 CODE >74:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+682 text1 CODE >50:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+682 text1 CODE >53:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+683 text1 CODE >54:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+684 text1 CODE >55:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+685 text1 CODE >56:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+686 text1 CODE >57:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+56C maintext CODE >50:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+56C maintext CODE >53:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+56D maintext CODE >69:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+572 maintext CODE >70:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+577 maintext CODE >71:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+57C maintext CODE >76:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+676 clrtext CODE >2299:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+676 clrtext CODE >2300:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+677 clrtext CODE >2301:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+677 clrtext CODE >2302:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+678 clrtext CODE >2303:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+679 clrtext CODE >2304:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+67A clrtext CODE >2305:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+67B clrtext CODE >2306:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+670 inittext CODE >2273:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+670 inittext CODE >2274:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+671 inittext CODE >2275:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+671 inittext CODE >2276:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+672 inittext CODE >2277:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+673 inittext CODE >2278:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+674 inittext CODE >2279:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
+675 inittext CODE >2280:C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -623,152 +682,165 @@ E8 maintext CODE >72:D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\ma
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 ___latbits 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Service 7F0 0 CODE 0 text37 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Service 784 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __LdataBANK0 0 0 ABS 0 dataBANK0 -
 __Hspace_0 8009 0 ABS 0 - -
 __Hspace_1 7E 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __HidataBANK0 0 0 ABS 0 idataBANK0 -
-_Sensor_Acq_ExecutePacket 870 0 CODE 0 text28 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_User_Proximity_Actived_Callback 300 0 CODE 0 text43 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Random 212 0 CODE 0 text34 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_Acq_ExecutePacket 6AA 0 CODE 0 text30 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_User_Proximity_Actived_Callback B42 0 CODE 0 text45 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Random C90 0 CODE 0 text36 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _sample_delay 25 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Tick_helper 514 0 CODE 0 text15 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Tick_helper 950 0 CODE 0 text17 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 MTOUCH_Sensor_Sampled_ResetAll@sensor 72 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Acq_ExecutePacket@ADCON0_temp 79 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Deviation_Update@name 63 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_Tick 94 0 CODE 0 text14 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Acq_ExecutePacket@ADCON1_temp 7A 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acq_ExecutePacket@ADCON0_temp 77 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Deviation_Update@name 5C 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_Tick D4C 0 CODE 0 text16 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acq_ExecutePacket@ADCON1_temp 78 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Proximity_SetNotActivatedCallback 9C 0 CODE 0 text57 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_SetNotActivatedCallback D22 0 CODE 0 text62 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 MTOUCH_Proximity_Reading_Get@name 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_scanA 47 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_scanB 45 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 ?_abs 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_WDT_Initialize 9C 0 CODE 0 text2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_WDT_Initialize D34 0 CODE 0 text2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 __size_of_MTOUCH_Service_Mainloop 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _LATA 10C 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0 15 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-_main 1BA 0 CODE 0 maintext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+_main AD8 0 CODE 0 maintext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 abs@a 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_Reading_Update 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-start 2 0 CODE 0 init C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
+start 18 0 CODE 0 init C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+_TMR0_InterruptHandler 5F 0 BANK0 1 nvBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_Tick_helper 4CE 0 CODE 0 text15 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Proximity_Tick 8E 0 CODE 0 text14 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_SetNotActivatedCallback A6 0 CODE 0 text57 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Tick_helper 910 0 CODE 0 text17 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_SetInterruptHandler D18 0 CODE 0 text4 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_User_TMR0_InterruptHandler C52 0 CODE 0 text67 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_Tick D48 0 CODE 0 text16 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_SetNotActivatedCallback D2C 0 CODE 0 text62 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_inlined$_Sensor_setSampled 1 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __Hpowerup 0 0 CODE 0 powerup -
 __size_of_Proximity_Reading_Update_Helper 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_Reload 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_Scan_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Sensor_RawSample_Get@name 77 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Sensor_RawSample_Get@name 76 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 MTOUCH_Random@seed 23 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_setScanFunction 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_Baseline_Get 422 0 CODE 0 text52 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Deviation_Update FDC 0 CODE 0 text50 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Sensor_Sampled_ResetAll 2B8 0 CODE 0 text16 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-__end_of_Sensor_Acquisition 6FE 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_Baseline_Get A68 0 CODE 0 text57 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+TMR0_SetInterruptHandler@InterruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Deviation_Update 1B8 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_Sampled_ResetAll A34 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+__end_of_Sensor_Acquisition 6AA 0 CODE 0 text25 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_Interrupt_Enable 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 ___bmul@multiplicand 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Acquisition@sensor 56 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acquisition@sensor 4F 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _currentScannSensor 27 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_setSampled 112 0 CODE 0 text20 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_setSampled 0 0 CODE 0 text22 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
-_MTOUCH_Tick 80 0 CODE 0 text13 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Tick D56 0 CODE 0 text15 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_setInactive@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_State_Activated@prox 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_State_NotActivated C4A 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_Service 774 0 CODE 0 text37 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_DefaultCallback 78 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Delay@i 71 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_State_Activated@prox 7C 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_State_NotActivated 1C4 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Service 71E 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_DefaultCallback D5C 0 CODE 0 text44 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Delay@i 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _ADCON0 9D 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _ADCON1 9E 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _ANSELA 18C 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _APFCON 11D 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_DefaultInterruptHandler D60 0 CODE 0 text66 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Proximity_Baseline_Update@prox 74 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _BORCON 116 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Proximity_Reading_Get 454 0 CODE 0 text51 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_Reading_Get 988 0 CODE 0 text56 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_INTERRUPT_InterruptManager 18 0 CODE 0 intentry dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_RawSample_Get 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_User_Proximity_Deactived_Callback 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of___bmul 274 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_Acquisition 69A 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__Hpa_nodes0 0 0 ABS 0 pa_nodes0 -
+__end_of___bmul C26 0 CODE 0 text60 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_Acquisition 634 0 CODE 0 text25 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _packet_sample 20 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_setActive@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_DefaultCallback@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Reading_Update 158 0 CODE 0 text47 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Reading_Update CB4 0 CODE 0 text52 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-_Proximity_Baseline_Initialize 5F6 0 CODE 0 text45 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_SampleAll 274 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-___bmul@multiplier 73 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_isEnabled 186 0 CODE 0 text27 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Baseline_Initialize 7EE 0 CODE 0 text49 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_SampleAll C90 0 CODE 0 text20 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+___bmul@multiplier 72 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_isEnabled C3C 0 CODE 0 text29 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_Acq_ExecutePacket 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_setSampled@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Sensor_SampleAll 296 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_Initialize 16E 0 CODE 0 text7 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_needReburst 88 0 CODE 0 text12 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Sensor_InitializeAll@sensor 79 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_Acq_ExecuteScan 98A 0 CODE 0 text30 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-___stackhi 20EF 0 ABS 0 - C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-___stacklo 2048 0 ABS 0 - C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-__end_of_MTOUCH_Sensor_RawSample_Get 396 0 CODE 0 text49 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_SampleAll CA2 0 CODE 0 text20 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_Interrupt_Disable 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_Initialize C68 0 CODE 0 text9 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_needReburst D56 0 CODE 0 text14 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Sensor_InitializeAll@sensor 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_OPTION_REG 95 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_Acq_ExecuteScan 52E 0 CODE 0 text32 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+___stackhi 20EF 0 ABS 0 - C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+___stacklo 2042 0 ABS 0 - C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+__end_of_MTOUCH_Sensor_RawSample_Get AB4 0 CODE 0 text54 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_ServiceAll 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Service@name 59 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_CVD_ScanA_0 55E 0 CODE 0 text32 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_CVD_ScanB_0 5A8 0 CODE 0 text31 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_SetActivatedCallback D0 0 CODE 0 text58 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Service@error 5A 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Baseline_Get_helper 4CE 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-memcpy@tmp 77 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_wasSampled 2B8 0 CODE 0 text54 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Service@name 52 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__Lpa_nodes0 0 0 ABS 0 pa_nodes0 -
+__end_of_MTOUCH_CVD_ScanA_0 8D0 0 CODE 0 text34 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_CVD_ScanB_0 886 0 CODE 0 text33 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_SetActivatedCallback D04 0 CODE 0 text63 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Service@error 53 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Baseline_Get_helper 9EA 0 CODE 0 text58 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+memcpy@tmp 76 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_wasSampled BBC 0 CODE 0 text59 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_InitializeAll 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_PIN_MANAGER_Initialize 232 0 CODE 0 text3 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_setInactive 104 0 CODE 0 text25 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-start_initialization FDC 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_PIN_MANAGER_Initialize B42 0 CODE 0 text5 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_setInactive 0 0 CODE 0 text27 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+start_initialization 1A 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _callback_notActivated 41 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _OSCCON 99 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_setSampled 104 0 CODE 0 text20 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_Enable 1D4 0 CODE 0 text8 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_ServiceAll 8E 0 CODE 0 text36 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_DefaultCallback 7A 0 CODE 0 text22 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_setSampled 0 0 CODE 0 text22 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_Enable BF4 0 CODE 0 text10 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_ServiceAll D50 0 CODE 0 text38 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_DefaultCallback D58 0 CODE 0 text24 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_Sampled_Reset 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_memcpy 69A 0 CODE 0 text10 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_SYSTEM_Initialize C4 0 CODE 0 text1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_mtouch_sensor 4B 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_needReburst 84 0 CODE 0 text12 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_Sampled_ResetAll 296 0 CODE 0 text16 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Acq_ExecutePacket@error 7C 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_memcpy 910 0 CODE 0 text12 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_SYSTEM_Initialize D0E 0 CODE 0 text1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_mtouch_sensor 45 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_needReburst D54 0 CODE 0 text14 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_Sampled_ResetAll A18 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acq_ExecutePacket@error 7A 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _Proximity_StateMachine 3B 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-clear_ram0 D0 0 CODE 0 clrtext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__pcstackBANK0 54 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Baseline_Get_helper@name 78 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_CVD_ScanA_0 514 0 CODE 0 text32 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_CVD_ScanB_0 55E 0 CODE 0 text31 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_Initialize 5F6 0 CODE 0 text46 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+clear_ram0 CEC 0 CODE 0 clrtext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pcstackBANK0 4E 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Baseline_Get_helper@name 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_CVD_ScanA_0 886 0 CODE 0 text34 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_CVD_ScanB_0 83C 0 CODE 0 text33 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_Initialize 988 0 CODE 0 text51 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_isEnabled@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 User_Proximity_Deactived_Callback@name 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _mtouch_proximity 29 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_Baseline_Get 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_Sampled_Reset 120 0 CODE 0 text17 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_User_Proximity_Actived_Callback 2DC 0 CODE 0 text43 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_setInactive F6 0 CODE 0 text25 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_Sampled_Reset 0 0 CODE 0 text19 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_User_Proximity_Actived_Callback B20 0 CODE 0 text45 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_setInactive 0 0 CODE 0 text27 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_Deviation_Update 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
+___int_sp 0 0 STACK 2 stack C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
 __size_of_Sensor_RawSample_Update 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -780,9 +852,9 @@ __Hbank6 0 0 BANK6 1 bank6 -
 __Hbank7 0 0 BANK7 1 bank7 -
 __Hbank8 0 0 BANK8 1 bank8 -
 __Hbank9 0 0 BANK9 1 bank9 -
-__Hcinit 1000 0 CODE 0 cinit -
+__Hcinit 40 0 CODE 0 cinit -
 __Hidloc 0 0 IDLOC 0 idloc -
-__end_of_Proximity_State_Activated B44 0 CODE 0 text38 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_State_Activated 3CE 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hsfr10 0 0 ABS 0 sfr10 -
 __Hsfr11 0 0 ABS 0 sfr11 -
@@ -832,15 +904,16 @@ __Hbank30 0 0 BANK30 1 bank30 -
 __Hbank31 0 0 BANK31 1 bank31 -
 __Hbigram 0 0 ABS 0 bigram -
 __Hmaintext 0 0 ABS 0 maintext -
-Sensor_Acq_ExecuteScan@result 76 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_isEnabled 1A0 0 CODE 0 text27 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_Acq_ExecutePacket 8F8 0 CODE 0 text28 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acq_ExecuteScan@result 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_isEnabled C52 0 CODE 0 text29 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_Acq_ExecutePacket 71E 0 CODE 0 text30 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 10012 0 CONFIG 0 config -
 MTOUCH_Proximity_SetActivatedCallback@callback 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Reading_Update@prox 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Deviation_Update@deviation 5F 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Reading_Update@prox 4E 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_Reload D3C 0 CODE 0 text46 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Deviation_Update@deviation 58 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lbank0 0 0 ABS 0 bank0 -
 __Lbank1 0 0 ABS 0 bank1 -
 __Lbank2 0 0 ABS 0 bank2 -
@@ -851,10 +924,10 @@ __Lbank6 0 0 BANK6 1 bank6 -
 __Lbank7 0 0 BANK7 1 bank7 -
 __Lbank8 0 0 BANK8 1 bank8 -
 __Lbank9 0 0 BANK9 1 bank9 -
-__Lcinit FDC 0 CODE 0 cinit -
+__Lcinit 1A 0 CODE 0 cinit -
 __size_of_MTOUCH_Proximity_SetNotActivatedCallback 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lidloc 0 0 IDLOC 0 idloc -
-_MTOUCH_Proximity_SetActivatedCallback C4 0 CODE 0 text58 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_SetActivatedCallback CF8 0 CODE 0 text63 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lsfr10 0 0 ABS 0 sfr10 -
 __Lsfr11 0 0 ABS 0 sfr11 -
 __Lsfr12 0 0 ABS 0 sfr12 -
@@ -879,14 +952,14 @@ __Lsfr30 0 0 ABS 0 sfr30 -
 __Lsfr31 0 0 ABS 0 sfr31 -
 __Lstack 0 0 STACK 2 stack -
 __size_of_Sensor_isEnabled 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-init_ram DC 0 CODE 0 inittext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+init_ram CE0 0 CODE 0 inittext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Linittext 0 0 ABS 0 inittext -
-memcpy@d1 78 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+memcpy@d1 77 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 memcpy@s1 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _INTCONbits B 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
-__Hinit 2 0 CODE 0 init -
+__Hinit 18 0 CODE 0 init -
 __Hsfr0 0 0 ABS 0 sfr0 -
 __Hsfr1 0 0 ABS 0 sfr1 -
 __Hsfr2 0 0 ABS 0 sfr2 -
@@ -900,7 +973,7 @@ __Hsfr9 0 0 ABS 0 sfr9 -
 __Htext 0 0 ABS 0 text -
 __Labs1 0 0 ABS 0 abs1 -
 __Lcode 0 0 ABS 0 code -
-__Linit 2 0 CODE 0 init -
+__Linit 18 0 CODE 0 init -
 __Lsfr0 0 0 ABS 0 sfr0 -
 __Lsfr1 0 0 ABS 0 sfr1 -
 __Lsfr2 0 0 ABS 0 sfr2 -
@@ -912,116 +985,162 @@ __Lsfr7 0 0 ABS 0 sfr7 -
 __Lsfr8 0 0 ABS 0 sfr8 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __Ltext 0 0 ABS 0 text -
-memcpy@d 79 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+memcpy@d 78 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 memcpy@n 72 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-memcpy@s 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__pstringtext1 348 0 STRCODE 0 stringtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-___bmul 252 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+memcpy@s 74 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pstringtext1 AB4 0 STRCODE 0 stringtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pnvBANK0 5F 0 BANK0 1 nvBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+___bmul C0E 0 CODE 0 text60 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_State_NotActivated 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
-Proximity_State_NotActivated@prox 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_State_NotActivated@prox 7C 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+int$flags 7E 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 __size_of_MTOUCH_Sensor_InitializeAll 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_WDT_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_Tick_helper 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_RawSample_Update@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL32 542 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL34 1B8 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL36 2DE 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL38 B10 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL40 2EA 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL42 3CE 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL44 7D6 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL46 2FA 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL48 7E2 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL50 A34 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL52 784 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL54 306 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+PL56 48C 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_inlined$_Sensor_setInactive 1 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _GIE 5F 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __S0 8009 0 ABS 0 - -
 __S1 7E 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
-_abs 396 0 CODE 0 text24 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_Scan_Initialize A6 0 CODE 0 text33 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_abs 9EA 0 CODE 0 text26 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_ISR 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_Scan_Initialize D18 0 CODE 0 text35 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_Tick 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_State_NotActivated DD2 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_State_NotActivated 2DE 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_Reading_Get 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Reading_Update_Helper A56 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_setScanFunction 324 0 CODE 0 text29 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_Deviation_Update DD2 0 CODE 0 text50 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Baseline_Update C4A 0 CODE 0 text44 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_Reading_Get 48E 0 CODE 0 text51 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-?_MTOUCH_Sensor_RawSample_Get 74 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Baseline_Initialize@prox 7C 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Proximity_InitializeAll 1BA 0 CODE 0 text9 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Reading_Update_Helper 48C 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_setScanFunction D5A 0 CODE 0 text31 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Deviation_Update 40 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Baseline_Update 542 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_DefaultInterruptHandler D62 0 CODE 0 text66 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_Reading_Get 9BA 0 CODE 0 text56 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+?_MTOUCH_Sensor_RawSample_Get 73 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Baseline_Initialize@prox 7B 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Proximity_InitializeAll C3C 0 CODE 0 text11 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _mtouch_time_toScan 22 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_SYSTEM_Initialize BA 0 CODE 0 text1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_SYSTEM_Initialize D04 0 CODE 0 text1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_Sampled_Reset@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Sensor_InitializeAll 16E 0 CODE 0 text6 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_abs 3C4 0 CODE 0 text24 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_InitializeAll CC4 0 CODE 0 text8 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL32 5BC 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL34 1C4 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL36 2EA 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL38 B20 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL40 2FA 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL42 3DC 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL44 7E2 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL46 306 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL48 7EE 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL50 A40 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL52 78E 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL54 310 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_ofPL56 496 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_abs A18 0 CODE 0 text26 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_wasSampled 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__Lintentry 2 0 CODE 0 intentry -
-_User_Proximity_Deactived_Callback 300 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Jason.Liu\AppData\Local\Temp\s5jvo.o
-_MTOUCH_Service_Mainloop 212 0 CODE 0 text11 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__Lintentry 8 0 CODE 0 intentry -
+_User_Proximity_Deactived_Callback B62 0 CODE 0 text43 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Jason.Liu\AppData\Local\Temp\s6ufg.o
+_Debounce_TimerCnt 24 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Service_Mainloop BA0 0 CODE 0 text13 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_Baseline_Get_helper 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_State_Activated 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Tick 84 0 CODE 0 text13 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Tick D58 0 CODE 0 text15 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 ?_MTOUCH_Proximity_Reading_Get 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __pdataBANK0 3B 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Service_Mainloop 232 0 CODE 0 text11 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Service_Mainloop BBC 0 CODE 0 text13 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of___bmul 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
-__end_of_MTOUCH_Sensor_isCalibrated 80 0 CODE 0 text56 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_isCalibrated D60 0 CODE 0 text61 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_Acquisition 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lstringtext1 0 0 ABS 0 stringtext1 -
-_Proximity_State_Initializing 6FE 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_State_Initializing 78E 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_Acq_ExecuteScan 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_Baseline_Initialize 646 0 CODE 0 text45 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_memcpy 646 0 CODE 0 text10 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_setActive E8 0 CODE 0 text26 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext10 646 0 CODE 0 text10 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext11 212 0 CODE 0 text11 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext12 84 0 CODE 0 text12 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext13 80 0 CODE 0 text13 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext14 8E 0 CODE 0 text14 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext15 4CE 0 CODE 0 text15 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext16 296 0 CODE 0 text16 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext17 112 0 CODE 0 text17 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext18 274 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext19 7F0 0 CODE 0 text19 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext20 104 0 CODE 0 text20 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext21 3C4 0 CODE 0 text21 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext22 7A 0 CODE 0 text22 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext23 69A 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext24 396 0 CODE 0 text24 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext25 F6 0 CODE 0 text25 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext26 E8 0 CODE 0 text26 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext27 186 0 CODE 0 text27 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext28 870 0 CODE 0 text28 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext29 324 0 CODE 0 text29 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext30 8F8 0 CODE 0 text30 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext31 55E 0 CODE 0 text31 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext32 514 0 CODE 0 text32 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext33 A6 0 CODE 0 text33 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext34 1F2 0 CODE 0 text34 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext35 12E 0 CODE 0 text35 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext36 88 0 CODE 0 text36 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext37 774 0 CODE 0 text37 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext38 A56 0 CODE 0 text38 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext39 6FE 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext40 C4A 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext41 300 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext42 78 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext43 2DC 0 CODE 0 text43 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext44 B44 0 CODE 0 text44 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext45 5F6 0 CODE 0 text45 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext46 5A8 0 CODE 0 text46 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext47 142 0 CODE 0 text47 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext48 98A 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext49 36C 0 CODE 0 text49 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext50 DD2 0 CODE 0 text50 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext51 454 0 CODE 0 text51 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext52 3F2 0 CODE 0 text52 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext53 48E 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext54 2B8 0 CODE 0 text54 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext55 252 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext56 7C 0 CODE 0 text56 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext57 9C 0 CODE 0 text57 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext58 C4 0 CODE 0 text58 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Sensor_Enable@sensor 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_PIN_MANAGER_Initialize 252 0 CODE 0 text3 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_Baseline_Initialize 83C 0 CODE 0 text49 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_memcpy 8D0 0 CODE 0 text12 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_setActive 0 0 CODE 0 text28 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_ISR BD8 0 CODE 0 text65 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext10 BF4 0 CODE 0 text10 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext11 C26 0 CODE 0 text11 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext12 8D0 0 CODE 0 text12 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext13 BA0 0 CODE 0 text13 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext14 D54 0 CODE 0 text14 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext15 D56 0 CODE 0 text15 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext16 D48 0 CODE 0 text16 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext17 910 0 CODE 0 text17 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext18 A18 0 CODE 0 text18 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext19 0 0 CODE 0 text19 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext20 C90 0 CODE 0 text20 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext21 5BC 0 CODE 0 text21 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext22 0 0 CODE 0 text22 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext23 AFC 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext24 D58 0 CODE 0 text24 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext25 634 0 CODE 0 text25 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext26 9EA 0 CODE 0 text26 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext27 0 0 CODE 0 text27 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext28 0 0 CODE 0 text28 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext29 C3C 0 CODE 0 text29 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext30 6AA 0 CODE 0 text30 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext31 D5A 0 CODE 0 text31 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext32 496 0 CODE 0 text32 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext33 83C 0 CODE 0 text33 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext34 886 0 CODE 0 text34 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext35 D18 0 CODE 0 text35 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext36 C7C 0 CODE 0 text36 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext37 CD2 0 CODE 0 text37 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext38 D4C 0 CODE 0 text38 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext39 71E 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext40 310 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext41 78E 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext42 1C4 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext43 B62 0 CODE 0 text43 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext44 D5C 0 CODE 0 text44 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext45 B20 0 CODE 0 text45 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext46 D3C 0 CODE 0 text46 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext47 D42 0 CODE 0 text47 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext48 52E 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext49 7EE 0 CODE 0 text49 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext50 D50 0 CODE 0 text50 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext51 950 0 CODE 0 text51 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext52 CA2 0 CODE 0 text52 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext53 3DC 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext54 A8E 0 CODE 0 text54 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext55 40 0 CODE 0 text55 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext56 988 0 CODE 0 text56 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext57 A40 0 CODE 0 text57 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext58 9BA 0 CODE 0 text58 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext59 BBC 0 CODE 0 text59 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext60 C0E 0 CODE 0 text60 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext61 D5E 0 CODE 0 text61 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext62 D22 0 CODE 0 text62 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext63 CF8 0 CODE 0 text63 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext65 BD8 0 CODE 0 text65 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext66 D60 0 CODE 0 text66 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext67 C52 0 CODE 0 text67 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Sensor_Enable@sensor 73 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_PIN_MANAGER_Initialize B62 0 CODE 0 text5 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Sensor_setScanFunction@sensor 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_Initialize BA0 0 CODE 0 text3 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lbank10 0 0 BANK10 1 bank10 -
 __Lbank11 0 0 BANK11 1 bank11 -
 __Lbank12 0 0 BANK12 1 bank12 -
@@ -1044,7 +1163,7 @@ __Lbank28 0 0 BANK28 1 bank28 -
 __Lbank29 0 0 BANK29 1 bank29 -
 __Lbank30 0 0 BANK30 1 bank30 -
 __Lbank31 0 0 BANK31 1 bank31 -
-__pmaintext 1BA 0 CODE 0 maintext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pmaintext AD8 0 CODE 0 maintext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 Proximity_Tick_helper@prox 72 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lbigram 0 0 ABS 0 bigram -
 __CFG_BORV$LO 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
@@ -1052,14 +1171,19 @@ __size_of_User_Proximity_Actived_Callback 0 0 ABS 0 - dist/default/production\PI
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 1000E 0 CONFIG 0 config -
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_Interrupt_Disable D50 0 CODE 0 text50 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_ISR BF4 0 CODE 0 text65 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hinittext 0 0 ABS 0 inittext -
 _LATAbits 10C 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_DefaultCallback 7C 0 CODE 0 text22 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Delay 12E 0 CODE 0 text35 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_DefaultCallback D5A 0 CODE 0 text24 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Delay CD2 0 CODE 0 text37 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_SetInterruptHandler D0E 0 CODE 0 text4 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_Baseline_Update 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Sensor_Initialize 186 0 CODE 0 text7 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_Initialize C7C 0 CODE 0 text9 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_Interrupt_Enable D48 0 CODE 0 text47 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _OSCSTAT 9A 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _ADCON0bits 9D 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_User_TMR0_InterruptHandler C68 0 CODE 0 text67 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
@@ -1067,125 +1191,138 @@ __Lspace_3 0 0 ABS 0 - -
 __size_of_memcpy 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __size_of_MTOUCH_needReburst 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__Lend_init 2 0 CODE 0 end_init -
+__Lend_init 18 0 CODE 0 end_init -
 __CFG_LVP$ON 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Sensor_wasSampled 2DC 0 CODE 0 text54 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_wasSampled BD8 0 CODE 0 text59 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
 _packet_counter 26 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_RawSample_Get 36C 0 CODE 0 text49 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_RawSample_Get A8E 0 CODE 0 text54 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_Interrupt_Enable D42 0 CODE 0 text47 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_CVD_ScanA_0 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_CVD_ScanB_0 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-end_of_initialization FFC 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+end_of_initialization 3A 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_TMR0_Initialize B82 0 CODE 0 text3 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_SampleAll 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__Hintentry 2 0 CODE 0 intentry -
+__Hintentry 18 0 CODE 0 intentry -
 __CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Random 1F2 0 CODE 0 text34 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Random C7C 0 CODE 0 text36 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lstrings 0 0 ABS 0 strings -
 __size_of_MTOUCH_Delay 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hreset_vec 2 0 CODE 0 reset_vec -
-_MTOUCH_Proximity_InitializeAll 1A0 0 CODE 0 text9 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_InitializeAll C26 0 CODE 0 text11 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __size_of_Sensor_setInactive 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Sensor_wasSampled@sensor 75 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Proximity_Baseline_Get 3F2 0 CODE 0 text52 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Proximity_Baseline_Get@name 54 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-?_MTOUCH_Proximity_Baseline_Get 79 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Sensor_wasSampled@sensor 73 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_Baseline_Get A40 0 CODE 0 text57 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Proximity_Baseline_Get@name 7B 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+?_MTOUCH_Proximity_Baseline_Get 76 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_Service 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Initialize BA 0 CODE 0 text5 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext1 BA 0 CODE 0 text1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext2 94 0 CODE 0 text2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext3 232 0 CODE 0 text3 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext4 120 0 CODE 0 text4 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext5 B0 0 CODE 0 text5 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext6 158 0 CODE 0 text6 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext7 16E 0 CODE 0 text7 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext8 1D4 0 CODE 0 text8 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__ptext9 1A0 0 CODE 0 text9 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_User_Proximity_Deactived_Callback 324 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_setActive F6 0 CODE 0 text26 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_State_Activated A56 0 CODE 0 text38 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Proximity_ServiceAll 88 0 CODE 0 text36 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Sensor_Initialize@sensor 77 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Initialize D3C 0 CODE 0 text7 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext1 D04 0 CODE 0 text1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext2 D2C 0 CODE 0 text2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext3 B82 0 CODE 0 text3 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext4 D0E 0 CODE 0 text4 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext5 B42 0 CODE 0 text5 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext6 CC4 0 CODE 0 text6 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext7 D34 0 CODE 0 text7 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext8 CB4 0 CODE 0 text8 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__ptext9 C68 0 CODE 0 text9 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_User_Proximity_Deactived_Callback B82 0 CODE 0 text43 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_setActive 0 0 CODE 0 text28 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_State_Activated 310 0 CODE 0 text40 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_ServiceAll D4C 0 CODE 0 text38 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Sensor_Initialize@sensor 74 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __size_of_Sensor_setActive 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_setScanFunction 348 0 CODE 0 text29 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_DefaultCallback 7A 0 CODE 0 text42 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Delay 142 0 CODE 0 text35 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Proximity_Initialize 5A8 0 CODE 0 text46 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_setScanFunction D5C 0 CODE 0 text31 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_DefaultCallback D5E 0 CODE 0 text44 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Delay CE0 0 CODE 0 text37 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Proximity_Initialize 950 0 CODE 0 text51 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
 __Hstringtext1 0 0 ABS 0 stringtext1 -
-_Sensor_Sampled_Reset 112 0 CODE 0 text17 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_Sampled_Reset 0 0 CODE 0 text19 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 MTOUCH_Proximity_SetNotActivatedCallback@callback 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_LPBOR$OFF 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_Reading_Update 142 0 CODE 0 text47 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Reading_Update CA2 0 CODE 0 text52 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_Reload D42 0 CODE 0 text46 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_WDTE$ON 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_mtouch_proximity_init 36C 0 STRCODE 0 stringtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of__initialization FFC 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_mtouch_proximity_init AD8 0 STRCODE 0 stringtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of__initialization 3A 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Tick 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
-__end_of_MTOUCH_Sensor_Scan_Initialize B0 0 CODE 0 text33 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_timer0ReloadVal 61 0 BANK0 1 nvBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_Scan_Initialize D22 0 CODE 0 text35 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_isCalibrated 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__pidataBANK0 422 0 CODE 0 idataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pidataBANK0 A68 0 CODE 0 idataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_Enable 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 User_Proximity_Actived_Callback@name 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
 __size_of_Proximity_Baseline_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_Service 7F0 0 CODE 0 text19 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Service@sensor 5B 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Service@name 65 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Service@prox 66 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_Service 5BC 0 CODE 0 text21 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_inlined$_Sensor_setActive 1 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Service@sensor 54 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Service@name 5D 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Service@prox 5E 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_State_Initializing 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _callback_activated 43 0 BANK0 1 dataBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_Reading_Update_Helper 98A 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Reading_Update_Helper 3DC 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Acquisition@retry 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Proximity_Baseline_Update B44 0 CODE 0 text44 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acquisition@retry 4E 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Baseline_Update 52E 0 CODE 0 text48 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Proximity_SetActivatedCallback 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_mtouch_proximity_init 348 0 STRCODE 0 stringtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_State_Initializing@prox 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__Hend_init 4 0 CODE 0 end_init -
-Sensor_Acq_ExecutePacket@GIE_state 7B 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Proximity_Initialize@name 71 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Proximity_Initialize@prox 72 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Proximity_State_Initializing 774 0 CODE 0 text39 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_MTOUCH_Sensor_Enable 1F2 0 CODE 0 text8 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Sensor_Acq_ExecutePacket@sensor 7D 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_mtouch_proximity_init AB4 0 STRCODE 0 stringtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_State_Initializing@prox 7C 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__Hend_init 1A 0 CODE 0 end_init -
+Sensor_Acq_ExecutePacket@GIE_state 79 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_SetInterruptHandler 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Proximity_Initialize@name 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Proximity_Initialize@prox 71 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Proximity_State_Initializing 7D6 0 CODE 0 text41 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_MTOUCH_Sensor_Enable C0E 0 CODE 0 text10 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Sensor_Acq_ExecutePacket@sensor 7B 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Sensor_Sampled_ResetAll 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_main 1D4 0 CODE 0 maintext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_RawSample_Update 3C4 0 CODE 0 text21 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_main AFC 0 CODE 0 maintext dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_RawSample_Update AFC 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_setSampled 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _ADRES 9B 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _TRISA 8C 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_RawSample_Update 3F2 0 CODE 0 text21 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_TMR0_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_RawSample_Update B10 0 CODE 0 text23 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_WDT_Initialize 94 0 CODE 0 text2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_WDT_Initialize D2C 0 CODE 0 text2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_MTOUCH_Random 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_TMR0_Interrupt_Disable D54 0 CODE 0 text50 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_abs 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 -
-_Proximity_Baseline_Get_helper 48E 0 CODE 0 text53 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_OSCILLATOR_Initialize 12E 0 CODE 0 text4 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Proximity_Baseline_Get_helper 9BA 0 CODE 0 text58 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_OSCILLATOR_Initialize CD2 0 CODE 0 text6 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 ?_Proximity_Baseline_Get_helper 70 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__initialization FDC 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-___bmul@product 72 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__initialization 1A 0 CODE 0 cinit dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+___bmul@product 71 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_BOREN$NSLEEP 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_isCalibrated 7C 0 CODE 0 text56 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Initialize B0 0 CODE 0 text5 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_isCalibrated D5E 0 CODE 0 text61 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Initialize D34 0 CODE 0 text7 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Sensor_DefaultCallback 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_Sensor_Acq_ExecuteScan 8F8 0 CODE 0 text30 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_Sensor_Acq_ExecuteScan 496 0 CODE 0 text32 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__size_of_User_TMR0_InterruptHandler 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 __size_of_Proximity_DefaultCallback 0 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_Reading_Update_Helper@prox 54 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-Proximity_State_NotActivated@deviation 5D 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-__end_of_Sensor_Service 870 0 CODE 0 text19 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-MTOUCH_Sensor_SampleAll@sensor 5D 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_MTOUCH_Sensor_InitializeAll 158 0 CODE 0 text6 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
-_OSCILLATOR_Initialize 120 0 CODE 0 text4 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_Reading_Update_Helper@prox 7D 0 COMMON 1 cstackCOMMON dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+Proximity_State_NotActivated@deviation 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__end_of_Sensor_Service 634 0 CODE 0 text21 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+MTOUCH_Sensor_SampleAll@sensor 55 0 BANK0 1 cstackBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_MTOUCH_Sensor_InitializeAll CB4 0 CODE 0 text8 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_inlined$_Sensor_Sampled_Reset 1 0 ABS 0 - dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pswtext1 6 0 CONST 0 swtext1 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+__pswtext2 2 0 CONST 0 swtext2 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
+_OSCILLATOR_Initialize CC4 0 CODE 0 text6 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 _sensor_globalFlags 28 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_Debug_Touch.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
@@ -1212,73 +1349,13 @@ _sensor_globalFlags 28 0 BANK0 1 bssBANK0 dist/default/production\PIC12LF1552_De
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-cinit 0 7EE FDC 12 2
-text1 0 5D BA 5 2
-text2 0 4A 94 4 2
-text3 0 119 232 10 2
-text4 0 90 120 7 2
-text5 0 58 B0 5 2
-text6 0 AC 158 B 2
-text7 0 B7 16E C 2
-text8 0 EA 1D4 F 2
-text9 0 D0 1A0 D 2
-text10 0 323 646 2A 2
-text11 0 109 212 10 2
-text12 0 42 84 2 2
-text13 0 40 80 2 2
-text14 0 47 8E 3 2
-text15 0 267 4CE 23 2
-text16 0 14B 296 11 2
-text17 0 89 112 7 2
-text18 0 13A 274 11 2
-text19 0 3F8 7F0 40 2
-text20 0 82 104 7 2
-text21 0 1E2 3C4 17 2
-text22 0 3D 7A 1 2
-text23 0 34D 69A 32 2
-text24 0 1CB 396 17 2
-text25 0 7B F6 7 2
-text26 0 74 E8 7 2
-text27 0 C3 186 D 2
-text28 0 438 870 44 2
-text29 0 192 324 12 2
-text30 0 47C 8F8 49 2
-text31 0 2AF 55E 25 2
-text32 0 28A 514 25 2
-text33 0 53 A6 5 2
-text34 0 F9 1F2 10 2
-text35 0 97 12E A 2
-text36 0 44 88 3 2
-text37 0 3BA 774 3E 2
-text38 0 52B A56 77 2
-text39 0 37F 6FE 3B 2
-text40 0 625 C4A C4 2
-text41 0 180 300 12 2
-text42 0 3C 78 1 2
-text43 0 16E 2DC 12 2
-text44 0 5A2 B44 83 2
-text45 0 2FB 5F6 28 2
-text46 0 2D4 5A8 27 2
-text47 0 A1 142 B 2
-text48 0 4C5 98A 66 2
-text49 0 1B6 36C 15 2
-text50 0 6E9 DD2 105 2
-text51 0 22A 454 1D 2
-text52 0 1F9 3F2 18 2
-text53 0 247 48E 20 2
-text54 0 15C 2B8 12 2
-text55 0 129 252 11 2
-text56 0 3E 7C 2 2
-text57 0 4E 9C 5 2
-text58 0 62 C4 6 2
-maintext 0 DD 1BA D 2
+maintext 0 56C AD8 145 2
 cstackCOMMON 1 70 70 E 1
-inittext 0 6E DC 6 2
-stringtext1 0 1A4 348 12 2
-reset_vec 0 0 0 2 2
-bssBANK0 1 20 20 48 1
-idataBANK0 0 211 422 19 2
-clrtext 0 68 D0 6 2
+stringtext1 0 55A AB4 12 2
+intentry 0 4 8 556 2
+reset_vec 0 0 0 1 2
+bssBANK0 1 20 20 42 1
+swtext2 0 1 2 3 2
 config 0 8007 1000E 2 2
 # OTES Section
 # This section contains data of all the note-psects.  The beginning of the section

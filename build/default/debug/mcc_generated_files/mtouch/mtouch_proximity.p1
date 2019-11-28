@@ -1,38 +1,38 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"81 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 81:     const mtouch_proximity_t mtouch_proximity_init[1u] =
+"88 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 88:     const mtouch_proximity_t mtouch_proximity_init[1u] =
 [c E1502 0 .. ]
 [n E1502 mtouch_sensor_names Sensor_AN4  ]
-[c E1614 0 1 2 .. ]
-[n E1614 mtouch_prox_state MTOUCH_PROXIMITY_STATE_initializing MTOUCH_PROXIMITY_STATE_notActivated MTOUCH_PROXIMITY_STATE_activated  ]
-"68
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 68:     {
-[s S203 `Cuc 1 `CE1502 1 `E1614 1 `ul 1 `ul 1 `c 1 `us 1 `us 1 `c 1 `uc 1 ]
+[c E1632 0 1 2 .. ]
+[n E1632 mtouch_prox_state MTOUCH_PROXIMITY_STATE_initializing MTOUCH_PROXIMITY_STATE_notActivated MTOUCH_PROXIMITY_STATE_activated  ]
+"75
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 75:     {
+[s S203 `Cuc 1 `CE1502 1 `E1632 1 `ul 1 `ul 1 `c 1 `us 1 `us 1 `c 1 `uc 1 ]
 [n S203 . name sensor state reading baseline integratedDeviation counter baseline_count threshold scaling ]
-"81
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 81:     const mtouch_proximity_t mtouch_proximity_init[1u] =
+"88
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 88:     const mtouch_proximity_t mtouch_proximity_init[1u] =
 [c E1553 0 .. ]
 [n E1553 mtouch_proximity_names Proximity_WearingDetect  ]
-[v F1663 `(v ~T0 @X0 0 tf1`E1553 ]
-"109
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 109: static void Proximity_DefaultCallback (enum mtouch_proximity_names prox);
+[v F1683 `(v ~T0 @X0 0 tf1`E1553 ]
+"116
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 116: static void Proximity_DefaultCallback (enum mtouch_proximity_names prox);
 [v _Proximity_DefaultCallback `(v ~T0 @X0 0 sf1`E1553 ]
-[v F1668 `(v ~T0 @X0 0 tf1`E1553 ]
-[v F1676 `(v ~T0 @X0 0 tf1`*S203 ]
-"110
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 110: static void Proximity_State_Initializing (mtouch_proximity_t* prox);
+[v F1688 `(v ~T0 @X0 0 tf1`E1553 ]
+[v F1696 `(v ~T0 @X0 0 tf1`*S203 ]
+"117
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 117: static void Proximity_State_Initializing (mtouch_proximity_t* prox);
 [v _Proximity_State_Initializing `(v ~T0 @X0 0 sf1`*S203 ]
-"111
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 111: static void Proximity_State_NotActivated (mtouch_proximity_t* prox);
+"118
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 118: static void Proximity_State_NotActivated (mtouch_proximity_t* prox);
 [v _Proximity_State_NotActivated `(v ~T0 @X0 0 sf1`*S203 ]
-"112
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 112: static void Proximity_State_Activated (mtouch_proximity_t* prox);
+"119
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 119: static void Proximity_State_Activated (mtouch_proximity_t* prox);
 [v _Proximity_State_Activated `(v ~T0 @X0 0 sf1`*S203 ]
 "27 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c99\string.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\c99\string.h: 27: void *memcpy (void *restrict, const void *restrict, size_t);
 [v _memcpy `(*v ~T0 @X0 0 ef3`*v`*Cv`ui ]
-"101 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 101: static void Proximity_Service (enum mtouch_proximity_names name);
+"108 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 108: static void Proximity_Service (enum mtouch_proximity_names name);
 [v _Proximity_Service `(v ~T0 @X0 0 sf1`E1553 ]
 "92 mcc_generated_files/mtouch/mtouch_sensor.h
 [; ;mcc_generated_files/mtouch/mtouch_sensor.h: 92:     _Bool MTOUCH_Sensor_wasSampled (enum mtouch_sensor_names sensor);
@@ -40,59 +40,57 @@ Version 4.0 HI-TECH Software Intermediate Code
 "93
 [; ;mcc_generated_files/mtouch/mtouch_sensor.h: 93:     _Bool MTOUCH_Sensor_isCalibrated (enum mtouch_sensor_names sensor);
 [v _MTOUCH_Sensor_isCalibrated `(a ~T0 @X0 0 ef1`E1502 ]
-"103 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 103: static void Proximity_Reading_Update (mtouch_proximity_t* prox);
+"110 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 110: static void Proximity_Reading_Update (mtouch_proximity_t* prox);
 [v _Proximity_Reading_Update `(v ~T0 @X0 0 sf1`*S203 ]
-"102
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 102: static void Proximity_Deviation_Update (enum mtouch_proximity_names prox);
+"109
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 109: static void Proximity_Deviation_Update (enum mtouch_proximity_names prox);
 [v _Proximity_Deviation_Update `(v ~T0 @X0 0 sf1`E1553 ]
-[v F1694 `(v ~T0 @X0 0 tf1`*S203 ]
-"105
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 105: static void Proximity_Baseline_Initialize (mtouch_proximity_t* prox);
+[v F1714 `(v ~T0 @X0 0 tf1`*S203 ]
+"112
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 112: static void Proximity_Baseline_Initialize (mtouch_proximity_t* prox);
 [v _Proximity_Baseline_Initialize `(v ~T0 @X0 0 sf1`*S203 ]
-"106
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 106: static void Proximity_Baseline_Update (mtouch_proximity_t* prox);
+"113
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 113: static void Proximity_Baseline_Update (mtouch_proximity_t* prox);
 [v _Proximity_Baseline_Update `(v ~T0 @X0 0 sf1`*S203 ]
-"106 mcc_generated_files/mtouch/mtouch_proximity.h
-[; ;mcc_generated_files/mtouch/mtouch_proximity.h: 106:     mtouch_prox_reading_t MTOUCH_Proximity_Reading_Get (enum mtouch_proximity_names prox);
+"117 mcc_generated_files/mtouch/mtouch_proximity.h
+[; ;mcc_generated_files/mtouch/mtouch_proximity.h: 117:     mtouch_prox_reading_t MTOUCH_Proximity_Reading_Get (enum mtouch_proximity_names prox);
 [v _MTOUCH_Proximity_Reading_Get `(ul ~T0 @X0 0 ef1`E1553 ]
-"107
-[; ;mcc_generated_files/mtouch/mtouch_proximity.h: 107:     mtouch_prox_reading_t MTOUCH_Proximity_Baseline_Get (enum mtouch_proximity_names prox);
+"118
+[; ;mcc_generated_files/mtouch/mtouch_proximity.h: 118:     mtouch_prox_reading_t MTOUCH_Proximity_Baseline_Get (enum mtouch_proximity_names prox);
 [v _MTOUCH_Proximity_Baseline_Get `(ul ~T0 @X0 0 ef1`E1553 ]
-"260 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 260:     else if ((prox->integratedDeviation) < (prox->threshold-((prox->threshold) >> HYST_50_PERCENT)))
-[c E1618 1 2 3 4 5 .. ]
-[n E1618 mtouch_proximity_hysteresis_thresholds HYST_50_PERCENT HYST_25_PERCENT HYST_12_5_PERCENT HYST_6_25_PERCENT HYST_MAX  ]
-"108
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 108: static void Proximity_Tick_helper (mtouch_proximity_t* prox);
+"267 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 267:     else if ((prox->integratedDeviation) < (prox->threshold-((prox->threshold) >> HYST_50_PERCENT)))
+[c E1636 1 2 3 4 5 .. ]
+[n E1636 mtouch_proximity_hysteresis_thresholds HYST_50_PERCENT HYST_25_PERCENT HYST_12_5_PERCENT HYST_6_25_PERCENT HYST_MAX  ]
+"115
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 115: static void Proximity_Tick_helper (mtouch_proximity_t* prox);
 [v _Proximity_Tick_helper `(v ~T0 @X0 0 sf1`*S203 ]
 "3579 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3579: extern volatile __bit GIE __attribute__((address(0x5F)));
 [v _GIE `Vb ~T0 @X0 0 e@95 ]
-"104 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 104: static void Proximity_Reading_Update_Helper (mtouch_proximity_t* prox);
+"111 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 111: static void Proximity_Reading_Update_Helper (mtouch_proximity_t* prox);
 [v _Proximity_Reading_Update_Helper `(v ~T0 @X0 0 sf1`*S203 ]
 "99 mcc_generated_files/mtouch/mtouch_sensor.h
 [; ;mcc_generated_files/mtouch/mtouch_sensor.h: 99:     mtouch_sensor_sample_t MTOUCH_Sensor_RawSample_Get (enum mtouch_sensor_names sensor);
 [v _MTOUCH_Sensor_RawSample_Get `(us ~T0 @X0 0 ef1`E1502 ]
-"107 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 107: static mtouch_prox_reading_t Proximity_Baseline_Get_helper (enum mtouch_proximity_names prox);
+"114 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 114: static mtouch_prox_reading_t Proximity_Baseline_Get_helper (enum mtouch_proximity_names prox);
 [v _Proximity_Baseline_Get_helper `(ul ~T0 @X0 0 sf1`E1553 ]
-[v F1748 `(v ~T0 @X0 0 tf1`E1553 ]
-[v F1751 `(v ~T0 @X0 0 tf1`E1553 ]
-[v F1756 `(v ~T0 @X0 0 tf1`E1553 ]
-[v F1759 `(v ~T0 @X0 0 tf1`E1553 ]
-"1204 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1204:     struct {
-[s S75 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S75 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
-"1203
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1203: typedef union {
-[u S74 `S75 1 ]
-[n S74 . . ]
-"1213
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 1213: extern volatile LATAbits_t LATAbits __attribute__((address(0x10C)));
-[v _LATAbits `VS74 ~T0 @X0 0 e@268 ]
+[v F1768 `(v ~T0 @X0 0 tf1`E1553 ]
+[v F1771 `(v ~T0 @X0 0 tf1`E1553 ]
+[v F1776 `(v ~T0 @X0 0 tf1`E1553 ]
+[v F1779 `(v ~T0 @X0 0 tf1`E1553 ]
+"204 mcc_generated_files/mtouch/../tmr0.h
+[; ;mcc_generated_files/mtouch/../tmr0.h: 204: void TMR0_Reload(void);
+[v _TMR0_Reload `(v ~T0 @X0 0 ef ]
+"276
+[; ;mcc_generated_files/mtouch/../tmr0.h: 276: void TMR0_Interrupt_Enable(void);
+[v _TMR0_Interrupt_Enable `(v ~T0 @X0 0 ef ]
+"278
+[; ;mcc_generated_files/mtouch/../tmr0.h: 278: void TMR0_Interrupt_Disable(void);
+[v _TMR0_Interrupt_Disable `(v ~T0 @X0 0 ef ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 54: __asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
@@ -372,15 +370,27 @@ Version 4.0 HI-TECH Software Intermediate Code
 "3360
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic12lf1552.h: 3360: __asm("AADRES1H equ 071Dh");
 [; <" AADRES1H equ 071Dh ;# ">
-"81 mcc_generated_files/mtouch/mtouch_proximity.c
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 81:     const mtouch_proximity_t mtouch_proximity_init[1u] =
+"66 mcc_generated_files/mtouch/mtouch_proximity.c
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 66: uint8_t Proximity_JudgingMask = 0;
+[v _Proximity_JudgingMask `uc ~T0 @X0 1 e ]
+[i _Proximity_JudgingMask
+-> -> 0 `i `uc
+]
+"67
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 67: volatile uint8_t Debounce_TimerCnt = 0;
+[v _Debounce_TimerCnt `Vuc ~T0 @X0 1 e ]
+[i _Debounce_TimerCnt
+-> -> 0 `i `uc
+]
+"88
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 88:     const mtouch_proximity_t mtouch_proximity_init[1u] =
 [v _mtouch_proximity_init `CS203 ~T0 @X0 -> -> 1 `i `ux e ]
 [i _mtouch_proximity_init
 :U ..
 :U ..
 -> . `E1553 0 `uc
 . `E1502 0
-. `E1614 0
+. `E1632 0
 -> -> -> 0 `i `l `ul
 -> -> -> 0 `i `l `ul
 -> -> 0 `i `c
@@ -391,24 +401,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ..
 ]
-"93
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 93:     static mtouch_proximity_t mtouch_proximity[1u];
+"100
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 100:     static mtouch_proximity_t mtouch_proximity[1u];
 [v _mtouch_proximity `S203 ~T0 @X0 -> -> 1 `i `ux s ]
-"119
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 119: static void (*callback_activated) (enum mtouch_proximity_names) = Proximity_DefaultCallback;
-[v _callback_activated `*F1663 ~T0 @X0 1 s ]
+"126
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 126: static void (*callback_activated) (enum mtouch_proximity_names) = Proximity_DefaultCallback;
+[v _callback_activated `*F1683 ~T0 @X0 1 s ]
 [i _callback_activated
 &U _Proximity_DefaultCallback
 ]
-"120
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 120: static void (*callback_notActivated)(enum mtouch_proximity_names) = Proximity_DefaultCallback;
-[v _callback_notActivated `*F1668 ~T0 @X0 1 s ]
+"127
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 127: static void (*callback_notActivated)(enum mtouch_proximity_names) = Proximity_DefaultCallback;
+[v _callback_notActivated `*F1688 ~T0 @X0 1 s ]
 [i _callback_notActivated
 &U _Proximity_DefaultCallback
 ]
-"129
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 129: proximity_statemachine_state_t Proximity_StateMachine[] =
-[v _Proximity_StateMachine `*F1676 ~T0 @X0 -> 3 `i e ]
+"136
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 136: proximity_statemachine_state_t Proximity_StateMachine[] =
+[v _Proximity_StateMachine `*F1696 ~T0 @X0 -> 3 `i e ]
 [i _Proximity_StateMachine
 :U ..
 &U _Proximity_State_Initializing
@@ -416,1032 +426,1032 @@ Version 4.0 HI-TECH Software Intermediate Code
 &U _Proximity_State_Activated
 ..
 ]
-"142
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 142: void MTOUCH_Proximity_Initialize(enum mtouch_proximity_names name)
+"149
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 149: void MTOUCH_Proximity_Initialize(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_Initialize `(v ~T0 @X0 1 ef1`E1553 ]
-"143
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 143: {
+"150
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 150: {
 {
 [e :U _MTOUCH_Proximity_Initialize ]
-"142
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 142: void MTOUCH_Proximity_Initialize(enum mtouch_proximity_names name)
+"149
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 149: void MTOUCH_Proximity_Initialize(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"143
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 143: {
+"150
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 150: {
 [f ]
-"144
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 144:     mtouch_proximity_t* prox = &mtouch_proximity[name];
+"151
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 151:     mtouch_proximity_t* prox = &mtouch_proximity[name];
 [v _prox `*S203 ~T0 @X0 1 a ]
 [e = _prox &U *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux ]
-"146
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 146:     prox->state = MTOUCH_PROXIMITY_STATE_initializing;
-[e = . *U _prox 2 . `E1614 0 ]
-"147
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 147:     prox->baseline = (mtouch_prox_baseline_t)0;
+"153
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 153:     prox->state = MTOUCH_PROXIMITY_STATE_initializing;
+[e = . *U _prox 2 . `E1632 0 ]
+"154
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 154:     prox->baseline = (mtouch_prox_baseline_t)0;
 [e = . *U _prox 4 -> -> 0 `i `ul ]
-"148
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 148:     prox->counter = (mtouch_prox_statecounter_t)0;
+"155
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 155:     prox->counter = (mtouch_prox_statecounter_t)0;
 [e = . *U _prox 6 -> -> 0 `i `us ]
-"149
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 149:     prox->baseline_count = (mtouch_prox_baselinecounter_t)0;
+"156
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 156:     prox->baseline_count = (mtouch_prox_baselinecounter_t)0;
 [e = . *U _prox 7 -> -> 0 `i `us ]
-"151
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 151: }
+"158
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 158: }
 [e :UE 204 ]
 }
-"153
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 153: void MTOUCH_Proximity_Recalibrate(void)
+"160
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 160: void MTOUCH_Proximity_Recalibrate(void)
 [v _MTOUCH_Proximity_Recalibrate `(v ~T0 @X0 1 ef ]
-"154
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 154: {
+"161
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 161: {
 {
 [e :U _MTOUCH_Proximity_Recalibrate ]
 [f ]
-"155
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 155:     uint8_t i;
+"162
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 162:     uint8_t i;
 [v _i `uc ~T0 @X0 1 a ]
-"156
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 156:     for (i = 0; i < 1u; i++)
+"163
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 163:     for (i = 0; i < 1u; i++)
 {
 [e = _i -> -> 0 `i `uc ]
 [e $ < -> _i `ui -> 1 `ui 206  ]
 [e $U 207  ]
 [e :U 206 ]
-"157
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 157:     {
+"164
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 164:     {
 {
-"158
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 158:         MTOUCH_Proximity_Initialize(i);
+"165
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 165:         MTOUCH_Proximity_Initialize(i);
 [e ( _MTOUCH_Proximity_Initialize (1 -> _i `E1553 ]
-"159
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 159:     }
+"166
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 166:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
 [e $ < -> _i `ui -> 1 `ui 206  ]
 [e :U 207 ]
 }
-"160
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 160: }
-[e :UE 205 ]
-}
-"162
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 162: void MTOUCH_Proximity_InitializeAll(void)
-[v _MTOUCH_Proximity_InitializeAll `(v ~T0 @X0 1 ef ]
-"163
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 163: {
-{
-[e :U _MTOUCH_Proximity_InitializeAll ]
-[f ]
-"164
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 164:     memcpy(mtouch_proximity,mtouch_proximity_init,sizeof(mtouch_proximity_init));
-[e ( _memcpy (3 , , -> &U _mtouch_proximity `*v -> &U _mtouch_proximity_init `*Cv -> # _mtouch_proximity_init `ui ]
-"166
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 166:     MTOUCH_Proximity_Initialize(Proximity_WearingDetect);
-[e ( _MTOUCH_Proximity_Initialize (1 . `E1553 0 ]
 "167
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 167: }
-[e :UE 209 ]
+[e :UE 205 ]
 }
 "169
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 169: void MTOUCH_Proximity_ServiceAll(void)
-[v _MTOUCH_Proximity_ServiceAll `(v ~T0 @X0 1 ef ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 169: void MTOUCH_Proximity_InitializeAll(void)
+[v _MTOUCH_Proximity_InitializeAll `(v ~T0 @X0 1 ef ]
 "170
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 170: {
 {
-[e :U _MTOUCH_Proximity_ServiceAll ]
+[e :U _MTOUCH_Proximity_InitializeAll ]
 [f ]
 "171
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 171:     Proximity_Service(Proximity_WearingDetect);
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 171:     memcpy(mtouch_proximity,mtouch_proximity_init,sizeof(mtouch_proximity_init));
+[e ( _memcpy (3 , , -> &U _mtouch_proximity `*v -> &U _mtouch_proximity_init `*Cv -> # _mtouch_proximity_init `ui ]
+"173
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 173:     MTOUCH_Proximity_Initialize(Proximity_WearingDetect);
+[e ( _MTOUCH_Proximity_Initialize (1 . `E1553 0 ]
+"174
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 174: }
+[e :UE 209 ]
+}
+"176
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 176: void MTOUCH_Proximity_ServiceAll(void)
+[v _MTOUCH_Proximity_ServiceAll `(v ~T0 @X0 1 ef ]
+"177
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 177: {
+{
+[e :U _MTOUCH_Proximity_ServiceAll ]
+[f ]
+"178
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 178:     Proximity_Service(Proximity_WearingDetect);
 [e ( _Proximity_Service (1 . `E1553 0 ]
-"172
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 172: }
+"179
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 179: }
 [e :UE 210 ]
 }
-"179
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 179: static void Proximity_Service(enum mtouch_proximity_names name)
+"186
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 186: static void Proximity_Service(enum mtouch_proximity_names name)
 [v _Proximity_Service `(v ~T0 @X0 1 sf1`E1553 ]
-"180
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 180: {
+"187
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 187: {
 {
 [e :U _Proximity_Service ]
-"179
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 179: static void Proximity_Service(enum mtouch_proximity_names name)
+"186
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 186: static void Proximity_Service(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"180
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 180: {
+"187
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 187: {
 [f ]
-"181
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 181:     mtouch_proximity_t* prox = &mtouch_proximity[name];
+"188
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 188:     mtouch_proximity_t* prox = &mtouch_proximity[name];
 [v _prox `*S203 ~T0 @X0 1 a ]
 [e = _prox &U *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux ]
-"183
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 183:     if (MTOUCH_Sensor_wasSampled(prox->sensor) && MTOUCH_Sensor_isCalibrated(prox->sensor))
-[e $ ! && != -> ( _MTOUCH_Sensor_wasSampled (1 . *U _prox 1 `i -> 0 `i != -> ( _MTOUCH_Sensor_isCalibrated (1 . *U _prox 1 `i -> 0 `i 212  ]
-"184
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 184:     {
-{
-"185
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 185:         Proximity_Reading_Update(prox);
-[e ( _Proximity_Reading_Update (1 _prox ]
-"186
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 186:         Proximity_Deviation_Update(name);
-[e ( _Proximity_Deviation_Update (1 _name ]
-"188
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 188:         if (prox->state >= (uint8_t)(sizeof(Proximity_StateMachine)/sizeof(proximity_statemachine_state_t)))
-[e $ ! >= -> . *U _prox 2 `ui -> -> / -> # _Proximity_StateMachine `ui -> # `*F1694 `ui `uc `ui 213  ]
-"189
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 189:         {
-{
 "190
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 190:             MTOUCH_Proximity_Initialize(prox->name);
-[e ( _MTOUCH_Proximity_Initialize (1 -> . *U _prox 0 `E1553 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 190:     if (MTOUCH_Sensor_wasSampled(prox->sensor) && MTOUCH_Sensor_isCalibrated(prox->sensor))
+[e $ ! && != -> ( _MTOUCH_Sensor_wasSampled (1 . *U _prox 1 `i -> 0 `i != -> ( _MTOUCH_Sensor_isCalibrated (1 . *U _prox 1 `i -> 0 `i 212  ]
 "191
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 191:         }
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 191:     {
+{
+"192
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 192:         Proximity_Reading_Update(prox);
+[e ( _Proximity_Reading_Update (1 _prox ]
+"193
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 193:         Proximity_Deviation_Update(name);
+[e ( _Proximity_Deviation_Update (1 _name ]
+"195
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 195:         if (prox->state >= (uint8_t)(sizeof(Proximity_StateMachine)/sizeof(proximity_statemachine_state_t)))
+[e $ ! >= -> . *U _prox 2 `ui -> -> / -> # _Proximity_StateMachine `ui -> # `*F1714 `ui `uc `ui 213  ]
+"196
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 196:         {
+{
+"197
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 197:             MTOUCH_Proximity_Initialize(prox->name);
+[e ( _MTOUCH_Proximity_Initialize (1 -> . *U _prox 0 `E1553 ]
+"198
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 198:         }
 }
 [e :U 213 ]
-"192
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 192:         Proximity_StateMachine[prox->state](prox);
+"199
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 199:         Proximity_StateMachine[prox->state](prox);
 [e ( *U *U + &U _Proximity_StateMachine * -> . *U _prox 2 `ux -> -> # *U &U _Proximity_StateMachine `ui `ux (1 _prox ]
-"193
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 193:     }
+"200
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 200:     }
 }
 [e :U 212 ]
-"194
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 194: }
+"201
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 201: }
 [e :UE 211 ]
 }
-"195
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 195: static void Proximity_State_Initializing(mtouch_proximity_t* prox)
+"202
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 202: static void Proximity_State_Initializing(mtouch_proximity_t* prox)
 [v _Proximity_State_Initializing `(v ~T0 @X0 1 sf1`*S203 ]
-"196
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 196: {
+"203
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 203: {
 {
 [e :U _Proximity_State_Initializing ]
-"195
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 195: static void Proximity_State_Initializing(mtouch_proximity_t* prox)
+"202
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 202: static void Proximity_State_Initializing(mtouch_proximity_t* prox)
 [v _prox `*S203 ~T0 @X0 1 r1 ]
-"196
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 196: {
+"203
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 203: {
 [f ]
-"198
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 198:     if ((prox->counter) <= (mtouch_prox_statecounter_t)((mtouch_prox_baselinecounter_t)16u)/2)
+"205
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 205:     if ((prox->counter) <= (mtouch_prox_statecounter_t)((mtouch_prox_baselinecounter_t)16u)/2)
 [e $ ! <= -> . *U _prox 6 `ui / -> -> -> 16 `ui `us `ui -> -> 2 `i `ui 215  ]
-"199
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 199:     {
+"206
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 206:     {
 {
-"200
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 200:         Proximity_Baseline_Initialize(prox);
+"207
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 207:         Proximity_Baseline_Initialize(prox);
 [e ( _Proximity_Baseline_Initialize (1 _prox ]
-"201
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 201:     } else {
+"208
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 208:     } else {
 }
 [e $U 216  ]
 [e :U 215 ]
 {
-"202
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 202:         Proximity_Baseline_Update(prox);
+"209
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 209:         Proximity_Baseline_Update(prox);
 [e ( _Proximity_Baseline_Update (1 _prox ]
-"203
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 203:     }
+"210
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 210:     }
 }
 [e :U 216 ]
-"206
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 206:     (prox->counter)++;
+"213
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 213:     (prox->counter)++;
 [e ++ . *U _prox 6 -> -> 1 `i `us ]
-"207
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 207:     if ((prox->counter) >= (mtouch_prox_statecounter_t)((mtouch_prox_baselinecounter_t)16u))
+"214
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 214:     if ((prox->counter) >= (mtouch_prox_statecounter_t)((mtouch_prox_baselinecounter_t)16u))
 [e $ ! >= -> . *U _prox 6 `ui -> -> -> 16 `ui `us `ui 217  ]
-"208
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 208:     {
+"215
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 215:     {
 {
-"209
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 209:         prox->state = MTOUCH_PROXIMITY_STATE_notActivated;
-[e = . *U _prox 2 . `E1614 1 ]
-"210
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 210:         prox->counter = (mtouch_prox_statecounter_t)0;
+"216
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 216:         prox->state = MTOUCH_PROXIMITY_STATE_notActivated;
+[e = . *U _prox 2 . `E1632 1 ]
+"217
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 217:         prox->counter = (mtouch_prox_statecounter_t)0;
 [e = . *U _prox 6 -> -> 0 `i `us ]
-"211
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 211:     }
+"218
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 218:     }
 }
 [e :U 217 ]
-"213
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 213: }
+"220
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 220: }
 [e :UE 214 ]
 }
-"214
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 214: static void Proximity_State_NotActivated(mtouch_proximity_t* prox)
+"221
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 221: static void Proximity_State_NotActivated(mtouch_proximity_t* prox)
 [v _Proximity_State_NotActivated `(v ~T0 @X0 1 sf1`*S203 ]
-"215
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 215: {
+"222
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 222: {
 {
 [e :U _Proximity_State_NotActivated ]
-"214
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 214: static void Proximity_State_NotActivated(mtouch_proximity_t* prox)
+"221
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 221: static void Proximity_State_NotActivated(mtouch_proximity_t* prox)
 [v _prox `*S203 ~T0 @X0 1 r1 ]
-"215
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 215: {
+"222
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 222: {
 [f ]
-"217
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 217:     int32_t deviation = (int32_t)((uint32_t)(MTOUCH_Proximity_Reading_Get(prox->name)) - (uint32_t)(MTOUCH_Proximity_Baseline_Get(prox->name)));
+"224
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 224:     int32_t deviation = (int32_t)((uint32_t)(MTOUCH_Proximity_Reading_Get(prox->name)) - (uint32_t)(MTOUCH_Proximity_Baseline_Get(prox->name)));
 [v _deviation `l ~T0 @X0 1 a ]
 [e = _deviation -> - ( _MTOUCH_Proximity_Reading_Get (1 -> . *U _prox 0 `E1553 ( _MTOUCH_Proximity_Baseline_Get (1 -> . *U _prox 0 `E1553 `l ]
-"218
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 218:     if (deviation < (int32_t)(-prox->threshold))
-[e $ ! < _deviation -> -U -> . *U _prox 8 `i `l 219  ]
-"219
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 219:     {
-{
-"220
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 220:         (prox->counter)++;
-[e ++ . *U _prox 6 -> -> 1 `i `us ]
-"221
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 221:         if ((prox->counter) > (mtouch_prox_statecounter_t)((mtouch_prox_statecounter_t)32u))
-[e $ ! > -> . *U _prox 6 `ui -> -> -> 32 `ui `us `ui 220  ]
-"222
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 222:         {
-{
-"223
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 223:             prox->counter = (mtouch_prox_statecounter_t)0;
-[e = . *U _prox 6 -> -> 0 `i `us ]
-"224
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 224:             MTOUCH_Proximity_Initialize(prox->name);
-[e ( _MTOUCH_Proximity_Initialize (1 -> . *U _prox 0 `E1553 ]
 "225
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 225:         }
-}
-[e :U 220 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 225:     if (deviation < (int32_t)(-prox->threshold))
+[e $ ! < _deviation -> -U -> . *U _prox 8 `i `l 219  ]
 "226
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 226:     }
-}
-[e $U 221  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 226:     {
+{
+"227
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 227:         (prox->counter)++;
+[e ++ . *U _prox 6 -> -> 1 `i `us ]
 "228
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 228:     else if ((prox->integratedDeviation) > (prox->threshold))
-[e :U 219 ]
-[e $ ! > -> . *U _prox 5 `i -> . *U _prox 8 `i 222  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 228:         if ((prox->counter) > (mtouch_prox_statecounter_t)((mtouch_prox_statecounter_t)32u))
+[e $ ! > -> . *U _prox 6 `ui -> -> -> 32 `ui `us `ui 220  ]
 "229
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 229:     {
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 229:         {
 {
 "230
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 230:         prox->state = MTOUCH_PROXIMITY_STATE_activated;
-[e = . *U _prox 2 . `E1614 2 ]
-"231
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 231:         prox->counter = (mtouch_prox_statecounter_t)0;
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 230:             prox->counter = (mtouch_prox_statecounter_t)0;
 [e = . *U _prox 6 -> -> 0 `i `us ]
+"231
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 231:             MTOUCH_Proximity_Initialize(prox->name);
+[e ( _MTOUCH_Proximity_Initialize (1 -> . *U _prox 0 `E1553 ]
 "232
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 232:         callback_activated(prox->name);
-[e ( *U _callback_activated (1 -> . *U _prox 0 `E1553 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 232:         }
+}
+[e :U 220 ]
 "233
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 233:     }
 }
-[e $U 223  ]
-"234
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 234:     else
-[e :U 222 ]
+[e $U 221  ]
 "235
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 235:     {
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 235:     else if ((prox->integratedDeviation) > (prox->threshold))
+[e :U 219 ]
+[e $ ! > -> . *U _prox 5 `i -> . *U _prox 8 `i 222  ]
+"236
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 236:     {
 {
 "237
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 237:         prox->counter = (mtouch_prox_statecounter_t)0;
-[e = . *U _prox 6 -> -> 0 `i `us ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 237:         prox->state = MTOUCH_PROXIMITY_STATE_activated;
+[e = . *U _prox 2 . `E1632 2 ]
 "238
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 238:     }
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 238:         prox->counter = (mtouch_prox_statecounter_t)0;
+[e = . *U _prox 6 -> -> 0 `i `us ]
+"239
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 239:         callback_activated(prox->name);
+[e ( *U _callback_activated (1 -> . *U _prox 0 `E1553 ]
+"240
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 240:     }
+}
+[e $U 223  ]
+"241
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 241:     else
+[e :U 222 ]
+"242
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 242:     {
+{
+"244
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 244:         prox->counter = (mtouch_prox_statecounter_t)0;
+[e = . *U _prox 6 -> -> 0 `i `us ]
+"245
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 245:     }
 }
 [e :U 223 ]
 [e :U 221 ]
-"242
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 242:     (prox->baseline_count)++;
+"249
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 249:     (prox->baseline_count)++;
 [e ++ . *U _prox 7 -> -> 1 `i `us ]
-"243
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 243:     if ((prox->baseline_count) == ((mtouch_prox_baselinecounter_t)128u))
+"250
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 250:     if ((prox->baseline_count) == ((mtouch_prox_baselinecounter_t)128u))
 [e $ ! == -> . *U _prox 7 `ui -> -> -> 128 `ui `us `ui 224  ]
-"244
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 244:     {
+"251
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 251:     {
 {
-"245
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 245:         prox->baseline_count = (mtouch_prox_baselinecounter_t)0;
+"252
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 252:         prox->baseline_count = (mtouch_prox_baselinecounter_t)0;
 [e = . *U _prox 7 -> -> 0 `i `us ]
-"246
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 246:         Proximity_Baseline_Update(prox);
+"253
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 253:         Proximity_Baseline_Update(prox);
 [e ( _Proximity_Baseline_Update (1 _prox ]
-"247
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 247:     }
+"254
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 254:     }
 }
 [e :U 224 ]
-"248
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 248: }
+"255
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 255: }
 [e :UE 218 ]
 }
-"250
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 250: static void Proximity_State_Activated(mtouch_proximity_t* prox)
+"257
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 257: static void Proximity_State_Activated(mtouch_proximity_t* prox)
 [v _Proximity_State_Activated `(v ~T0 @X0 1 sf1`*S203 ]
-"251
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 251: {
+"258
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 258: {
 {
 [e :U _Proximity_State_Activated ]
-"250
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 250: static void Proximity_State_Activated(mtouch_proximity_t* prox)
-[v _prox `*S203 ~T0 @X0 1 r1 ]
-"251
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 251: {
-[f ]
-"253
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 253:     if ((prox->counter) >= ((mtouch_prox_statecounter_t)1000u))
-[e $ ! >= -> . *U _prox 6 `ui -> -> -> 1000 `ui `us `ui 226  ]
-"254
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 254:     {
-{
-"255
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 255:         MTOUCH_Proximity_Initialize(prox->name);
-[e ( _MTOUCH_Proximity_Initialize (1 -> . *U _prox 0 `E1553 ]
-"256
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 256:         callback_notActivated(prox->name);
-[e ( *U _callback_notActivated (1 -> . *U _prox 0 `E1553 ]
 "257
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 257:     }
-}
-[e $U 227  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 257: static void Proximity_State_Activated(mtouch_proximity_t* prox)
+[v _prox `*S203 ~T0 @X0 1 r1 ]
+"258
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 258: {
+[f ]
 "260
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 260:     else if ((prox->integratedDeviation) < (prox->threshold-((prox->threshold) >> HYST_50_PERCENT)))
-[e :U 226 ]
-[e $ ! < -> . *U _prox 5 `i - -> . *U _prox 8 `i >> -> . *U _prox 8 `i -> . `E1618 0 `i 228  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 260:     if ((prox->counter) >= ((mtouch_prox_statecounter_t)1000u))
+[e $ ! >= -> . *U _prox 6 `ui -> -> -> 1000 `ui `us `ui 226  ]
 "261
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 261:     {
 {
 "262
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 262:         prox->state = MTOUCH_PROXIMITY_STATE_notActivated;
-[e = . *U _prox 2 . `E1614 1 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 262:         MTOUCH_Proximity_Initialize(prox->name);
+[e ( _MTOUCH_Proximity_Initialize (1 -> . *U _prox 0 `E1553 ]
 "263
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 263:         prox->counter = (mtouch_prox_statecounter_t)0;
-[e = . *U _prox 6 -> -> 0 `i `us ]
-"264
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 264:         prox->baseline_count = (mtouch_prox_baselinecounter_t)((0xffff))-((mtouch_prox_baselinecounter_t)1024u);
-[e = . *U _prox 7 -> - -> -> -> 65535 `ui `us `ui -> -> -> 1024 `ui `us `ui `us ]
-"265
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 265:         callback_notActivated(prox->name);
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 263:         callback_notActivated(prox->name);
 [e ( *U _callback_notActivated (1 -> . *U _prox 0 `E1553 ]
-"266
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 266:     }
+"264
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 264:     }
+}
+[e $U 227  ]
+"267
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 267:     else if ((prox->integratedDeviation) < (prox->threshold-((prox->threshold) >> HYST_50_PERCENT)))
+[e :U 226 ]
+[e $ ! < -> . *U _prox 5 `i - -> . *U _prox 8 `i >> -> . *U _prox 8 `i -> . `E1636 0 `i 228  ]
+"268
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 268:     {
+{
+"269
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 269:         prox->state = MTOUCH_PROXIMITY_STATE_notActivated;
+[e = . *U _prox 2 . `E1632 1 ]
+"270
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 270:         prox->counter = (mtouch_prox_statecounter_t)0;
+[e = . *U _prox 6 -> -> 0 `i `us ]
+"271
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 271:         prox->baseline_count = (mtouch_prox_baselinecounter_t)((0xffff))-((mtouch_prox_baselinecounter_t)1024u);
+[e = . *U _prox 7 -> - -> -> -> 65535 `ui `us `ui -> -> -> 1024 `ui `us `ui `us ]
+"272
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 272:         callback_notActivated(prox->name);
+[e ( *U _callback_notActivated (1 -> . *U _prox 0 `E1553 ]
+"273
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 273:     }
 }
 [e :U 228 ]
 [e :U 227 ]
-"267
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 267: }
+"274
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 274: }
 [e :UE 225 ]
 }
-"275
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 275: void MTOUCH_Proximity_Tick(void)
+"282
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 282: void MTOUCH_Proximity_Tick(void)
 [v _MTOUCH_Proximity_Tick `(v ~T0 @X0 1 ef ]
-"276
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 276: {
+"283
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 283: {
 {
 [e :U _MTOUCH_Proximity_Tick ]
 [f ]
-"277
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 277:     Proximity_Tick_helper(&mtouch_proximity[0]);
+"284
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 284:     Proximity_Tick_helper(&mtouch_proximity[0]);
 [e ( _Proximity_Tick_helper (1 &U *U + &U _mtouch_proximity * -> -> -> 0 `i `ui `ux -> -> # *U &U _mtouch_proximity `ui `ux ]
-"278
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 278: }
+"285
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 285: }
 [e :UE 229 ]
 }
-"279
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 279: static void Proximity_Tick_helper(mtouch_proximity_t* prox)
+"286
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 286: static void Proximity_Tick_helper(mtouch_proximity_t* prox)
 [v _Proximity_Tick_helper `(v ~T0 @X0 1 sf1`*S203 ]
-"280
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 280: {
+"287
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 287: {
 {
 [e :U _Proximity_Tick_helper ]
-"279
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 279: static void Proximity_Tick_helper(mtouch_proximity_t* prox)
-[v _prox `*S203 ~T0 @X0 1 r1 ]
-"280
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 280: {
-[f ]
-"282
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 282:     if ((prox->state) == MTOUCH_PROXIMITY_STATE_activated)
-[e $ ! == -> . *U _prox 2 `ui -> . `E1614 2 `ui 231  ]
-"283
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 283:     {
-{
-"284
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 284:         (prox->counter)++;
-[e ++ . *U _prox 6 -> -> 1 `i `us ]
-"285
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 285:         if (prox->counter == (mtouch_prox_statecounter_t)0)
-[e $ ! == -> . *U _prox 6 `ui -> -> -> 0 `i `us `ui 232  ]
 "286
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 286:         {
-{
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 286: static void Proximity_Tick_helper(mtouch_proximity_t* prox)
+[v _prox `*S203 ~T0 @X0 1 r1 ]
 "287
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 287:             prox->counter = (mtouch_prox_statecounter_t)0xFFFF;
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 287: {
+[f ]
+"289
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 289:     if ((prox->state) == MTOUCH_PROXIMITY_STATE_activated)
+[e $ ! == -> . *U _prox 2 `ui -> . `E1632 2 `ui 231  ]
+"290
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 290:     {
+{
+"291
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 291:         (prox->counter)++;
+[e ++ . *U _prox 6 -> -> 1 `i `us ]
+"292
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 292:         if (prox->counter == (mtouch_prox_statecounter_t)0)
+[e $ ! == -> . *U _prox 6 `ui -> -> -> 0 `i `us `ui 232  ]
+"293
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 293:         {
+{
+"294
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 294:             prox->counter = (mtouch_prox_statecounter_t)0xFFFF;
 [e = . *U _prox 6 -> -> 65535 `ui `us ]
-"288
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 288:         }
+"295
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 295:         }
 }
 [e :U 232 ]
-"289
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 289:     }
+"296
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 296:     }
 }
 [e :U 231 ]
-"290
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 290: }
+"297
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 297: }
 [e :UE 230 ]
 }
-"299
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 299: mtouch_prox_threshold_t MTOUCH_Proximity_Threshold_Get(enum mtouch_proximity_names name)
+"306
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 306: mtouch_prox_threshold_t MTOUCH_Proximity_Threshold_Get(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_Threshold_Get `(uc ~T0 @X0 1 ef1`E1553 ]
-"300
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 300: {
+"307
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 307: {
 {
 [e :U _MTOUCH_Proximity_Threshold_Get ]
-"299
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 299: mtouch_prox_threshold_t MTOUCH_Proximity_Threshold_Get(enum mtouch_proximity_names name)
+"306
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 306: mtouch_prox_threshold_t MTOUCH_Proximity_Threshold_Get(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"300
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 300: {
+"307
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 307: {
 [f ]
-"301
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 301:     if(name < 1u)
+"308
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 308:     if(name < 1u)
 [e $ ! < -> _name `ui -> 1 `ui 234  ]
-"302
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 302:         return mtouch_proximity[name].threshold;
+"309
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 309:         return mtouch_proximity[name].threshold;
 [e ) -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 8 `uc ]
 [e $UE 233  ]
 [e $U 235  ]
-"303
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 303:     else
+"310
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 310:     else
 [e :U 234 ]
-"304
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 304:         return (mtouch_prox_deviation_t)0;
+"311
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 311:         return (mtouch_prox_deviation_t)0;
 [e ) -> -> -> 0 `i `c `uc ]
 [e $UE 233  ]
 [e :U 235 ]
-"305
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 305: }
-[e :UE 233 ]
-}
-"307
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 307: void MTOUCH_Proximity_Threshold_Set(enum mtouch_proximity_names name,mtouch_prox_threshold_t threshold)
-[v _MTOUCH_Proximity_Threshold_Set `(v ~T0 @X0 1 ef2`E1553`uc ]
-"308
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 308: {
-{
-[e :U _MTOUCH_Proximity_Threshold_Set ]
-"307
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 307: void MTOUCH_Proximity_Threshold_Set(enum mtouch_proximity_names name,mtouch_prox_threshold_t threshold)
-[v _name `E1553 ~T0 @X0 1 r1 ]
-[v _threshold `uc ~T0 @X0 1 r2 ]
-"308
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 308: {
-[f ]
-"309
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 309:     if(name < 1u)
-[e $ ! < -> _name `ui -> 1 `ui 237  ]
-"310
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 310:         if(threshold >= ((mtouch_prox_threshold_t)(1)) && threshold <= ((mtouch_prox_threshold_t)(127)))
-[e $ ! && >= -> _threshold `i -> -> -> 1 `i `uc `i <= -> _threshold `i -> -> -> 127 `i `uc `i 238  ]
-"311
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 311:             mtouch_proximity[name].threshold = threshold;
-[e = . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 8 -> _threshold `c ]
-[e :U 238 ]
-[e :U 237 ]
 "312
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 312: }
-[e :UE 236 ]
+[e :UE 233 ]
 }
 "314
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 314: mtouch_prox_scaling_t MTOUCH_Proximity_Scaling_Get(enum mtouch_proximity_names name)
-[v _MTOUCH_Proximity_Scaling_Get `(uc ~T0 @X0 1 ef1`E1553 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 314: void MTOUCH_Proximity_Threshold_Set(enum mtouch_proximity_names name,mtouch_prox_threshold_t threshold)
+[v _MTOUCH_Proximity_Threshold_Set `(v ~T0 @X0 1 ef2`E1553`uc ]
 "315
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 315: {
 {
-[e :U _MTOUCH_Proximity_Scaling_Get ]
+[e :U _MTOUCH_Proximity_Threshold_Set ]
 "314
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 314: mtouch_prox_scaling_t MTOUCH_Proximity_Scaling_Get(enum mtouch_proximity_names name)
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 314: void MTOUCH_Proximity_Threshold_Set(enum mtouch_proximity_names name,mtouch_prox_threshold_t threshold)
 [v _name `E1553 ~T0 @X0 1 r1 ]
+[v _threshold `uc ~T0 @X0 1 r2 ]
 "315
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 315: {
 [f ]
 "316
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 316:     if(name < 1u)
-[e $ ! < -> _name `ui -> 1 `ui 240  ]
+[e $ ! < -> _name `ui -> 1 `ui 237  ]
 "317
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 317:         return mtouch_proximity[name].scaling;
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 317:         if(threshold >= ((mtouch_prox_threshold_t)(1)) && threshold <= ((mtouch_prox_threshold_t)(127)))
+[e $ ! && >= -> _threshold `i -> -> -> 1 `i `uc `i <= -> _threshold `i -> -> -> 127 `i `uc `i 238  ]
+"318
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 318:             mtouch_proximity[name].threshold = threshold;
+[e = . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 8 -> _threshold `c ]
+[e :U 238 ]
+[e :U 237 ]
+"319
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 319: }
+[e :UE 236 ]
+}
+"321
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 321: mtouch_prox_scaling_t MTOUCH_Proximity_Scaling_Get(enum mtouch_proximity_names name)
+[v _MTOUCH_Proximity_Scaling_Get `(uc ~T0 @X0 1 ef1`E1553 ]
+"322
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 322: {
+{
+[e :U _MTOUCH_Proximity_Scaling_Get ]
+"321
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 321: mtouch_prox_scaling_t MTOUCH_Proximity_Scaling_Get(enum mtouch_proximity_names name)
+[v _name `E1553 ~T0 @X0 1 r1 ]
+"322
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 322: {
+[f ]
+"323
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 323:     if(name < 1u)
+[e $ ! < -> _name `ui -> 1 `ui 240  ]
+"324
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 324:         return mtouch_proximity[name].scaling;
 [e ) . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 9 ]
 [e $UE 239  ]
 [e $U 241  ]
-"318
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 318:     else
+"325
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 325:     else
 [e :U 240 ]
-"319
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 319:         return (mtouch_prox_scaling_t)0;
+"326
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 326:         return (mtouch_prox_scaling_t)0;
 [e ) -> -> 0 `i `uc ]
 [e $UE 239  ]
 [e :U 241 ]
-"320
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 320: }
-[e :UE 239 ]
-}
-"322
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 322: void MTOUCH_Proximity_Scaling_Set(enum mtouch_proximity_names name,mtouch_prox_scaling_t scaling)
-[v _MTOUCH_Proximity_Scaling_Set `(v ~T0 @X0 1 ef2`E1553`uc ]
-"323
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 323: {
-{
-[e :U _MTOUCH_Proximity_Scaling_Set ]
-"322
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 322: void MTOUCH_Proximity_Scaling_Set(enum mtouch_proximity_names name,mtouch_prox_scaling_t scaling)
-[v _name `E1553 ~T0 @X0 1 r1 ]
-[v _scaling `uc ~T0 @X0 1 r2 ]
-"323
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 323: {
-[f ]
-"324
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 324:     if(name < 1u)
-[e $ ! < -> _name `ui -> 1 `ui 243  ]
-"325
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 325:         if(scaling <= ((mtouch_prox_scaling_t)(8)))
-[e $ ! <= -> _scaling `i -> -> -> 8 `i `uc `i 244  ]
-"326
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 326:             mtouch_proximity[name].scaling = scaling;
-[e = . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 9 _scaling ]
-[e :U 244 ]
-[e :U 243 ]
 "327
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 327: }
-[e :UE 242 ]
+[e :UE 239 ]
 }
 "329
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 329: _Bool MTOUCH_Proximity_isActivated(enum mtouch_proximity_names name)
-[v _MTOUCH_Proximity_isActivated `(a ~T0 @X0 1 ef1`E1553 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 329: void MTOUCH_Proximity_Scaling_Set(enum mtouch_proximity_names name,mtouch_prox_scaling_t scaling)
+[v _MTOUCH_Proximity_Scaling_Set `(v ~T0 @X0 1 ef2`E1553`uc ]
 "330
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 330: {
 {
-[e :U _MTOUCH_Proximity_isActivated ]
+[e :U _MTOUCH_Proximity_Scaling_Set ]
 "329
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 329: _Bool MTOUCH_Proximity_isActivated(enum mtouch_proximity_names name)
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 329: void MTOUCH_Proximity_Scaling_Set(enum mtouch_proximity_names name,mtouch_prox_scaling_t scaling)
 [v _name `E1553 ~T0 @X0 1 r1 ]
+[v _scaling `uc ~T0 @X0 1 r2 ]
 "330
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 330: {
 [f ]
 "331
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 331:     if(name < 1u)
-[e $ ! < -> _name `ui -> 1 `ui 246  ]
+[e $ ! < -> _name `ui -> 1 `ui 243  ]
 "332
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 332:         return (mtouch_proximity[name].state == MTOUCH_PROXIMITY_STATE_activated) ? 1 : 0;
-[e ) -> ? == -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 2 `ui -> . `E1614 2 `ui : -> 1 `i -> 0 `i `a ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 332:         if(scaling <= ((mtouch_prox_scaling_t)(8)))
+[e $ ! <= -> _scaling `i -> -> -> 8 `i `uc `i 244  ]
+"333
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 333:             mtouch_proximity[name].scaling = scaling;
+[e = . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 9 _scaling ]
+[e :U 244 ]
+[e :U 243 ]
+"334
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 334: }
+[e :UE 242 ]
+}
+"336
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 336: _Bool MTOUCH_Proximity_isActivated(enum mtouch_proximity_names name)
+[v _MTOUCH_Proximity_isActivated `(a ~T0 @X0 1 ef1`E1553 ]
+"337
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 337: {
+{
+[e :U _MTOUCH_Proximity_isActivated ]
+"336
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 336: _Bool MTOUCH_Proximity_isActivated(enum mtouch_proximity_names name)
+[v _name `E1553 ~T0 @X0 1 r1 ]
+"337
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 337: {
+[f ]
+"338
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 338:     if(name < 1u)
+[e $ ! < -> _name `ui -> 1 `ui 246  ]
+"339
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 339:         return (mtouch_proximity[name].state == MTOUCH_PROXIMITY_STATE_activated) ? 1 : 0;
+[e ) -> ? == -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 2 `ui -> . `E1632 2 `ui : -> 1 `i -> 0 `i `a ]
 [e $UE 245  ]
 [e $U 247  ]
-"333
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 333:     else
+"340
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 340:     else
 [e :U 246 ]
-"334
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 334:         return 0;
+"341
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 341:         return 0;
 [e ) -> -> 0 `i `a ]
 [e $UE 245  ]
 [e :U 247 ]
-"335
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 335: }
+"342
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 342: }
 [e :UE 245 ]
 }
-"337
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 337: _Bool MTOUCH_Proximity_isInitialized(enum mtouch_proximity_names name)
+"344
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 344: _Bool MTOUCH_Proximity_isInitialized(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_isInitialized `(a ~T0 @X0 1 ef1`E1553 ]
-"338
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 338: {
+"345
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 345: {
 {
 [e :U _MTOUCH_Proximity_isInitialized ]
-"337
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 337: _Bool MTOUCH_Proximity_isInitialized(enum mtouch_proximity_names name)
+"344
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 344: _Bool MTOUCH_Proximity_isInitialized(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"338
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 338: {
+"345
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 345: {
 [f ]
-"339
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 339:     if(name < 1u)
+"346
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 346:     if(name < 1u)
 [e $ ! < -> _name `ui -> 1 `ui 249  ]
-"340
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 340:         return (mtouch_proximity[name].state == MTOUCH_PROXIMITY_STATE_initializing) ? 0 : 1;
-[e ) -> ? == -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 2 `ui -> . `E1614 0 `ui : -> 0 `i -> 1 `i `a ]
+"347
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 347:         return (mtouch_proximity[name].state == MTOUCH_PROXIMITY_STATE_initializing) ? 0 : 1;
+[e ) -> ? == -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 2 `ui -> . `E1632 0 `ui : -> 0 `i -> 1 `i `a ]
 [e $UE 248  ]
 [e $U 250  ]
-"341
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 341:     else
+"348
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 348:     else
 [e :U 249 ]
-"342
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 342:         return 0;
+"349
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 349:         return 0;
 [e ) -> -> 0 `i `a ]
 [e $UE 248  ]
 [e :U 250 ]
-"343
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 343: }
+"350
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 350: }
 [e :UE 248 ]
 }
-"345
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 345: mtouch_prox_deviation_t MTOUCH_Proximity_Deviation_Get(enum mtouch_proximity_names name)
+"352
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 352: mtouch_prox_deviation_t MTOUCH_Proximity_Deviation_Get(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_Deviation_Get `(c ~T0 @X0 1 ef1`E1553 ]
-"346
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 346: {
+"353
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 353: {
 {
 [e :U _MTOUCH_Proximity_Deviation_Get ]
-"345
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 345: mtouch_prox_deviation_t MTOUCH_Proximity_Deviation_Get(enum mtouch_proximity_names name)
+"352
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 352: mtouch_prox_deviation_t MTOUCH_Proximity_Deviation_Get(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"346
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 346: {
+"353
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 353: {
 [f ]
-"347
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 347:     if(name < 1u)
+"354
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 354:     if(name < 1u)
 [e $ ! < -> _name `ui -> 1 `ui 252  ]
-"348
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 348:         return mtouch_proximity[name].integratedDeviation;
+"355
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 355:         return mtouch_proximity[name].integratedDeviation;
 [e ) . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 ]
 [e $UE 251  ]
 [e $U 253  ]
-"349
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 349:     else
+"356
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 356:     else
 [e :U 252 ]
-"350
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 350:         return (mtouch_prox_deviation_t)0;
+"357
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 357:         return (mtouch_prox_deviation_t)0;
 [e ) -> -> 0 `i `c ]
 [e $UE 251  ]
 [e :U 253 ]
-"351
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 351: }
+"358
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 358: }
 [e :UE 251 ]
 }
-"353
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 353: static void Proximity_Deviation_Update(enum mtouch_proximity_names name)
+"360
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 360: static void Proximity_Deviation_Update(enum mtouch_proximity_names name)
 [v _Proximity_Deviation_Update `(v ~T0 @X0 1 sf1`E1553 ]
-"354
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 354: {
+"361
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 361: {
 {
 [e :U _Proximity_Deviation_Update ]
-"353
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 353: static void Proximity_Deviation_Update(enum mtouch_proximity_names name)
+"360
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 360: static void Proximity_Deviation_Update(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"354
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 354: {
-[f ]
-"355
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 355:     int32_t deviation;
-[v _deviation `l ~T0 @X0 1 a ]
-"356
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 356:     deviation = (int32_t)((uint32_t)(MTOUCH_Proximity_Reading_Get(name)) - (uint32_t)(MTOUCH_Proximity_Baseline_Get(name)));
-[e = _deviation -> - ( _MTOUCH_Proximity_Reading_Get (1 _name ( _MTOUCH_Proximity_Baseline_Get (1 _name `l ]
-"358
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 358:     deviation = deviation >> (mtouch_proximity[name].scaling);
-[e = _deviation >> _deviation -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 9 `i ]
 "361
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 361:     if (deviation > ((0x7f)))
-[e $ ! > _deviation -> -> 127 `i `l 255  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 361: {
+[f ]
 "362
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 362:     {
-{
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 362:     int32_t deviation;
+[v _deviation `l ~T0 @X0 1 a ]
 "363
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 363:         deviation = ((0x7f));
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 363:     deviation = (int32_t)((uint32_t)(MTOUCH_Proximity_Reading_Get(name)) - (uint32_t)(MTOUCH_Proximity_Baseline_Get(name)));
+[e = _deviation -> - ( _MTOUCH_Proximity_Reading_Get (1 _name ( _MTOUCH_Proximity_Baseline_Get (1 _name `l ]
+"365
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 365:     deviation = deviation >> (mtouch_proximity[name].scaling);
+[e = _deviation >> _deviation -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 9 `i ]
+"368
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 368:     if (deviation > ((0x7f)))
+[e $ ! > _deviation -> -> 127 `i `l 255  ]
+"369
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 369:     {
+{
+"370
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 370:         deviation = ((0x7f));
 [e = _deviation -> -> 127 `i `l ]
-"364
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 364:     }
+"371
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 371:     }
 }
 [e :U 255 ]
-"365
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 365:     if (deviation < ((-1-0x7f)))
+"372
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 372:     if (deviation < ((-1-0x7f)))
 [e $ ! < _deviation -> - -U -> 1 `i -> 127 `i `l 256  ]
-"366
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 366:     {
+"373
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 373:     {
 {
-"367
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 367:         deviation = ((-1-0x7f));
+"374
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 374:         deviation = ((-1-0x7f));
 [e = _deviation -> - -U -> 1 `i -> 127 `i `l ]
-"368
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 368:     }
+"375
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 375:     }
 }
 [e :U 256 ]
-"370
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 370:     if(deviation < 0)
+"377
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 377:     if(deviation < 0)
 [e $ ! < _deviation -> -> 0 `i `l 257  ]
-"371
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 371:     {
+"378
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 378:     {
 {
-"372
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 372:         mtouch_proximity[name].integratedDeviation = 0;
+"379
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 379:         mtouch_proximity[name].integratedDeviation = 0;
 [e = . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 -> -> 0 `i `c ]
-"373
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 373:     }
+"380
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 380:     }
 }
 [e $U 258  ]
-"374
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 374:     else if((mtouch_prox_deviation_t)deviation < (mtouch_prox_deviation_t)(mtouch_proximity[name].threshold >> 3))
+"381
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 381:     else if((mtouch_prox_deviation_t)deviation < (mtouch_prox_deviation_t)(mtouch_proximity[name].threshold >> 3))
 [e :U 257 ]
 [e $ ! < -> -> _deviation `c `i -> -> >> -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 8 `i -> 3 `i `c `i 259  ]
-"375
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 375:     {
+"382
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 382:     {
 {
-"377
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 377:         if(mtouch_proximity[name].integratedDeviation >0 )
+"384
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 384:         if(mtouch_proximity[name].integratedDeviation >0 )
 [e $ ! > -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 `i -> 0 `i 260  ]
-"378
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 378:             mtouch_proximity[name].integratedDeviation--;
+"385
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 385:             mtouch_proximity[name].integratedDeviation--;
 [e -- . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 -> -> 1 `i `c ]
 [e :U 260 ]
-"379
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 379:     }
+"386
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 386:     }
 }
 [e $U 261  ]
-"380
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 380:     else
+"387
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 387:     else
 [e :U 259 ]
-"381
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 381:     {
+"388
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 388:     {
 {
-"382
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 382:         mtouch_proximity[name].integratedDeviation -= mtouch_proximity[name].integratedDeviation >> ((uint8_t)2u);;
+"389
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 389:         mtouch_proximity[name].integratedDeviation -= mtouch_proximity[name].integratedDeviation >> ((uint8_t)2u);;
 [e =- . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 -> >> -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 `i -> -> -> 2 `ui `uc `i `c ]
-"383
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 383:         if(((0x7f)) - mtouch_proximity[name].integratedDeviation > deviation)
+"390
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 390:         if(((0x7f)) - mtouch_proximity[name].integratedDeviation > deviation)
 [e $ ! > -> - -> 127 `i -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 `i `l _deviation 262  ]
-"384
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 384:             mtouch_proximity[name].integratedDeviation += deviation;
+"391
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 391:             mtouch_proximity[name].integratedDeviation += deviation;
 [e =+ . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 -> _deviation `c ]
 [e $U 263  ]
-"385
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 385:         else
+"392
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 392:         else
 [e :U 262 ]
-"386
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 386:             mtouch_proximity[name].integratedDeviation = ((0x7f));
+"393
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 393:             mtouch_proximity[name].integratedDeviation = ((0x7f));
 [e = . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 5 -> -> 127 `i `c ]
 [e :U 263 ]
-"387
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 387:     }
+"394
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 394:     }
 }
 [e :U 261 ]
 [e :U 258 ]
-"388
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 388: }
+"395
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 395: }
 [e :UE 254 ]
 }
-"396
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 396: mtouch_prox_reading_t MTOUCH_Proximity_Reading_Get(enum mtouch_proximity_names name)
+"403
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 403: mtouch_prox_reading_t MTOUCH_Proximity_Reading_Get(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_Reading_Get `(ul ~T0 @X0 1 ef1`E1553 ]
-"397
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 397: {
+"404
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 404: {
 {
 [e :U _MTOUCH_Proximity_Reading_Get ]
-"396
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 396: mtouch_prox_reading_t MTOUCH_Proximity_Reading_Get(enum mtouch_proximity_names name)
+"403
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 403: mtouch_prox_reading_t MTOUCH_Proximity_Reading_Get(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"397
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 397: {
+"404
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 404: {
 [f ]
-"398
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 398:     if (name < 1u)
+"405
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 405:     if (name < 1u)
 [e $ ! < -> _name `ui -> 1 `ui 265  ]
-"399
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 399:         return mtouch_proximity[name].reading;
+"406
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 406:         return mtouch_proximity[name].reading;
 [e ) . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 3 ]
 [e $UE 264  ]
 [e $U 266  ]
-"400
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 400:     else
+"407
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 407:     else
 [e :U 265 ]
-"401
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 401:         return (mtouch_prox_reading_t)0;
+"408
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 408:         return (mtouch_prox_reading_t)0;
 [e ) -> -> 0 `i `ul ]
 [e $UE 264  ]
 [e :U 266 ]
-"402
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 402: }
+"409
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 409: }
 [e :UE 264 ]
 }
-"404
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 404: static void Proximity_Reading_Update(mtouch_proximity_t* prox)
+"411
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 411: static void Proximity_Reading_Update(mtouch_proximity_t* prox)
 [v _Proximity_Reading_Update `(v ~T0 @X0 1 sf1`*S203 ]
-"405
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 405: {
+"412
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 412: {
 {
 [e :U _Proximity_Reading_Update ]
-"404
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 404: static void Proximity_Reading_Update(mtouch_proximity_t* prox)
-[v _prox `*S203 ~T0 @X0 1 r1 ]
-"405
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 405: {
-[f ]
-"406
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 406:     if (GIE == (uint8_t)1)
-[e $ ! == -> _GIE `i -> -> -> 1 `i `uc `i 268  ]
-"407
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 407:     {
-{
-"408
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 408:         GIE = (uint8_t)0;
-[e = _GIE -> -> -> 0 `i `uc `b ]
-"409
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 409:         Proximity_Reading_Update_Helper(prox);
-[e ( _Proximity_Reading_Update_Helper (1 _prox ]
-"410
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 410:         GIE = (uint8_t)1;
-[e = _GIE -> -> -> 1 `i `uc `b ]
 "411
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 411:     }
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 411: static void Proximity_Reading_Update(mtouch_proximity_t* prox)
+[v _prox `*S203 ~T0 @X0 1 r1 ]
+"412
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 412: {
+[f ]
+"413
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 413:     if (GIE == (uint8_t)1)
+[e $ ! == -> _GIE `i -> -> -> 1 `i `uc `i 268  ]
+"414
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 414:     {
+{
+"415
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 415:         GIE = (uint8_t)0;
+[e = _GIE -> -> -> 0 `i `uc `b ]
+"416
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 416:         Proximity_Reading_Update_Helper(prox);
+[e ( _Proximity_Reading_Update_Helper (1 _prox ]
+"417
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 417:         GIE = (uint8_t)1;
+[e = _GIE -> -> -> 1 `i `uc `b ]
+"418
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 418:     }
 }
 [e $U 269  ]
-"412
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 412:     else
-[e :U 268 ]
-"413
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 413:     {
-{
-"414
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 414:         Proximity_Reading_Update_Helper(prox);
-[e ( _Proximity_Reading_Update_Helper (1 _prox ]
-"415
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 415:     }
-}
-[e :U 269 ]
-"416
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 416: }
-[e :UE 267 ]
-}
-"417
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 417: static void Proximity_Reading_Update_Helper (mtouch_proximity_t* prox)
-[v _Proximity_Reading_Update_Helper `(v ~T0 @X0 1 sf1`*S203 ]
-"418
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 418: {
-{
-[e :U _Proximity_Reading_Update_Helper ]
-"417
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 417: static void Proximity_Reading_Update_Helper (mtouch_proximity_t* prox)
-[v _prox `*S203 ~T0 @X0 1 r1 ]
-"418
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 418: {
-[f ]
 "419
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 419:     if(prox->state != MTOUCH_PROXIMITY_STATE_initializing)
-[e $ ! != -> . *U _prox 2 `ui -> . `E1614 0 `ui 271  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 419:     else
+[e :U 268 ]
 "420
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 420:     {
 {
 "421
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 421:         prox->reading -= prox->reading>>((uint8_t)1u);
-[e =- . *U _prox 3 >> . *U _prox 3 -> -> -> 1 `ui `uc `i ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 421:         Proximity_Reading_Update_Helper(prox);
+[e ( _Proximity_Reading_Update_Helper (1 _prox ]
 "422
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 422:         prox->reading += MTOUCH_Sensor_RawSample_Get(prox->sensor);
-[e =+ . *U _prox 3 -> ( _MTOUCH_Sensor_RawSample_Get (1 . *U _prox 1 `ul ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 422:     }
+}
+[e :U 269 ]
 "423
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 423:     }
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 423: }
+[e :UE 267 ]
+}
+"424
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 424: static void Proximity_Reading_Update_Helper (mtouch_proximity_t* prox)
+[v _Proximity_Reading_Update_Helper `(v ~T0 @X0 1 sf1`*S203 ]
+"425
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 425: {
+{
+[e :U _Proximity_Reading_Update_Helper ]
+"424
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 424: static void Proximity_Reading_Update_Helper (mtouch_proximity_t* prox)
+[v _prox `*S203 ~T0 @X0 1 r1 ]
+"425
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 425: {
+[f ]
+"426
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 426:     if(prox->state != MTOUCH_PROXIMITY_STATE_initializing)
+[e $ ! != -> . *U _prox 2 `ui -> . `E1632 0 `ui 271  ]
+"427
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 427:     {
+{
+"428
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 428:         prox->reading -= prox->reading>>((uint8_t)1u);
+[e =- . *U _prox 3 >> . *U _prox 3 -> -> -> 1 `ui `uc `i ]
+"429
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 429:         prox->reading += MTOUCH_Sensor_RawSample_Get(prox->sensor);
+[e =+ . *U _prox 3 -> ( _MTOUCH_Sensor_RawSample_Get (1 . *U _prox 1 `ul ]
+"430
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 430:     }
 }
 [e $U 272  ]
-"424
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 424:     else
+"431
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 431:     else
 [e :U 271 ]
-"425
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 425:     {
+"432
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 432:     {
 {
-"426
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 426:         prox->reading = MTOUCH_Sensor_RawSample_Get(prox->sensor) << ((uint8_t)1u);
+"433
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 433:         prox->reading = MTOUCH_Sensor_RawSample_Get(prox->sensor) << ((uint8_t)1u);
 [e = . *U _prox 3 -> << -> ( _MTOUCH_Sensor_RawSample_Get (1 . *U _prox 1 `ui -> -> -> 1 `ui `uc `i `ul ]
-"427
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 427:     }
+"434
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 434:     }
 }
 [e :U 272 ]
-"428
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 428: }
+"435
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 435: }
 [e :UE 270 ]
 }
-"430
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 430: static void Proximity_Baseline_Initialize(mtouch_proximity_t* prox)
+"437
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 437: static void Proximity_Baseline_Initialize(mtouch_proximity_t* prox)
 [v _Proximity_Baseline_Initialize `(v ~T0 @X0 1 sf1`*S203 ]
-"431
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 431: {
+"438
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 438: {
 {
 [e :U _Proximity_Baseline_Initialize ]
-"430
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 430: static void Proximity_Baseline_Initialize(mtouch_proximity_t* prox)
+"437
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 437: static void Proximity_Baseline_Initialize(mtouch_proximity_t* prox)
 [v _prox `*S203 ~T0 @X0 1 r1 ]
-"431
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 431: {
+"438
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 438: {
 [f ]
-"432
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 432:     prox->baseline = MTOUCH_Sensor_RawSample_Get(prox->sensor);
+"439
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 439:     prox->baseline = MTOUCH_Sensor_RawSample_Get(prox->sensor);
 [e = . *U _prox 4 -> ( _MTOUCH_Sensor_RawSample_Get (1 . *U _prox 1 `ul ]
-"433
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 433:     prox->baseline <<= (((uint8_t)4u) + ((uint8_t)1u));
+"440
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 440:     prox->baseline <<= (((uint8_t)4u) + ((uint8_t)1u));
 [e =<< . *U _prox 4 -> + -> -> -> 4 `ui `uc `i -> -> -> 1 `ui `uc `i `ul ]
-"434
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 434: }
+"441
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 441: }
 [e :UE 273 ]
 }
-"436
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 436: static void Proximity_Baseline_Update(mtouch_proximity_t* prox)
+"443
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 443: static void Proximity_Baseline_Update(mtouch_proximity_t* prox)
 [v _Proximity_Baseline_Update `(v ~T0 @X0 1 sf1`*S203 ]
-"437
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 437: {
+"444
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 444: {
 {
 [e :U _Proximity_Baseline_Update ]
-"436
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 436: static void Proximity_Baseline_Update(mtouch_proximity_t* prox)
-[v _prox `*S203 ~T0 @X0 1 r1 ]
-"437
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 437: {
-[f ]
-"438
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 438:     if (GIE == (uint8_t)1)
-[e $ ! == -> _GIE `i -> -> -> 1 `i `uc `i 275  ]
-"439
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 439:     {
-{
-"440
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 440:         GIE = (uint8_t)0;
-[e = _GIE -> -> -> 0 `i `uc `b ]
-"441
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 441:         prox->baseline -= (prox->baseline) >> ((uint8_t)4u);
-[e =- . *U _prox 4 >> . *U _prox 4 -> -> -> 4 `ui `uc `i ]
-"442
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 442:         prox->baseline += prox->reading;
-[e =+ . *U _prox 4 . *U _prox 3 ]
 "443
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 443:         GIE = (uint8_t)1;
-[e = _GIE -> -> -> 1 `i `uc `b ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 443: static void Proximity_Baseline_Update(mtouch_proximity_t* prox)
+[v _prox `*S203 ~T0 @X0 1 r1 ]
 "444
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 444:     }
-}
-[e $U 276  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 444: {
+[f ]
 "445
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 445:     else
-[e :U 275 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 445:     if (GIE == (uint8_t)1)
+[e $ ! == -> _GIE `i -> -> -> 1 `i `uc `i 275  ]
 "446
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 446:     {
 {
 "447
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 447:         prox->baseline -= (prox->baseline) >> ((uint8_t)4u);
-[e =- . *U _prox 4 >> . *U _prox 4 -> -> -> 4 `ui `uc `i ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 447:         GIE = (uint8_t)0;
+[e = _GIE -> -> -> 0 `i `uc `b ]
 "448
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 448:         prox->baseline += prox->reading;
-[e =+ . *U _prox 4 . *U _prox 3 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 448:         prox->baseline -= (prox->baseline) >> ((uint8_t)4u);
+[e =- . *U _prox 4 >> . *U _prox 4 -> -> -> 4 `ui `uc `i ]
 "449
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 449:     }
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 449:         prox->baseline += prox->reading;
+[e =+ . *U _prox 4 . *U _prox 3 ]
+"450
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 450:         GIE = (uint8_t)1;
+[e = _GIE -> -> -> 1 `i `uc `b ]
+"451
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 451:     }
+}
+[e $U 276  ]
+"452
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 452:     else
+[e :U 275 ]
+"453
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 453:     {
+{
+"454
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 454:         prox->baseline -= (prox->baseline) >> ((uint8_t)4u);
+[e =- . *U _prox 4 >> . *U _prox 4 -> -> -> 4 `ui `uc `i ]
+"455
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 455:         prox->baseline += prox->reading;
+[e =+ . *U _prox 4 . *U _prox 3 ]
+"456
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 456:     }
 }
 [e :U 276 ]
-"450
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 450: }
+"457
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 457: }
 [e :UE 274 ]
 }
-"452
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 452: mtouch_prox_reading_t MTOUCH_Proximity_Baseline_Get(enum mtouch_proximity_names name)
+"459
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 459: mtouch_prox_reading_t MTOUCH_Proximity_Baseline_Get(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_Baseline_Get `(ul ~T0 @X0 1 ef1`E1553 ]
-"453
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 453: {
+"460
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 460: {
 {
 [e :U _MTOUCH_Proximity_Baseline_Get ]
-"452
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 452: mtouch_prox_reading_t MTOUCH_Proximity_Baseline_Get(enum mtouch_proximity_names name)
+"459
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 459: mtouch_prox_reading_t MTOUCH_Proximity_Baseline_Get(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"453
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 453: {
+"460
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 460: {
 [f ]
-"454
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 454:     if (name < 1u)
+"461
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 461:     if (name < 1u)
 [e $ ! < -> _name `ui -> 1 `ui 278  ]
-"455
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 455:         return Proximity_Baseline_Get_helper(name);
+"462
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 462:         return Proximity_Baseline_Get_helper(name);
 [e ) ( _Proximity_Baseline_Get_helper (1 _name ]
 [e $UE 277  ]
 [e $U 279  ]
-"456
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 456:     else
+"463
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 463:     else
 [e :U 278 ]
-"457
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 457:         return (mtouch_prox_reading_t)0;
+"464
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 464:         return (mtouch_prox_reading_t)0;
 [e ) -> -> 0 `i `ul ]
 [e $UE 277  ]
 [e :U 279 ]
-"459
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 459: }
+"466
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 466: }
 [e :UE 277 ]
 }
-"461
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 461: static mtouch_prox_reading_t Proximity_Baseline_Get_helper(enum mtouch_proximity_names name)
+"468
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 468: static mtouch_prox_reading_t Proximity_Baseline_Get_helper(enum mtouch_proximity_names name)
 [v _Proximity_Baseline_Get_helper `(ul ~T0 @X0 1 sf1`E1553 ]
-"462
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 462: {
+"469
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 469: {
 {
 [e :U _Proximity_Baseline_Get_helper ]
-"461
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 461: static mtouch_prox_reading_t Proximity_Baseline_Get_helper(enum mtouch_proximity_names name)
+"468
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 468: static mtouch_prox_reading_t Proximity_Baseline_Get_helper(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"462
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 462: {
+"469
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 469: {
 [f ]
-"463
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 463:     return (mtouch_prox_reading_t)(mtouch_proximity[name].baseline >> ((uint8_t)4u));
+"470
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 470:     return (mtouch_prox_reading_t)(mtouch_proximity[name].baseline >> ((uint8_t)4u));
 [e ) >> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 4 -> -> -> 4 `ui `uc `i ]
 [e $UE 280  ]
-"464
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 464: }
+"471
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 471: }
 [e :UE 280 ]
 }
-"472
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 472: static void Proximity_DefaultCallback(enum mtouch_proximity_names name) {}
+"479
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 479: static void Proximity_DefaultCallback(enum mtouch_proximity_names name) {}
 [v _Proximity_DefaultCallback `(v ~T0 @X0 1 sf1`E1553 ]
 {
 [e :U _Proximity_DefaultCallback ]
@@ -1449,227 +1459,234 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 [e :UE 281 ]
 }
-"473
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 473: void MTOUCH_Proximity_SetActivatedCallback(void (*callback)(enum mtouch_proximity_names))
-[v _MTOUCH_Proximity_SetActivatedCallback `(v ~T0 @X0 1 ef1`*F1748 ]
-"474
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 474: {
+"480
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 480: void MTOUCH_Proximity_SetActivatedCallback(void (*callback)(enum mtouch_proximity_names))
+[v _MTOUCH_Proximity_SetActivatedCallback `(v ~T0 @X0 1 ef1`*F1768 ]
+"481
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 481: {
 {
 [e :U _MTOUCH_Proximity_SetActivatedCallback ]
-"473
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 473: void MTOUCH_Proximity_SetActivatedCallback(void (*callback)(enum mtouch_proximity_names))
-[v _callback `*F1751 ~T0 @X0 1 r1 ]
-"474
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 474: {
+"480
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 480: void MTOUCH_Proximity_SetActivatedCallback(void (*callback)(enum mtouch_proximity_names))
+[v _callback `*F1771 ~T0 @X0 1 r1 ]
+"481
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 481: {
 [f ]
-"475
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 475:     callback_activated = callback;
+"482
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 482:     callback_activated = callback;
 [e = _callback_activated _callback ]
-"476
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 476: }
+"483
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 483: }
 [e :UE 282 ]
 }
-"477
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 477: void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names))
-[v _MTOUCH_Proximity_SetNotActivatedCallback `(v ~T0 @X0 1 ef1`*F1756 ]
-"478
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 478: {
+"484
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 484: void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names))
+[v _MTOUCH_Proximity_SetNotActivatedCallback `(v ~T0 @X0 1 ef1`*F1776 ]
+"485
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 485: {
 {
 [e :U _MTOUCH_Proximity_SetNotActivatedCallback ]
-"477
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 477: void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names))
-[v _callback `*F1759 ~T0 @X0 1 r1 ]
-"478
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 478: {
+"484
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 484: void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names))
+[v _callback `*F1779 ~T0 @X0 1 r1 ]
+"485
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 485: {
 [f ]
-"479
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 479:     callback_notActivated = callback;
+"486
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 486:     callback_notActivated = callback;
 [e = _callback_notActivated _callback ]
-"480
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 480: }
+"487
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 487: }
 [e :UE 283 ]
 }
-"482
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 482: uint8_t MTOUCH_Proximity_State_Get(enum mtouch_proximity_names name)
+"489
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 489: uint8_t MTOUCH_Proximity_State_Get(enum mtouch_proximity_names name)
 [v _MTOUCH_Proximity_State_Get `(uc ~T0 @X0 1 ef1`E1553 ]
-"483
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 483: {
+"490
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 490: {
 {
 [e :U _MTOUCH_Proximity_State_Get ]
-"482
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 482: uint8_t MTOUCH_Proximity_State_Get(enum mtouch_proximity_names name)
+"489
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 489: uint8_t MTOUCH_Proximity_State_Get(enum mtouch_proximity_names name)
 [v _name `E1553 ~T0 @X0 1 r1 ]
-"483
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 483: {
+"490
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 490: {
 [f ]
-"484
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 484:     if(name < 1u)
+"491
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 491:     if(name < 1u)
 [e $ ! < -> _name `ui -> 1 `ui 285  ]
-"485
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 485:         return (uint8_t)mtouch_proximity[name].state;
+"492
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 492:         return (uint8_t)mtouch_proximity[name].state;
 [e ) -> . *U + &U _mtouch_proximity * -> _name `ux -> -> # *U &U _mtouch_proximity `ui `ux 2 `uc ]
 [e $UE 284  ]
 [e $U 286  ]
-"486
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 486:     else
+"493
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 493:     else
 [e :U 285 ]
-"487
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 487:         return 0;
+"494
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 494:         return 0;
 [e ) -> -> 0 `i `uc ]
 [e $UE 284  ]
 [e :U 286 ]
-"488
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 488: }
+"495
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 495: }
 [e :UE 284 ]
 }
-"490
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 490: mtouch_proxmask_t MTOUCH_Proximity_Proximitymask_Get(void)
+"497
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 497: mtouch_proxmask_t MTOUCH_Proximity_Proximitymask_Get(void)
 [v _MTOUCH_Proximity_Proximitymask_Get `(uc ~T0 @X0 1 ef ]
-"491
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 491: {
+"498
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 498: {
 {
 [e :U _MTOUCH_Proximity_Proximitymask_Get ]
 [f ]
-"492
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 492:     mtouch_proxmask_t output = 0;
+"499
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 499:     mtouch_proxmask_t output = 0;
 [v _output `uc ~T0 @X0 1 a ]
 [e = _output -> -> 0 `i `uc ]
-"494
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 494:     for (uint8_t i = 0; i < 1u; i++)
+"501
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 501:     for (uint8_t i = 0; i < 1u; i++)
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 0 `i `uc ]
 [e $ < -> _i `ui -> 1 `ui 288  ]
 [e $U 289  ]
 [e :U 288 ]
-"495
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 495:     {
+"502
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 502:     {
 {
-"496
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 496:         if (MTOUCH_Proximity_isActivated(i) == 1)
+"503
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 503:         if (MTOUCH_Proximity_isActivated(i) == 1)
 [e $ ! == -> ( _MTOUCH_Proximity_isActivated (1 -> _i `E1553 `i -> 1 `i 291  ]
-"497
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 497:         {
+"504
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 504:         {
 {
-"498
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 498:             output |= (mtouch_proxmask_t)0x01 << i;
+"505
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 505:             output |= (mtouch_proxmask_t)0x01 << i;
 [e =| _output -> << -> -> -> 1 `i `uc `i -> _i `i `uc ]
-"499
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 499:         }
+"506
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 506:         }
 }
 [e :U 291 ]
-"500
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 500:     }
+"507
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 507:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
 [e $ < -> _i `ui -> 1 `ui 288  ]
 [e :U 289 ]
 }
-"501
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 501:     return output;
+"508
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 508:     return output;
 [e ) _output ]
 [e $UE 287  ]
-"502
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 502: }
+"509
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 509: }
 [e :UE 287 ]
 }
-"509
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 509: void User_Proximity_Actived_Callback(enum mtouch_proximity_names name)
+"516
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 516: void User_Proximity_Actived_Callback(enum mtouch_proximity_names name)
 [v _User_Proximity_Actived_Callback `(v ~T0 @X0 1 ef1`E1553 ]
-"510
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 510: {
+"517
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 517: {
 {
 [e :U _User_Proximity_Actived_Callback ]
-"509
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 509: void User_Proximity_Actived_Callback(enum mtouch_proximity_names name)
-[v _name `E1553 ~T0 @X0 1 r1 ]
-"510
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 510: {
-[f ]
-"511
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 511:     switch(name)
-[e $U 294  ]
-"512
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 512:     {
-{
-"513
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 513:         case Proximity_WearingDetect:
-[e :U 295 ]
-"514
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 514:             do { LATAbits.LATA2 = 1; } while(0);
-[e :U 298 ]
-{
-[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
-}
-[e :U 297 ]
-"515
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 515:             break;
-[e $U 293  ]
 "516
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 516:         default:
-[e :U 299 ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 516: void User_Proximity_Actived_Callback(enum mtouch_proximity_names name)
+[v _name `E1553 ~T0 @X0 1 r1 ]
 "517
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 517:             break;
-[e $U 293  ]
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 517: {
+[f ]
 "518
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 518:     }
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 518:     switch(name)
+[e $U 294  ]
+"519
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 519:     {
+{
+"520
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 520:         case Proximity_WearingDetect:
+[e :U 295 ]
+"521
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 521:             Proximity_JudgingMask = 0x01;
+[e = _Proximity_JudgingMask -> -> 1 `i `uc ]
+"522
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 522:             Debounce_TimerCnt = 0;
+[e = _Debounce_TimerCnt -> -> 0 `i `uc ]
+"523
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 523:             TMR0_Reload();
+[e ( _TMR0_Reload ..  ]
+"524
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 524:             TMR0_Interrupt_Enable();
+[e ( _TMR0_Interrupt_Enable ..  ]
+"526
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 526:             break;
+[e $U 293  ]
+"527
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 527:         default:
+[e :U 296 ]
+"528
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 528:             break;
+[e $U 293  ]
+"529
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 529:     }
 }
 [e $U 293  ]
 [e :U 294 ]
 [e [\ -> _name `ui , $ -> . `E1553 0 `ui 295
- 299 ]
+ 296 ]
 [e :U 293 ]
-"519
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 519: }
-[e :UE 292 ]
-}
-"520
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 520: void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name)
-[v _User_Proximity_Deactived_Callback `(v ~T0 @X0 1 ef1`E1553 ]
-"521
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 521: {
-{
-[e :U _User_Proximity_Deactived_Callback ]
-"520
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 520: void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name)
-[v _name `E1553 ~T0 @X0 1 r1 ]
-"521
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 521: {
-[f ]
-"522
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 522:     switch(name)
-[e $U 302  ]
-"523
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 523:     {
-{
-"524
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 524:         case Proximity_WearingDetect:
-[e :U 303 ]
-"525
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 525:             do { LATAbits.LATA2 = 0; } while(0);
-[e :U 306 ]
-{
-[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
-}
-[e :U 305 ]
-"526
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 526:             break;
-[e $U 301  ]
-"527
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 527:         default:
-[e :U 307 ]
-"528
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 528:             break;
-[e $U 301  ]
-"529
-[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 529:     }
-}
-[e $U 301  ]
-[e :U 302 ]
-[e [\ -> _name `ui , $ -> . `E1553 0 `ui 303
- 307 ]
-[e :U 301 ]
 "530
 [; ;mcc_generated_files/mtouch/mtouch_proximity.c: 530: }
-[e :UE 300 ]
+[e :UE 292 ]
+}
+"531
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 531: void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name)
+[v _User_Proximity_Deactived_Callback `(v ~T0 @X0 1 ef1`E1553 ]
+"532
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 532: {
+{
+[e :U _User_Proximity_Deactived_Callback ]
+"531
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 531: void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name)
+[v _name `E1553 ~T0 @X0 1 r1 ]
+"532
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 532: {
+[f ]
+"533
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 533:     switch(name)
+[e $U 299  ]
+"534
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 534:     {
+{
+"535
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 535:         case Proximity_WearingDetect:
+[e :U 300 ]
+"536
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 536:                 Proximity_JudgingMask = 0X02;
+[e = _Proximity_JudgingMask -> -> 2 `i `uc ]
+"537
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 537:                 Debounce_TimerCnt = 0;
+[e = _Debounce_TimerCnt -> -> 0 `i `uc ]
+"540
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 540:                 TMR0_Interrupt_Disable();
+[e ( _TMR0_Interrupt_Disable ..  ]
+"542
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 542:             break;
+[e $U 298  ]
+"543
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 543:         default:
+[e :U 301 ]
+"544
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 544:             break;
+[e $U 298  ]
+"545
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 545:     }
+}
+[e $U 298  ]
+[e :U 299 ]
+[e [\ -> _name `ui , $ -> . `E1553 0 `ui 300
+ 301 ]
+[e :U 298 ]
+"546
+[; ;mcc_generated_files/mtouch/mtouch_proximity.c: 546: }
+[e :UE 297 ]
 }

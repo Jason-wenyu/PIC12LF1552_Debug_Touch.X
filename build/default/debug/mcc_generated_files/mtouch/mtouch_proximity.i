@@ -2397,14 +2397,7 @@ void *memccpy (void *restrict, const void *restrict, int, size_t);
 # 41 "mcc_generated_files/mtouch/mtouch_proximity.h"
 # 1 "mcc_generated_files/mtouch/mtouch.h" 1
 # 41 "mcc_generated_files/mtouch/mtouch_proximity.h" 2
-
-
-
-
-
-
-
-
+# 60 "mcc_generated_files/mtouch/mtouch_proximity.h"
     enum mtouch_proximity_names
     {
         Proximity_WearingDetect = 0
@@ -2444,7 +2437,7 @@ void *memccpy (void *restrict, const void *restrict, int, size_t);
 
 
     typedef uint8_t mtouch_prox_scaling_t;
-# 97 "mcc_generated_files/mtouch/mtouch_proximity.h"
+# 108 "mcc_generated_files/mtouch/mtouch_proximity.h"
     void MTOUCH_Proximity_SetActivatedCallback (void (*callback)(enum mtouch_proximity_names prox));
     void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names prox));
     void MTOUCH_Proximity_Initialize (enum mtouch_proximity_names prox);
@@ -2471,6 +2464,14 @@ void *memccpy (void *restrict, const void *restrict, int, size_t);
 
 
 
+extern uint8_t Proximity_JudgingMask;
+extern volatile uint8_t Debounce_TimerCnt;
+
+
+
+
+
+
 
     void User_Proximity_Actived_Callback(enum mtouch_proximity_names name);
     void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name);
@@ -2491,6 +2492,31 @@ void PIN_MANAGER_Initialize (void);
 void PIN_MANAGER_IOC(void);
 # 42 "mcc_generated_files/mtouch/mtouch_proximity.c" 2
 
+# 1 "mcc_generated_files/mtouch/../tmr0.h" 1
+# 98 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_Initialize(void);
+# 129 "mcc_generated_files/mtouch/../tmr0.h"
+uint8_t TMR0_ReadTimer(void);
+# 168 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_WriteTimer(uint8_t timerVal);
+# 204 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_Reload(void);
+# 219 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_ISR(void);
+# 238 "mcc_generated_files/mtouch/../tmr0.h"
+ void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+# 256 "mcc_generated_files/mtouch/../tmr0.h"
+extern void (*TMR0_InterruptHandler)(void);
+# 274 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_DefaultInterruptHandler(void);
+
+void TMR0_Interrupt_Enable(void);
+
+void TMR0_Interrupt_Disable(void);
+
+void User_TMR0_InterruptHandler(void);
+# 43 "mcc_generated_files/mtouch/mtouch_proximity.c" 2
+
 
 enum mtouch_prox_state
 {
@@ -2507,7 +2533,20 @@ enum mtouch_prox_state
         HYST_6_25_PERCENT = 4,
         HYST_MAX = 5
     };
-# 67 "mcc_generated_files/mtouch/mtouch_proximity.c"
+
+
+
+
+
+
+uint8_t Proximity_JudgingMask = 0;
+volatile uint8_t Debounce_TimerCnt = 0;
+
+
+
+
+
+
     typedef struct
     {
         const uint8_t name;
@@ -2732,7 +2771,7 @@ static void Proximity_Tick_helper(mtouch_proximity_t* prox)
         }
     }
 }
-# 299 "mcc_generated_files/mtouch/mtouch_proximity.c"
+# 306 "mcc_generated_files/mtouch/mtouch_proximity.c"
 mtouch_prox_threshold_t MTOUCH_Proximity_Threshold_Get(enum mtouch_proximity_names name)
 {
     if(name < 1u)
@@ -2948,7 +2987,11 @@ void User_Proximity_Actived_Callback(enum mtouch_proximity_names name)
     switch(name)
     {
         case Proximity_WearingDetect:
-            do { LATAbits.LATA2 = 1; } while(0);
+            Proximity_JudgingMask = 0x01;
+            Debounce_TimerCnt = 0;
+            TMR0_Reload();
+            TMR0_Interrupt_Enable();
+
             break;
         default:
             break;
@@ -2959,7 +3002,12 @@ void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name)
     switch(name)
     {
         case Proximity_WearingDetect:
-            do { LATAbits.LATA2 = 0; } while(0);
+                Proximity_JudgingMask = 0X02;
+                Debounce_TimerCnt = 0;
+
+
+                TMR0_Interrupt_Disable();
+
             break;
         default:
             break;

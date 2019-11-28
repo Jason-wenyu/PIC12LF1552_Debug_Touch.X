@@ -2363,14 +2363,7 @@ typedef uint32_t uint_fast32_t;
     void MTOUCH_Tick (void);
     _Bool MTOUCH_Service_isInProgress (void);
 # 41 "mcc_generated_files/mtouch/mtouch_proximity.h" 2
-
-
-
-
-
-
-
-
+# 60 "mcc_generated_files/mtouch/mtouch_proximity.h"
     enum mtouch_proximity_names
     {
         Proximity_WearingDetect = 0
@@ -2410,7 +2403,7 @@ typedef uint32_t uint_fast32_t;
 
 
     typedef uint8_t mtouch_prox_scaling_t;
-# 97 "mcc_generated_files/mtouch/mtouch_proximity.h"
+# 108 "mcc_generated_files/mtouch/mtouch_proximity.h"
     void MTOUCH_Proximity_SetActivatedCallback (void (*callback)(enum mtouch_proximity_names prox));
     void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names prox));
     void MTOUCH_Proximity_Initialize (enum mtouch_proximity_names prox);
@@ -2431,6 +2424,14 @@ typedef uint32_t uint_fast32_t;
     _Bool MTOUCH_Proximity_isInitialized (enum mtouch_proximity_names prox);
     uint8_t MTOUCH_Proximity_State_Get (enum mtouch_proximity_names prox);
     mtouch_proxmask_t MTOUCH_Proximity_Proximitymask_Get(void);
+
+
+
+
+
+
+extern uint8_t Proximity_JudgingMask;
+extern volatile uint8_t Debounce_TimerCnt;
 
 
 

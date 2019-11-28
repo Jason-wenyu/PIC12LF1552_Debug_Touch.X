@@ -45,6 +45,8 @@
 /*
                          Main application
  */
+ #define DEBOUNCE_TIMES_MS           10
+ 
 void main(void)
 {
     // initialize the device
@@ -66,11 +68,40 @@ void main(void)
     //INTERRUPT_PeripheralInterruptDisable();
     MTOUCH_Proximity_SetActivatedCallback(User_Proximity_Actived_Callback);
     MTOUCH_Proximity_SetNotActivatedCallback(User_Proximity_Deactived_Callback);
+    TMR0_SetInterruptHandler(User_TMR0_InterruptHandler);
+    
     while (1)
     {
         // Add your application code
-        MTOUCH_Service_Mainloop();
-
+        if(MTOUCH_Service_Mainloop())
+        {
+//            if(Debounce_TimerCnt >= DEBOUNCE_TIMES_MS)
+//            {
+//   
+//                if(ACTIVED_JUDGING_MASK == Proximity_JudgingMask)
+//                {
+//                    SYS_OUT_SetHigh();
+//                }
+//                else if(DEACTIVED_JUDGING_MASK == Proximity_JudgingMask)
+//                {
+//                    SYS_OUT_SetLow();
+//                }  
+//                TMR0_Interrupt_Disable();        
+//            }
+             
+        }
+        
+/***************定时器延时测试*******************/
+//        cnt = 0;
+//        while(cnt < 10)
+//        {
+//            TMR0_ClearOverflowBit();
+//            TMR0_Reload();
+//            while(!TMR0_HasOverflowOccured());
+//            cnt++;
+//        }
+//        SYS_OUT_Toggle();
+/********************************************/
     }
 }
 /**

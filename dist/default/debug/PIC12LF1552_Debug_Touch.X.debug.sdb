@@ -1,4 +1,4 @@
-[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[p PRO_MODE GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E SPACEOPT ]
 [d version 1.1 ]
 [d edition pro ]
 [d chip 12LF1552 ]
@@ -17,11 +17,11 @@ MTOUCH_SENSOR_ERROR_tooManyRetries -4
 MTOUCH_SENSOR_ERROR_scanOverrun -5
 MTOUCH_SENSOR_ERROR_interruptedScan -6
 ]
-"81 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"88 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [e E1502 mtouch_sensor_names `uc
 Sensor_AN4 0
 ]
-[e E1614 mtouch_prox_state `uc
+[e E1632 mtouch_prox_state `uc
 MTOUCH_PROXIMITY_STATE_initializing 0
 MTOUCH_PROXIMITY_STATE_notActivated 1
 MTOUCH_PROXIMITY_STATE_activated 2
@@ -29,16 +29,20 @@ MTOUCH_PROXIMITY_STATE_activated 2
 [e E1553 mtouch_proximity_names `uc
 Proximity_WearingDetect 0
 ]
-"260
-[e E1618 mtouch_proximity_hysteresis_thresholds `uc
+"267
+[e E1636 mtouch_proximity_hysteresis_thresholds `uc
 HYST_50_PERCENT 1
 HYST_25_PERCENT 2
 HYST_12_5_PERCENT 3
 HYST_6_25_PERCENT 4
 HYST_MAX 5
 ]
-"67 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
-[e E1401 mtouch_proximity_names `uc
+"69 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+[e E1417 mtouch_proximity_names `uc
+Proximity_WearingDetect 0
+]
+"68 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_api_example.c
+[e E85 mtouch_proximity_names `uc
 Proximity_WearingDetect 0
 ]
 "1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
@@ -51,67 +55,69 @@ Proximity_WearingDetect 0
 [v ___bmul __bmul `(uc  1 e 1 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"48 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+"50 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
 [v _main main `(v  1 e 1 0 ]
+"52 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 "50 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"59
+"60
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"69
+"70
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
-"80 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+"79 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
 [v _MTOUCH_Initialize MTOUCH_Initialize `(v  1 e 1 0 ]
-"95
+"94
 [v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `(a  1 e 1 0 ]
-"124
+"123
 [v _MTOUCH_Tick MTOUCH_Tick `(v  1 e 1 0 ]
-"134
+"133
 [v _MTOUCH_needReburst MTOUCH_needReburst `(a  1 s 1 MTOUCH_needReburst ]
-"142 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"149 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _MTOUCH_Proximity_Initialize MTOUCH_Proximity_Initialize `(v  1 e 1 0 ]
-"162
-[v _MTOUCH_Proximity_InitializeAll MTOUCH_Proximity_InitializeAll `(v  1 e 1 0 ]
 "169
+[v _MTOUCH_Proximity_InitializeAll MTOUCH_Proximity_InitializeAll `(v  1 e 1 0 ]
+"176
 [v _MTOUCH_Proximity_ServiceAll MTOUCH_Proximity_ServiceAll `(v  1 e 1 0 ]
-"179
+"186
 [v _Proximity_Service Proximity_Service `(v  1 s 1 Proximity_Service ]
-"195
+"202
 [v _Proximity_State_Initializing Proximity_State_Initializing `(v  1 s 1 Proximity_State_Initializing ]
-"214
+"221
 [v _Proximity_State_NotActivated Proximity_State_NotActivated `(v  1 s 1 Proximity_State_NotActivated ]
-"250
+"257
 [v _Proximity_State_Activated Proximity_State_Activated `(v  1 s 1 Proximity_State_Activated ]
-"275
+"282
 [v _MTOUCH_Proximity_Tick MTOUCH_Proximity_Tick `(v  1 e 1 0 ]
-"279
+"286
 [v _Proximity_Tick_helper Proximity_Tick_helper `(v  1 s 1 Proximity_Tick_helper ]
-"329
+"336
 [v _MTOUCH_Proximity_isActivated MTOUCH_Proximity_isActivated `(a  1 e 1 0 ]
-"353
+"360
 [v _Proximity_Deviation_Update Proximity_Deviation_Update `(v  1 s 1 Proximity_Deviation_Update ]
-"396
+"403
 [v _MTOUCH_Proximity_Reading_Get MTOUCH_Proximity_Reading_Get `(ul  1 e 4 0 ]
-"404
+"411
 [v _Proximity_Reading_Update Proximity_Reading_Update `(v  1 s 1 Proximity_Reading_Update ]
-"417
+"424
 [v _Proximity_Reading_Update_Helper Proximity_Reading_Update_Helper `(v  1 s 1 Proximity_Reading_Update_Helper ]
-"430
+"437
 [v _Proximity_Baseline_Initialize Proximity_Baseline_Initialize `(v  1 s 1 Proximity_Baseline_Initialize ]
-"436
+"443
 [v _Proximity_Baseline_Update Proximity_Baseline_Update `(v  1 s 1 Proximity_Baseline_Update ]
-"452
+"459
 [v _MTOUCH_Proximity_Baseline_Get MTOUCH_Proximity_Baseline_Get `(ul  1 e 4 0 ]
-"461
+"468
 [v _Proximity_Baseline_Get_helper Proximity_Baseline_Get_helper `(ul  1 s 4 Proximity_Baseline_Get_helper ]
-"472
+"479
 [v _Proximity_DefaultCallback Proximity_DefaultCallback `(v  1 s 1 Proximity_DefaultCallback ]
-"473
+"480
 [v _MTOUCH_Proximity_SetActivatedCallback MTOUCH_Proximity_SetActivatedCallback `(v  1 e 1 0 ]
-"477
+"484
 [v _MTOUCH_Proximity_SetNotActivatedCallback MTOUCH_Proximity_SetNotActivatedCallback `(v  1 e 1 0 ]
-"509
+"516
 [v _User_Proximity_Actived_Callback User_Proximity_Actived_Callback `(v  1 e 1 0 ]
-"520
+"531
 [v _User_Proximity_Deactived_Callback User_Proximity_Deactived_Callback `(v  1 e 1 0 ]
 "66 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_random.c
 [v _MTOUCH_Random MTOUCH_Random `(uc  1 e 1 0 ]
@@ -165,6 +171,22 @@ Proximity_WearingDetect 0
 [v _MTOUCH_CVD_ScanB_0 MTOUCH_CVD_ScanB_0 `(v  1 e 1 0 ]
 "55 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"68 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"107
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"113
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"130
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"134
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"139
+[v _TMR0_Interrupt_Enable TMR0_Interrupt_Enable `(v  1 e 1 0 ]
+"148
+[v _TMR0_Interrupt_Disable TMR0_Interrupt_Disable `(v  1 e 1 0 ]
+"154
+[v _User_TMR0_InterruptHandler User_TMR0_InterruptHandler `(v  1 e 1 0 ]
 [s S125 . 1 `uc 1 IOCIF 1 0 :1:0 
 `uc 1 INTF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
@@ -182,9 +204,13 @@ Proximity_WearingDetect 0
 ]
 [u S139 . 1 `S125 1 . 1 0 `S134 1 . 1 0 ]
 [v _INTCONbits INTCONbits `VES139  1 e 1 @11 ]
+"528
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
 "548
 [v _TRISA TRISA `VEuc  1 e 1 @140 ]
-[s S805 . 1 `uc 1 PS 1 0 :3:0 
+"647
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S808 . 1 `uc 1 PS 1 0 :3:0 
 `uc 1 PSA 1 0 :1:3 
 `uc 1 TMR0SE 1 0 :1:4 
 `uc 1 TMR0CS 1 0 :1:5 
@@ -192,15 +218,15 @@ Proximity_WearingDetect 0
 `uc 1 nWPUEN 1 0 :1:7 
 ]
 "670
-[s S812 . 1 `uc 1 PS0 1 0 :1:0 
+[s S815 . 1 `uc 1 PS0 1 0 :1:0 
 `uc 1 PS1 1 0 :1:1 
 `uc 1 PS2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T0SE 1 0 :1:4 
 `uc 1 T0CS 1 0 :1:5 
 ]
-[u S819 . 1 `S805 1 . 1 0 `S812 1 . 1 0 ]
-[v _OPTION_REGbits OPTION_REGbits `VES819  1 e 1 @149 ]
+[u S822 . 1 `S808 1 . 1 0 `S815 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES822  1 e 1 @149 ]
 "787
 [v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
 "846
@@ -233,7 +259,7 @@ Proximity_WearingDetect 0
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
 "1198
 [v _LATA LATA `VEuc  1 e 1 @268 ]
-[s S516 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S909 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -241,8 +267,8 @@ Proximity_WearingDetect 0
 `uc 1 LATA5 1 0 :1:5 
 ]
 "1213
-[u S523 . 1 `S516 1 . 1 0 ]
-[v _LATAbits LATAbits `VES523  1 e 1 @268 ]
+[u S916 . 1 `S909 1 . 1 0 ]
+[v _LATAbits LATAbits `VES916  1 e 1 @268 ]
 "1243
 [v _BORCON BORCON `VEuc  1 e 1 @278 ]
 "1335
@@ -255,16 +281,18 @@ Proximity_WearingDetect 0
 [v _GIE GIE `VEb  1 e 0 @95 ]
 "52 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
 [v _mtouch_time_toScan mtouch_time_toScan `a  1 s 1 mtouch_time_toScan ]
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
-"81 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"67 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+[v _Debounce_TimerCnt Debounce_TimerCnt `VEuc  1 e 1 0 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+"88
 [v _mtouch_proximity_init mtouch_proximity_init `DC[1]S408  1 e 18 0 ]
-"93
+"100
 [v _mtouch_proximity mtouch_proximity `[1]S408  1 s 18 mtouch_proximity ]
-"119
+"126
 [v _callback_activated callback_activated `*.37(v  1 s 2 callback_activated ]
-"120
+"127
 [v _callback_notActivated callback_notActivated `*.37(v  1 s 2 callback_notActivated ]
-"129
+"136
 [v _Proximity_StateMachine Proximity_StateMachine `[3]*.37(v  1 e 6 0 ]
 [s S30 . 1 `uc 1 packet_done 1 0 :1:0 
 `uc 1 interrupted 1 0 :1:1 
@@ -279,51 +307,62 @@ Proximity_WearingDetect 0
 [v _packet_sample packet_sample `us  1 s 2 packet_sample ]
 "124
 [v _sample_delay sample_delay `uc  1 s 1 sample_delay ]
-"126
-[v _Sensor_scanA Sensor_scanA `*.37(v  1 s 2 Sensor_scanA ]
-"127
-[v _Sensor_scanB Sensor_scanB `*.37(v  1 s 2 Sensor_scanB ]
 [s S47 . 9 `DCE1336 1 sensor_name 1 0 `DC*.37(v 1 scanA 2 1 `DC*.37(v 1 scanB 2 3 `uc 1 oversampling 1 5 `us 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
 `uc 1 sampled 1 8 :1:1 
 `uc 1 active 1 8 :1:2 
 ]
 "133
 [v _mtouch_sensor mtouch_sensor `[1]S47  1 s 9 mtouch_sensor ]
-"48 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
+"60 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"61
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"50 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"75
+"106
 } 0
 "50 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"57
+"58
 } 0
-"69
+"70
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
 {
-"73
+"74
+} 0
+"68 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"130
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"132
 } 0
 "55 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "89
 } 0
-"59 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
+"60 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
-"67
+"68
 } 0
-"80 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+"79 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
 [v _MTOUCH_Initialize MTOUCH_Initialize `(v  1 e 1 0 ]
 {
-"87
+"86
 } 0
 "156 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
 [v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `(v  1 e 1 0 ]
 {
 "158
-[v MTOUCH_Sensor_InitializeAll@sensor sensor `E1336  1 a 1 9 ]
+[v MTOUCH_Sensor_InitializeAll@sensor sensor `E1336  1 a 1 5 ]
 "163
 } 0
 "142
@@ -332,7 +371,7 @@ Proximity_WearingDetect 0
 [v MTOUCH_Sensor_Initialize@sensor sensor `E1336  1 a 1 wreg ]
 [v MTOUCH_Sensor_Initialize@sensor sensor `E1336  1 a 1 wreg ]
 "144
-[v MTOUCH_Sensor_Initialize@sensor sensor `E1336  1 a 1 7 ]
+[v MTOUCH_Sensor_Initialize@sensor sensor `E1336  1 a 1 4 ]
 "148
 } 0
 "478
@@ -341,62 +380,62 @@ Proximity_WearingDetect 0
 [v MTOUCH_Sensor_Enable@sensor sensor `E1336  1 a 1 wreg ]
 [v MTOUCH_Sensor_Enable@sensor sensor `E1336  1 a 1 wreg ]
 "480
-[v MTOUCH_Sensor_Enable@sensor sensor `E1336  1 a 1 5 ]
+[v MTOUCH_Sensor_Enable@sensor sensor `E1336  1 a 1 3 ]
 "482
 } 0
-"162 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"169 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _MTOUCH_Proximity_InitializeAll MTOUCH_Proximity_InitializeAll `(v  1 e 1 0 ]
 {
-"167
+"174
 } 0
 "4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\memcpy.c
 [v _memcpy memcpy `(*.4v  1 e 1 0 ]
 {
 [v memcpy@d1 d1 `*.4v  1 a 1 wreg ]
 "8
-[v memcpy@s s `*.25DCuc  1 a 2 5 ]
+[v memcpy@s s `*.25DCuc  1 a 2 4 ]
 "7
-[v memcpy@d d `*.4uc  1 a 1 9 ]
+[v memcpy@d d `*.4uc  1 a 1 8 ]
 "9
-[v memcpy@tmp tmp `uc  1 a 1 7 ]
+[v memcpy@tmp tmp `uc  1 a 1 6 ]
 "4
 [v memcpy@d1 d1 `*.4v  1 a 1 wreg ]
 [v memcpy@s1 s1 `*.25DCv  1 p 2 0 ]
 [v memcpy@n n `ui  1 p 2 2 ]
 "11
-[v memcpy@d1 d1 `*.4v  1 a 1 8 ]
+[v memcpy@d1 d1 `*.4v  1 a 1 7 ]
 "18
 } 0
-"95 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
+"94 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch.c
 [v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `(a  1 e 1 0 ]
 {
-"117
+"116
 } 0
-"134
+"133
 [v _MTOUCH_needReburst MTOUCH_needReburst `(a  1 s 1 MTOUCH_needReburst ]
 {
-"139
+"138
 } 0
-"124
+"123
 [v _MTOUCH_Tick MTOUCH_Tick `(v  1 e 1 0 ]
 {
-"127
+"126
 } 0
-"275 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"282 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _MTOUCH_Proximity_Tick MTOUCH_Proximity_Tick `(v  1 e 1 0 ]
 {
-"278
+"285
 } 0
-"279
+"286
 [v _Proximity_Tick_helper Proximity_Tick_helper `(v  1 s 1 Proximity_Tick_helper ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
 [v Proximity_Tick_helper@prox prox `*.4S408  1 a 1 wreg ]
 [v Proximity_Tick_helper@prox prox `*.4S408  1 a 1 wreg ]
-"282
-"279
+"289
+"286
 [v Proximity_Tick_helper@prox prox `*.4S408  1 a 1 2 ]
-"290
+"297
 } 0
 "544 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
 [v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `(v  1 e 1 0 ]
@@ -427,7 +466,7 @@ Proximity_WearingDetect 0
 [v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `(a  1 e 1 0 ]
 {
 "187
-[v MTOUCH_Sensor_SampleAll@sensor sensor `E1336  1 a 1 9 ]
+[v MTOUCH_Sensor_SampleAll@sensor sensor `E1336  1 a 1 7 ]
 "194
 } 0
 "230
@@ -439,13 +478,13 @@ Proximity_WearingDetect 0
 `uc 1 active 1 8 :1:2 
 ]
 "232
-[v Sensor_Service@sensor sensor `*.4S47  1 a 1 7 ]
+[v Sensor_Service@sensor sensor `*.4S47  1 a 1 6 ]
 "233
-[v Sensor_Service@error error `E1338  1 a 1 6 ]
+[v Sensor_Service@error error `E1338  1 a 1 5 ]
 "230
 [v Sensor_Service@name name `E1336  1 a 1 wreg ]
 "232
-[v Sensor_Service@name name `E1336  1 a 1 5 ]
+[v Sensor_Service@name name `E1336  1 a 1 4 ]
 "264
 } 0
 "566
@@ -490,12 +529,12 @@ Proximity_WearingDetect 0
 ]
 [v Sensor_Acquisition@sensor sensor `*.4S47  1 a 1 wreg ]
 "280
-[v Sensor_Acquisition@retry retry `uc  1 a 1 1 ]
+[v Sensor_Acquisition@retry retry `uc  1 a 1 0 ]
 "277
 [v Sensor_Acquisition@sensor sensor `*.4S47  1 a 1 wreg ]
 "280
 "277
-[v Sensor_Acquisition@sensor sensor `*.4S47  1 a 1 2 ]
+[v Sensor_Acquisition@sensor sensor `*.4S47  1 a 1 1 ]
 "304
 } 0
 "1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
@@ -555,18 +594,18 @@ Proximity_WearingDetect 0
 ]
 [v Sensor_Acq_ExecutePacket@sensor sensor `*.4S47  1 a 1 wreg ]
 "315
-[v Sensor_Acq_ExecutePacket@error error `E1338  1 a 1 12 ]
+[v Sensor_Acq_ExecutePacket@error error `E1338  1 a 1 10 ]
 "319
-[v Sensor_Acq_ExecutePacket@GIE_state GIE_state `uc  1 a 1 11 ]
+[v Sensor_Acq_ExecutePacket@GIE_state GIE_state `uc  1 a 1 9 ]
 "317
-[v Sensor_Acq_ExecutePacket@ADCON1_temp ADCON1_temp `uc  1 a 1 10 ]
+[v Sensor_Acq_ExecutePacket@ADCON1_temp ADCON1_temp `uc  1 a 1 8 ]
 "316
-[v Sensor_Acq_ExecutePacket@ADCON0_temp ADCON0_temp `uc  1 a 1 9 ]
+[v Sensor_Acq_ExecutePacket@ADCON0_temp ADCON0_temp `uc  1 a 1 7 ]
 "312
 [v Sensor_Acq_ExecutePacket@sensor sensor `*.4S47  1 a 1 wreg ]
 "315
 "312
-[v Sensor_Acq_ExecutePacket@sensor sensor `*.4S47  1 a 1 13 ]
+[v Sensor_Acq_ExecutePacket@sensor sensor `*.4S47  1 a 1 11 ]
 "358
 } 0
 "459
@@ -578,16 +617,13 @@ Proximity_WearingDetect 0
 ]
 [v Sensor_setScanFunction@sensor sensor `*.4S47  1 a 1 wreg ]
 [v Sensor_setScanFunction@sensor sensor `*.4S47  1 a 1 wreg ]
-"461
-"459
-[v Sensor_setScanFunction@sensor sensor `*.4S47  1 a 1 0 ]
 "463
 } 0
 "376
 [v _Sensor_Acq_ExecuteScan Sensor_Acq_ExecuteScan `(v  1 s 1 Sensor_Acq_ExecuteScan ]
 {
 "379
-[v Sensor_Acq_ExecuteScan@result result `us  1 a 2 6 ]
+[v Sensor_Acq_ExecuteScan@result result `us  1 a 2 5 ]
 "409
 } 0
 "119 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor_scan.c
@@ -616,123 +652,138 @@ Proximity_WearingDetect 0
 [v _MTOUCH_Delay MTOUCH_Delay `(v  1 s 1 MTOUCH_Delay ]
 {
 "362
-[v MTOUCH_Delay@i i `uc  1 a 1 1 ]
+[v MTOUCH_Delay@i i `uc  1 a 1 0 ]
 "364
 } 0
-"169 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"176 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _MTOUCH_Proximity_ServiceAll MTOUCH_Proximity_ServiceAll `(v  1 e 1 0 ]
 {
-"172
-} 0
 "179
+} 0
+"186
 [v _Proximity_Service Proximity_Service `(v  1 s 1 Proximity_Service ]
 {
 [v Proximity_Service@name name `E1553  1 a 1 wreg ]
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
-"181
-[v Proximity_Service@prox prox `*.4S408  1 a 1 18 ]
-"179
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+"188
+[v Proximity_Service@prox prox `*.4S408  1 a 1 16 ]
+"186
 [v Proximity_Service@name name `E1553  1 a 1 wreg ]
-"181
-[v Proximity_Service@name name `E1553  1 a 1 17 ]
-"194
+"188
+[v Proximity_Service@name name `E1553  1 a 1 15 ]
+"201
 } 0
-"250
+"257
 [v _Proximity_State_Activated Proximity_State_Activated `(v  1 s 1 Proximity_State_Activated ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
-[v Proximity_State_Activated@prox prox `*.4S408  1 p 1 1 ]
-"267
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[v Proximity_State_Activated@prox prox `*.4S408  1 p 1 12 ]
+"274
 } 0
-"195
+"202
 [v _Proximity_State_Initializing Proximity_State_Initializing `(v  1 s 1 Proximity_State_Initializing ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
-[v Proximity_State_Initializing@prox prox `*.4S408  1 p 1 1 ]
-"213
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[v Proximity_State_Initializing@prox prox `*.4S408  1 p 1 12 ]
+"220
 } 0
-"214
+"221
 [v _Proximity_State_NotActivated Proximity_State_NotActivated `(v  1 s 1 Proximity_State_NotActivated ]
 {
-"217
-[v Proximity_State_NotActivated@deviation deviation `l  1 a 4 9 ]
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
-"214
-[v Proximity_State_NotActivated@prox prox `*.4S408  1 p 1 1 ]
-"248
+"224
+[v Proximity_State_NotActivated@deviation deviation `l  1 a 4 7 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+"221
+[v Proximity_State_NotActivated@prox prox `*.4S408  1 p 1 12 ]
+"255
 } 0
-"520
+"531
 [v _User_Proximity_Deactived_Callback User_Proximity_Deactived_Callback `(v  1 e 1 0 ]
 {
 [v User_Proximity_Deactived_Callback@name name `E1553  1 p 1 0 ]
-"530
+"546
 } 0
-"472
+"479
 [v _Proximity_DefaultCallback Proximity_DefaultCallback `(v  1 s 1 Proximity_DefaultCallback ]
 {
 } 0
-"509
+"516
 [v _User_Proximity_Actived_Callback User_Proximity_Actived_Callback `(v  1 e 1 0 ]
 {
 [v User_Proximity_Actived_Callback@name name `E1553  1 p 1 0 ]
-"519
+"530
 } 0
-"436
+"107 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"111
+} 0
+"139
+[v _TMR0_Interrupt_Enable TMR0_Interrupt_Enable `(v  1 e 1 0 ]
+{
+"146
+} 0
+"443 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _Proximity_Baseline_Update Proximity_Baseline_Update `(v  1 s 1 Proximity_Baseline_Update ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
 [v Proximity_Baseline_Update@prox prox `*.4S408  1 a 1 wreg ]
 [v Proximity_Baseline_Update@prox prox `*.4S408  1 a 1 wreg ]
-"438
-"436
+"445
+"443
 [v Proximity_Baseline_Update@prox prox `*.4S408  1 a 1 4 ]
-"450
+"457
 } 0
-"430
+"437
 [v _Proximity_Baseline_Initialize Proximity_Baseline_Initialize `(v  1 s 1 Proximity_Baseline_Initialize ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
 [v Proximity_Baseline_Initialize@prox prox `*.4S408  1 a 1 wreg ]
 [v Proximity_Baseline_Initialize@prox prox `*.4S408  1 a 1 wreg ]
-"432
-"430
-[v Proximity_Baseline_Initialize@prox prox `*.4S408  1 a 1 12 ]
-"434
+"439
+"437
+[v Proximity_Baseline_Initialize@prox prox `*.4S408  1 a 1 11 ]
+"441
 } 0
-"142
+"148 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+[v _TMR0_Interrupt_Disable TMR0_Interrupt_Disable `(v  1 e 1 0 ]
+{
+"152
+} 0
+"149 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _MTOUCH_Proximity_Initialize MTOUCH_Proximity_Initialize `(v  1 e 1 0 ]
 {
 [v MTOUCH_Proximity_Initialize@name name `E1553  1 a 1 wreg ]
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
-"144
-[v MTOUCH_Proximity_Initialize@prox prox `*.4S408  1 a 1 2 ]
-"142
-[v MTOUCH_Proximity_Initialize@name name `E1553  1 a 1 wreg ]
-"144
-[v MTOUCH_Proximity_Initialize@name name `E1553  1 a 1 1 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
 "151
+[v MTOUCH_Proximity_Initialize@prox prox `*.4S408  1 a 1 1 ]
+"149
+[v MTOUCH_Proximity_Initialize@name name `E1553  1 a 1 wreg ]
+"151
+[v MTOUCH_Proximity_Initialize@name name `E1553  1 a 1 0 ]
+"158
 } 0
-"404
+"411
 [v _Proximity_Reading_Update Proximity_Reading_Update `(v  1 s 1 Proximity_Reading_Update ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
 [v Proximity_Reading_Update@prox prox `*.4S408  1 a 1 wreg ]
 [v Proximity_Reading_Update@prox prox `*.4S408  1 a 1 wreg ]
-"406
-"404
-[v Proximity_Reading_Update@prox prox `*.4S408  1 a 1 1 ]
-"416
+"413
+"411
+[v Proximity_Reading_Update@prox prox `*.4S408  1 a 1 0 ]
+"423
 } 0
-"417
+"424
 [v _Proximity_Reading_Update_Helper Proximity_Reading_Update_Helper `(v  1 s 1 Proximity_Reading_Update_Helper ]
 {
-[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1614 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
+[s S408 . 18 `DCuc 1 name 1 0 `DCE1502 1 sensor 1 1 `E1632 1 state 1 2 `ul 1 reading 4 3 `ul 1 baseline 4 7 `c 1 integratedDeviation 1 11 `us 1 counter 2 12 `us 1 baseline_count 2 14 `c 1 threshold 1 16 `uc 1 scaling 1 17 ]
 [v Proximity_Reading_Update_Helper@prox prox `*.4S408  1 a 1 wreg ]
 [v Proximity_Reading_Update_Helper@prox prox `*.4S408  1 a 1 wreg ]
-"419
-"417
-[v Proximity_Reading_Update_Helper@prox prox `*.4S408  1 a 1 0 ]
-"428
+"426
+"424
+[v Proximity_Reading_Update_Helper@prox prox `*.4S408  1 a 1 13 ]
+"435
 } 0
 "417 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
 [v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `(us  1 e 2 0 ]
@@ -740,47 +791,47 @@ Proximity_WearingDetect 0
 [v MTOUCH_Sensor_RawSample_Get@name name `E1336  1 a 1 wreg ]
 [v MTOUCH_Sensor_RawSample_Get@name name `E1336  1 a 1 wreg ]
 "419
-[v MTOUCH_Sensor_RawSample_Get@name name `E1336  1 a 1 7 ]
+[v MTOUCH_Sensor_RawSample_Get@name name `E1336  1 a 1 6 ]
 "425
 } 0
-"353 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"360 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _Proximity_Deviation_Update Proximity_Deviation_Update `(v  1 s 1 Proximity_Deviation_Update ]
 {
 [v Proximity_Deviation_Update@name name `E1553  1 a 1 wreg ]
-"355
-[v Proximity_Deviation_Update@deviation deviation `l  1 a 4 11 ]
-"353
+"362
+[v Proximity_Deviation_Update@deviation deviation `l  1 a 4 10 ]
+"360
 [v Proximity_Deviation_Update@name name `E1553  1 a 1 wreg ]
-"356
-[v Proximity_Deviation_Update@name name `E1553  1 a 1 15 ]
-"388
+"363
+[v Proximity_Deviation_Update@name name `E1553  1 a 1 14 ]
+"395
 } 0
-"396
+"403
 [v _MTOUCH_Proximity_Reading_Get MTOUCH_Proximity_Reading_Get `(ul  1 e 4 0 ]
 {
 [v MTOUCH_Proximity_Reading_Get@name name `E1553  1 a 1 wreg ]
 [v MTOUCH_Proximity_Reading_Get@name name `E1553  1 a 1 wreg ]
-"398
+"405
 [v MTOUCH_Proximity_Reading_Get@name name `E1553  1 a 1 5 ]
-"402
+"409
 } 0
-"452
+"459
 [v _MTOUCH_Proximity_Baseline_Get MTOUCH_Proximity_Baseline_Get `(ul  1 e 4 0 ]
 {
 [v MTOUCH_Proximity_Baseline_Get@name name `E1553  1 a 1 wreg ]
 [v MTOUCH_Proximity_Baseline_Get@name name `E1553  1 a 1 wreg ]
-"454
-[v MTOUCH_Proximity_Baseline_Get@name name `E1553  1 a 1 0 ]
-"459
-} 0
 "461
+[v MTOUCH_Proximity_Baseline_Get@name name `E1553  1 a 1 11 ]
+"466
+} 0
+"468
 [v _Proximity_Baseline_Get_helper Proximity_Baseline_Get_helper `(ul  1 s 4 Proximity_Baseline_Get_helper ]
 {
 [v Proximity_Baseline_Get_helper@name name `E1553  1 a 1 wreg ]
 [v Proximity_Baseline_Get_helper@name name `E1553  1 a 1 wreg ]
-"463
-[v Proximity_Baseline_Get_helper@name name `E1553  1 a 1 8 ]
-"464
+"470
+[v Proximity_Baseline_Get_helper@name name `E1553  1 a 1 5 ]
+"471
 } 0
 "553 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
 [v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(a  1 e 1 0 ]
@@ -788,7 +839,7 @@ Proximity_WearingDetect 0
 [v MTOUCH_Sensor_wasSampled@sensor sensor `E1336  1 a 1 wreg ]
 [v MTOUCH_Sensor_wasSampled@sensor sensor `E1336  1 a 1 wreg ]
 "555
-[v MTOUCH_Sensor_wasSampled@sensor sensor `E1336  1 a 1 5 ]
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E1336  1 a 1 3 ]
 "559
 } 0
 "4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
@@ -796,12 +847,12 @@ Proximity_WearingDetect 0
 {
 [v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
 "6
-[v ___bmul@product product `uc  1 a 1 2 ]
+[v ___bmul@product product `uc  1 a 1 1 ]
 "4
 [v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
 [v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
 "6
-[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+[v ___bmul@multiplier multiplier `uc  1 a 1 2 ]
 "51
 } 0
 "526 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_sensor.c
@@ -809,15 +860,35 @@ Proximity_WearingDetect 0
 {
 "530
 } 0
-"477 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
+"484 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/mtouch/mtouch_proximity.c
 [v _MTOUCH_Proximity_SetNotActivatedCallback MTOUCH_Proximity_SetNotActivatedCallback `(v  1 e 1 0 ]
 {
 [v MTOUCH_Proximity_SetNotActivatedCallback@callback callback `*.37(v  1 p 2 0 ]
-"480
+"487
 } 0
-"473
+"480
 [v _MTOUCH_Proximity_SetActivatedCallback MTOUCH_Proximity_SetActivatedCallback `(v  1 e 1 0 ]
 {
 [v MTOUCH_Proximity_SetActivatedCallback@callback callback `*.37(v  1 p 2 0 ]
-"476
+"483
+} 0
+"52 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"63
+} 0
+"113 D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"127
+} 0
+"134
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"137
+} 0
+"154
+[v _User_TMR0_InterruptHandler User_TMR0_InterruptHandler `(v  1 e 1 0 ]
+{
+"163
 } 0

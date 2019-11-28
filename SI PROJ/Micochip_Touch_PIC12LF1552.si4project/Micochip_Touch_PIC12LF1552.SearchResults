@@ -1,7 +1,8 @@
----- Proximity_StateMachine Matches (3 in 1 files) ----
-mtouch_proximity.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files\mtouch) line 129 : proximity_statemachine_state_t Proximity_StateMachine[] = 
-mtouch_proximity.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files\mtouch) line 135 : #define PROXIMITY_STATEMACHINE_COUNT (uint8_t)(sizeof(Proximity_StateMachine)/sizeof(proximity_statemachine_state_t))
-Proximity_Service in mtouch_proximity.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files\mtouch) :         Proximity_StateMachine[prox->state](prox);
----- Proximity_StateMachine Search Errors Encountered (1) ----
-The following 1 files could not be processed:
-D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\dist\default\production\memoryfile.xml : File could not be opened.
+---- WearingSta Matches (7 in 3 files) ----
+main in main.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X) :             if(true == WearingSta_Changed)
+main in main.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X) :                 if( PROXI_ACTIVATED == WearingSta)
+main in main.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X) :                 WearingSta_Changed = false;
+mtouch_proximity.h (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files\mtouch) line 134 : extern volatile bool WearingSta_Changed = 0;
+User_TMR0_InterruptHandler in tmr0.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files) :             WearingSta = PROXI_ACTIVATED;
+User_TMR0_InterruptHandler in tmr0.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files) :             WearingSta = PROXI_NOTACTIVATED;
+User_TMR0_InterruptHandler in tmr0.c (D:\work\Project\MPLABXProjects\PIC12LF1552_Debug_Touch.X\mcc_generated_files) :         WearingSta_Changed = true;

@@ -2340,14 +2340,7 @@ typedef uint32_t uint_fast32_t;
 # 41 "mcc_generated_files/mtouch/mtouch_proximity.h"
 # 1 "mcc_generated_files/mtouch/mtouch.h" 1
 # 41 "mcc_generated_files/mtouch/mtouch_proximity.h" 2
-
-
-
-
-
-
-
-
+# 60 "mcc_generated_files/mtouch/mtouch_proximity.h"
     enum mtouch_proximity_names
     {
         Proximity_WearingDetect = 0
@@ -2387,7 +2380,7 @@ typedef uint32_t uint_fast32_t;
 
 
     typedef uint8_t mtouch_prox_scaling_t;
-# 97 "mcc_generated_files/mtouch/mtouch_proximity.h"
+# 108 "mcc_generated_files/mtouch/mtouch_proximity.h"
     void MTOUCH_Proximity_SetActivatedCallback (void (*callback)(enum mtouch_proximity_names prox));
     void MTOUCH_Proximity_SetNotActivatedCallback(void (*callback)(enum mtouch_proximity_names prox));
     void MTOUCH_Proximity_Initialize (enum mtouch_proximity_names prox);
@@ -2408,6 +2401,14 @@ typedef uint32_t uint_fast32_t;
     _Bool MTOUCH_Proximity_isInitialized (enum mtouch_proximity_names prox);
     uint8_t MTOUCH_Proximity_State_Get (enum mtouch_proximity_names prox);
     mtouch_proxmask_t MTOUCH_Proximity_Proximitymask_Get(void);
+
+
+
+
+
+
+extern uint8_t Proximity_JudgingMask;
+extern volatile uint8_t Debounce_TimerCnt;
 
 
 
@@ -2472,11 +2473,39 @@ extern __bit kbhit(void);
 extern char * cgets(char *);
 extern void cputs(const char *);
 # 54 "mcc_generated_files/mtouch/../mcc.h" 2
-# 70 "mcc_generated_files/mtouch/../mcc.h"
+
+# 1 "mcc_generated_files/mtouch/../interrupt_manager.h" 1
+# 55 "mcc_generated_files/mtouch/../mcc.h" 2
+
+# 1 "mcc_generated_files/mtouch/../tmr0.h" 1
+# 98 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_Initialize(void);
+# 129 "mcc_generated_files/mtouch/../tmr0.h"
+uint8_t TMR0_ReadTimer(void);
+# 168 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_WriteTimer(uint8_t timerVal);
+# 204 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_Reload(void);
+# 219 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_ISR(void);
+# 238 "mcc_generated_files/mtouch/../tmr0.h"
+ void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+# 256 "mcc_generated_files/mtouch/../tmr0.h"
+extern void (*TMR0_InterruptHandler)(void);
+# 274 "mcc_generated_files/mtouch/../tmr0.h"
+void TMR0_DefaultInterruptHandler(void);
+
+void TMR0_Interrupt_Enable(void);
+
+void TMR0_Interrupt_Disable(void);
+
+void User_TMR0_InterruptHandler(void);
+# 56 "mcc_generated_files/mtouch/../mcc.h" 2
+# 72 "mcc_generated_files/mtouch/../mcc.h"
 void SYSTEM_Initialize(void);
-# 83 "mcc_generated_files/mtouch/../mcc.h"
+# 85 "mcc_generated_files/mtouch/../mcc.h"
 void OSCILLATOR_Initialize(void);
-# 95 "mcc_generated_files/mtouch/../mcc.h"
+# 97 "mcc_generated_files/mtouch/../mcc.h"
 void WDT_Initialize(void);
 # 41 "mcc_generated_files/mtouch/mtouch.c" 2
 # 52 "mcc_generated_files/mtouch/mtouch.c"
@@ -2486,14 +2515,13 @@ static _Bool mtouch_time_toScan = 0;
 
 
 
-
 static _Bool MTOUCH_needReburst(void);
-# 68 "mcc_generated_files/mtouch/mtouch.c"
+# 67 "mcc_generated_files/mtouch/mtouch.c"
 _Bool MTOUCH_Service_isInProgress()
 {
     return mtouch_time_toScan;
 }
-# 80 "mcc_generated_files/mtouch/mtouch.c"
+# 79 "mcc_generated_files/mtouch/mtouch.c"
 void MTOUCH_Initialize(void)
 {
     MTOUCH_Sensor_InitializeAll();

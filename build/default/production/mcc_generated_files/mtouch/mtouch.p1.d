@@ -6,4 +6,6 @@ mcc_generated_files/mtouch/mtouch_sensor.h  \
 mcc_generated_files/mtouch/mtouch_proximity.h  \
 mcc_generated_files/mtouch/../mcc.h  \
 mcc_generated_files/mtouch/../device_config.h  \
-mcc_generated_files/mtouch/../pin_manager.h 
+mcc_generated_files/mtouch/../pin_manager.h  \
+mcc_generated_files/mtouch/../interrupt_manager.h  \
+mcc_generated_files/mtouch/../tmr0.h 

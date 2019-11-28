@@ -40,6 +40,7 @@
 #include "mtouch.h"
 #include "mtouch_proximity.h"
 #include "../pin_manager.h"
+#include "../tmr0.h"
 
 enum mtouch_prox_state
 {
@@ -57,8 +58,14 @@ enum mtouch_prox_state
         HYST_MAX            = 5
     };
 
-    
-   
+/* 
+ * =======================================================================
+ * User's variables definition
+ * =======================================================================
+ */
+uint8_t Proximity_JudgingMask = 0;
+volatile uint8_t Debounce_TimerCnt = 0;
+
 /* 
  * =======================================================================
  * Proximity Type Structure
@@ -510,8 +517,12 @@ void User_Proximity_Actived_Callback(enum mtouch_proximity_names name)
 {
     switch(name)
     {
-        case Proximity_WearingDetect:              
-            SYS_OUT_SetHigh();
+        case Proximity_WearingDetect: 
+            Proximity_JudgingMask = ACTIVED_JUDGING_MASK;
+            Debounce_TimerCnt = 0;
+            TMR0_Reload();
+            TMR0_Interrupt_Enable();
+            
             break;
         default:
             break;
@@ -521,8 +532,13 @@ void User_Proximity_Deactived_Callback(enum mtouch_proximity_names name)
 {
     switch(name)
     {
-        case Proximity_WearingDetect:              
-            SYS_OUT_SetLow();
+        case Proximity_WearingDetect:
+                Proximity_JudgingMask = DEACTIVED_JUDGING_MASK;
+                Debounce_TimerCnt = 0;
+//                TMR0_Reload();
+//                TMR0_Interrupt_Enable();
+                TMR0_Interrupt_Disable();
+                
             break;
         default:
             break;
